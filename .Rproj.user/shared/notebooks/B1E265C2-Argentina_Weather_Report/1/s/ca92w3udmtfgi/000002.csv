@@ -1,0 +1,1693 @@
+"0","#12z"
+"0","files_GFS_EN_12 <- list.files(path = ""C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA"", pattern = c(""(Speedwell_INTL_GFS_MOS_Ens).*_12.csv""), full.names = T)"
+"0","tbl_GFS_EN_12 <- sapply(files_GFS_EN_12, read_csv, simplify=FALSE) %>% "
+"0","bind_rows(.id = ""id"")"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"0","names(tbl_GFS_EN_12)[names(tbl_GFS_EN_12) == ""CITY""] <- ""Station.Name"""
+"0","fcast_GFS_EN_12<-fcast_GFS_EN_12%>%"
+"0","  select(Fcast_date,DATE, Station.Name,TMAX_ENSEMBLE_AVG,TMIN_ENSEMBLE_AVG,TAVG_ENSEMBLE_AVG,RAIN_ENSEMBLE_AVG,Zona_Pas,Admin)"
+"0","write.table(fcast_GFS_EN_12,""Fcast_12.txt"",dec = "","",sep="";"",row.names = FALSE)"
+"0","# GFS OPERATIONAL"
+"0","files_GFS_OP_12 <- list.files(path = ""C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA"", pattern = c(""(Speedwell_INTL_GFS_MOS_Op).*_12.csv""), full.names = T)"
+"0","tbl_GFS_OP_12 <- sapply(files_GFS_OP_12, read_csv, simplify=FALSE) %>% "
+"0","bind_rows(.id = ""id"")"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"0","names(tbl_GFS_OP_12)[names(tbl_GFS_OP_12) == ""CITY""] <- ""Station.Name"""
+"0","fcast_GFS_OP_12<-left_join(tbl_GFS_OP_12,data_regions, ""Station.Name"")"
+"0","fcast_GFS_OP_12<-fcast_GFS_OP_12%>%"
+"0","  filter(Ctry==""Argentina"")"
+"0","files_ECMWF_EN_12 <- list.files(path = ""C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA"", pattern = c(""(Speedwell_INTL_ECWMF_MOS_Ens).*_12.csv""), full.names = T)"
+"0","tbl_ECMWF_EN_12 <- sapply(files_ECMWF_EN_12, read_csv, simplify=FALSE) %>% "
+"0","bind_rows(.id = ""id"")"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"0","names(tbl_ECMWF_EN_12)[names(tbl_ECMWF_EN_12) == ""CITY""] <- ""Station.Name"""
+"0","fcast_ECMWF_EN_12<-fcast_ECMWF_EN_12%>%"
+"0","  filter(Ctry==""Argentina"")"
+"0","fcast_ECMWF_EN_12<-fcast_ECMWF_EN_12%>%mutate(""Fcast_date""=str_sub(fcast_ECMWF_EN_12$id,165,-8))"
+"0","files_ECMWF_OP_12 <- list.files(path = ""C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA"", pattern = c(""(Speedwell_INTL_ECMWF_MOS_Op).*_12.csv""), full.names = T)"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"0","names(tbl_ECMWF_OP_12)[names(tbl_ECMWF_OP_12) == ""CITY""] <- ""Station.Name"""
+"0","fcast_ECMWF_OP_12<-fcast_ECMWF_OP_12%>%"
+"0","fcast_ECMWF_OP_12<-fcast_ECMWF_OP_12%>%mutate(""Fcast_date""=str_sub(fcast_ECMWF_OP_12$id,160,-8))"

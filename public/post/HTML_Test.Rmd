@@ -1,0 +1,1763 @@
+---
+title: ""
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+```{r load_libraries,echo=FALSE,include=FALSE,warning=FALSE}
+library(rmdformats)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(lubridate)
+library(sf)
+library(readxl)
+library(xlsx)
+library(zoo)
+library(readr)
+library(ggplot2)
+library(XML)
+library(RCurl)
+library(magick)
+library(png)
+library(grid)
+library(gridExtra)
+library(ggthemes)
+library("tibbletime")
+```
+
+```{r logos, echo=FALSE}
+htmltools::img(src = knitr::image_uri(file.path(R.home("doc"), "html", "logo.jpg")), 
+               alt = 'logo', 
+               style = 'position:absolute; top:0; right:0; padding:7px;')
+```
+
+```{r ftp_connect,include=FALSE}
+# url<- "ftp://ftp.speedwellweather.com/Forecasts/"
+# filenames <- getURL(url, userpwd="BTGweather:SWDwx2013", ftp.use.epsv = FALSE, dirlistonly = TRUE) #reading filenames from ftp-server
+# destnames <- filenames <-  strsplit(filenames, "\r*\n")[[1]] # destfiles = origin file names
+# con <-  getCurlHandle( ftp.use.epsv = FALSE, userpwd="USER:PASSWORD")
+# mapply(function(x,y) writeBin(getBinaryURL(x, curl = con, dirlistonly = FALSE), y), x = filenames, y = paste("C:\\temp\\",destnames, sep = "")) #writing all zipped files in one directory
+# 
+# result <- getURL("http://server",verbose=TRUE,ftp.use.epsv=TRUE, dirlistonly = TRUE)
+# files <-  getHTMLLinks("ftp://ftp.speedwellweather.com/Forecasts/")
+# 
+
+```
+
+```{r load_00z,include=FALSE,warning=FALSE,echo=FALSE}
+#00z
+
+files_GFS_EN_00 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_GFS_MOS_Ens).*_00.csv"), full.names = T)
+
+tbl_GFS_EN_00 <- sapply(files_GFS_EN_00, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_GFS_EN_00)[names(tbl_GFS_EN_00) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+data_regions<-read.csv("Names/Names.csv",sep = ";")
+
+#JOIN DATA
+fcast_GFS_EN_00<-left_join(tbl_GFS_EN_00,data_regions, "Station.Name")
+fcast_GFS_EN_00<-fcast_GFS_EN_00%>%
+  filter(Ctry=="Argentina")
+
+fcast_GFS_EN_00<-fcast_GFS_EN_00%>%mutate("Fcast_date"=str_sub(fcast_GFS_EN_00$id,163,-8))
+
+fcast_GFS_EN_00<-fcast_GFS_EN_00%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name,TMAX_ENSEMBLE_AVG,TMIN_ENSEMBLE_AVG,TAVG_ENSEMBLE_AVG,RAIN_ENSEMBLE_AVG,Zona_Pas,Admin)
+
+
+write.table(fcast_GFS_EN_00,"Fcast_00.txt",dec = ",",sep=";",row.names = FALSE)
+
+# GFS OPERATIONAL
+
+files_GFS_OP_00 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_GFS_MOS_Op).*_00.csv"), full.names = T)
+
+tbl_GFS_OP_00 <- sapply(files_GFS_OP_00, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_GFS_OP_00)[names(tbl_GFS_OP_00) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+
+#JOIN DATA
+fcast_GFS_OP_00<-left_join(tbl_GFS_OP_00,data_regions, "Station.Name")
+fcast_GFS_OP_00<-fcast_GFS_OP_00%>%
+  filter(Ctry=="Argentina")
+
+
+
+fcast_GFS_OP_00<-fcast_GFS_OP_00%>%mutate("Fcast_date"=str_sub(fcast_GFS_OP_00$id,158,-8))
+
+fcast_GFS_OP_00<-fcast_GFS_OP_00%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name, TMAX_OP,TMIN_OP,TAVG_OP,RAIN_OP,Zona_Pas,Admin)
+
+
+# ECMWF ENSEMBLE
+
+files_ECMWF_EN_00 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_ECWMF_MOS_Ens).*_00.csv"), full.names = T)
+tbl_ECMWF_EN_00 <- sapply(files_ECMWF_EN_00, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_ECMWF_EN_00)[names(tbl_ECMWF_EN_00) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+#JOIN DATA
+fcast_ECMWF_EN_00<-left_join(tbl_ECMWF_EN_00,data_regions, "Station.Name")
+fcast_ECMWF_EN_00<-fcast_ECMWF_EN_00%>%
+  filter(Ctry=="Argentina")
+
+
+
+fcast_ECMWF_EN_00<-fcast_ECMWF_EN_00%>%mutate("Fcast_date"=str_sub(fcast_ECMWF_EN_00$id,165,-8))
+
+fcast_ECMWF_EN_00<-fcast_ECMWF_EN_00%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name, TMAX_ENSEMBLE_AVG,TMIN_ENSEMBLE_AVG,TAVG_ENSEMBLE_AVG,RAIN_ENSEMBLE_AVG,Zona_Pas,Admin)
+
+
+# ECMWF OPERATIONAL
+
+files_ECMWF_OP_00 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_ECMWF_MOS_Op).*_00.csv"), full.names = T)
+tbl_ECMWF_OP_00 <- sapply(files_ECMWF_OP_00, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_ECMWF_OP_00)[names(tbl_ECMWF_OP_00) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+
+
+#JOIN DATA
+fcast_ECMWF_OP_00<-left_join(tbl_ECMWF_OP_00,data_regions, "Station.Name")
+fcast_ECMWF_OP_00<-fcast_ECMWF_OP_00%>%
+  filter(Ctry=="Argentina")
+
+
+
+fcast_ECMWF_OP_00<-fcast_ECMWF_OP_00%>%mutate("Fcast_date"=str_sub(fcast_ECMWF_OP_00$id,160,-8))
+
+fcast_ECMWF_OP_00<-fcast_ECMWF_OP_00%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name, TMAX_OP,TMIN_OP,TAVG_OP,RAIN_OP,Zona_Pas,Admin)
+
+
+
+```
+
+```{r load_06z,include=FALSE,echo=FALSE}
+#06z
+files_GFS_EN_06 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_GFS_MOS_Ens).*_06.csv"), full.names = T)
+
+tbl_GFS_EN_06 <- sapply(files_GFS_EN_06, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_GFS_EN_06)[names(tbl_GFS_EN_06) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+
+
+#JOIN DATA
+fcast_GFS_EN_06<-left_join(tbl_GFS_EN_06,data_regions, "Station.Name")
+fcast_GFS_EN_06<-fcast_GFS_EN_06%>%
+  filter(Ctry=="Argentina")
+
+
+
+fcast_GFS_EN_06<-fcast_GFS_EN_06%>%mutate("Fcast_date"=str_sub(fcast_GFS_EN_06$id,163,-8))
+
+fcast_GFS_EN_06<-fcast_GFS_EN_06%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name,TMAX_ENSEMBLE_AVG,TMIN_ENSEMBLE_AVG,TAVG_ENSEMBLE_AVG,RAIN_ENSEMBLE_AVG,Zona_Pas,Admin)
+
+
+write.table(fcast_GFS_EN_06,"Fcast_06.txt",dec = ",",sep=";",row.names = FALSE)
+
+
+# GFS OPERATIONAL
+
+files_GFS_OP_06 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_GFS_MOS_Op).*_06.csv"), full.names = T)
+tbl_GFS_OP_06 <- sapply(files_GFS_OP_06, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_GFS_OP_06)[names(tbl_GFS_OP_06) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+
+
+#JOIN DATA
+fcast_GFS_OP_06<-left_join(tbl_GFS_OP_06,data_regions, "Station.Name")
+fcast_GFS_OP_06<-fcast_GFS_OP_06%>%
+  filter(Ctry=="Argentina")
+
+fcast_GFS_OP_06<-fcast_GFS_OP_06%>%mutate("Fcast_date"=str_sub(fcast_GFS_OP_06$id,158,-8))
+
+fcast_GFS_OP_06<-fcast_GFS_OP_06%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name,TMAX_OP,TMIN_OP,TAVG_OP,RAIN_OP,Zona_Pas,Admin)
+
+
+
+
+
+
+```
+
+```{r load_12z,include=FALSE,warning=FALSE,echo=FALSE}
+#12z
+
+files_GFS_EN_12 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_GFS_MOS_Ens).*_12.csv"), full.names = T)
+
+
+tbl_GFS_EN_12 <- sapply(files_GFS_EN_12, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_GFS_EN_12)[names(tbl_GFS_EN_12) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+
+
+#JOIN DATA
+fcast_GFS_EN_12<-left_join(tbl_GFS_EN_12,data_regions, "Station.Name")
+fcast_GFS_EN_12<-fcast_GFS_EN_12%>%
+  filter(Ctry=="Argentina")
+
+fcast_GFS_EN_12<-fcast_GFS_EN_12%>%mutate("Fcast_date"=str_sub(fcast_GFS_EN_12$id,163,-8))
+
+fcast_GFS_EN_12<-fcast_GFS_EN_12%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name,TMAX_ENSEMBLE_AVG,TMIN_ENSEMBLE_AVG,TAVG_ENSEMBLE_AVG,RAIN_ENSEMBLE_AVG,Zona_Pas,Admin)
+
+
+write.table(fcast_GFS_EN_12,"Fcast_12.txt",dec = ",",sep=";",row.names = FALSE)
+
+# GFS OPERATIONAL
+
+files_GFS_OP_12 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_GFS_MOS_Op).*_12.csv"), full.names = T)
+
+tbl_GFS_OP_12 <- sapply(files_GFS_OP_12, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_GFS_OP_12)[names(tbl_GFS_OP_12) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+
+
+#JOIN DATA
+fcast_GFS_OP_12<-left_join(tbl_GFS_OP_12,data_regions, "Station.Name")
+fcast_GFS_OP_12<-fcast_GFS_OP_12%>%
+  filter(Ctry=="Argentina")
+
+fcast_GFS_OP_12<-fcast_GFS_OP_12%>%mutate("Fcast_date"=str_sub(fcast_GFS_OP_12$id,158,-8))
+
+fcast_GFS_OP_12<-fcast_GFS_OP_12%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name, TMAX_OP,TMIN_OP,TAVG_OP,RAIN_OP,Zona_Pas,Admin)
+
+
+# ECMWF ENSEMBLE
+
+files_ECMWF_EN_12 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_ECWMF_MOS_Ens).*_12.csv"), full.names = T)
+
+tbl_ECMWF_EN_12 <- sapply(files_ECMWF_EN_12, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_ECMWF_EN_12)[names(tbl_ECMWF_EN_12) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+
+
+#JOIN DATA
+fcast_ECMWF_EN_12<-left_join(tbl_ECMWF_EN_12,data_regions, "Station.Name")
+fcast_ECMWF_EN_12<-fcast_ECMWF_EN_12%>%
+  filter(Ctry=="Argentina")
+
+
+fcast_ECMWF_EN_12<-fcast_ECMWF_EN_12%>%mutate("Fcast_date"=str_sub(fcast_ECMWF_EN_12$id,165,-8))
+
+fcast_ECMWF_EN_12<-fcast_ECMWF_EN_12%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name, TMAX_ENSEMBLE_AVG,TMIN_ENSEMBLE_AVG,TAVG_ENSEMBLE_AVG,RAIN_ENSEMBLE_AVG,Zona_Pas,Admin)
+
+# ECMWF OPERATIONAL
+
+files_ECMWF_OP_12 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_ECMWF_MOS_Op).*_12.csv"), full.names = T)
+
+tbl_ECMWF_OP_12 <- sapply(files_ECMWF_OP_12, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_ECMWF_OP_12)[names(tbl_ECMWF_OP_12) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+
+
+#JOIN DATA
+fcast_ECMWF_OP_12<-left_join(tbl_ECMWF_OP_12,data_regions, "Station.Name")
+fcast_ECMWF_OP_12<-fcast_ECMWF_OP_12%>%
+  filter(Ctry=="Argentina")
+
+
+fcast_ECMWF_OP_12<-fcast_ECMWF_OP_12%>%mutate("Fcast_date"=str_sub(fcast_ECMWF_OP_12$id,160,-8))
+
+fcast_ECMWF_OP_12<-fcast_ECMWF_OP_12%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name, TMAX_OP,TMIN_OP,TAVG_OP,RAIN_OP,Zona_Pas,Admin)
+
+
+
+```
+
+```{r load_18z,include=FALSE,warning=FALSE,echo=FALSE}
+#18z
+
+files_GFS_ENS_18 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_GFS_MOS_Ens).*_18.csv"), full.names = T)
+
+tbl_GFS_EN_18 <- sapply(files_GFS_ENS_18, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_GFS_EN_18)[names(tbl_GFS_EN_18) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+
+
+#JOIN DATA
+fcast_GFS_EN_18<-left_join(tbl_GFS_EN_18,data_regions, "Station.Name")
+fcast_GFS_EN_18<-fcast_GFS_EN_18%>%
+  filter(Ctry=="Argentina")
+
+fcast_GFS_EN_18<-fcast_GFS_EN_18%>%mutate("Fcast_date"=str_sub(fcast_GFS_EN_18$id,163,-8))
+
+fcast_GFS_EN_18<-fcast_GFS_EN_18%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name,TMAX_ENSEMBLE_AVG,TMIN_ENSEMBLE_AVG,TAVG_ENSEMBLE_AVG,RAIN_ENSEMBLE_AVG,Zona_Pas,Admin)
+
+
+write.table(fcast_GFS_EN_18,"Fcast_18.txt",dec = ",",sep=";",row.names = FALSE)
+
+
+# GFS OPERATIONAL
+
+files_GFS_OP_18 <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Speedwell_INTL_GFS_MOS_Op).*_18.csv"), full.names = T)
+
+tbl_GFS_OP_18 <- sapply(files_GFS_OP_18, read_csv, simplify=FALSE) %>% 
+bind_rows(.id = "id")
+names(tbl_GFS_OP_18)[names(tbl_GFS_OP_18) == "CITY"] <- "Station.Name"
+
+#LOAD REGIONS
+
+
+
+#JOIN DATA
+fcast_GFS_OP_18<-left_join(tbl_GFS_OP_18,data_regions, "Station.Name")
+fcast_GFS_OP_18<-fcast_GFS_OP_18%>%
+  filter(Ctry=="Argentina")
+
+fcast_GFS_OP_18<-fcast_GFS_OP_18%>%mutate("Fcast_date"=str_sub(fcast_GFS_OP_18$id,158,-8))
+
+fcast_GFS_OP_18<-fcast_GFS_OP_18%>%
+  filter(Ctry=="Argentina")%>%
+  select(Fcast_date,DATE, Station.Name, TMAX_OP,TMIN_OP,TAVG_OP,RAIN_OP,Zona_Pas,Admin)
+
+
+```
+
+```{r load_realized, load_realized_rains,echo=FALSE,include=FALSE}
+
+# REALIZED
+file_realized_precip <- list.files(path = "C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA", pattern = c("(Argentina_DAILY_SYNOP_BEST).*.csv"), full.names = T)
+
+#LOAD DATA FROM GFS
+
+realized_precip<-read.csv(file_realized_precip,sep = ",")
+realized_precip$DAILY_RAIN<-str_replace(realized_precip$DAILY_RAIN,"NIL","0")
+
+# realized_precip<- realized_precip%>%filter(DAILY_RAIN!="NIL")
+
+# fcast_GFS$Fcast_Date<-date
+realized_precip$DATE<-as.Date(realized_precip$DATE)
+realized_precip$DAILY_RAIN<-as.numeric(realized_precip$DAILY_RAIN)
+# Realized_GFS$DAILY_MAX_TEMP<-as.numeric(Realized_GFS$DAILY_MAX_TEMP)
+
+realized_precip$CITY[ realized_precip$CITY=="" ] <-NA
+realized_precip<- transform(realized_precip, CITY = na.locf(CITY), LAT = na.locf(LAT),LONG = na.locf(LONG),ALT = na.locf(ALT))
+
+names(realized_precip)[names(realized_precip) == "CITY"] <- "Station.Name"
+
+# LOAD REGIONS
+
+
+
+#JOIN DATA
+
+realized_precip<-left_join(realized_precip,data_regions, "Station.Name")
+
+realized_precip<-realized_precip%>%
+  filter(Ctry=="Argentina")%>%
+  select(Station.Name,DATE,Zona_Pas,Admin,DAILY_MAX_TEMP,DAILY_MIN_TEMP,DAILY_RAIN)
+
+# # fcast_GFS$Fcast_Date<-date
+# Realized_GFS$DATE<-as.Date(Realized_GFS$DATE)
+# Realized_GFS$DAILY_RAIN<-as.numeric(Realized_GFS$DAILY_RAIN)
+# Realized_GFS$DAILY_MAX_TEMP<-as.numeric(Realized_GFS$DAILY_MAX_TEMP)
+
+write.table(realized_precip,"Realized_GFS.txt",dec = ",",sep=";",row.names = FALSE)
+
+saveRDS(realized_precip,paste0("DB_Realized/","Realized",".rds"))
+write.csv(realized_precip,"Realized.csv")
+
+
+```
+
+```{r prepare_data_for_charts,include=FALSE,echo = FALSE}
+
+# GFS ENSEMBLE
+
+fcast_GFS_EN_00<-fcast_GFS_EN_00%>%
+  mutate("Model"="GFS_EN_00")%>%
+  rename("TMAX"="TMAX_ENSEMBLE_AVG",
+         "TMIN"="TMIN_ENSEMBLE_AVG",
+         "TAVG"="TAVG_ENSEMBLE_AVG",
+         "RAIN"="RAIN_ENSEMBLE_AVG")
+
+fcast_GFS_EN_06<-fcast_GFS_EN_06%>%
+  mutate("Model"="GFS_EN_06")%>%
+  rename("TMAX"="TMAX_ENSEMBLE_AVG",
+         "TMIN"="TMIN_ENSEMBLE_AVG",
+         "TAVG"="TAVG_ENSEMBLE_AVG",
+         "RAIN"="RAIN_ENSEMBLE_AVG")
+
+fcast_GFS_EN_12<-fcast_GFS_EN_12%>%
+  mutate("Model"="GFS_EN_12")%>%
+  rename("TMAX"="TMAX_ENSEMBLE_AVG",
+         "TMIN"="TMIN_ENSEMBLE_AVG",
+         "TAVG"="TAVG_ENSEMBLE_AVG",
+         "RAIN"="RAIN_ENSEMBLE_AVG")
+
+fcast_GFS_EN_18<-fcast_GFS_EN_18%>%
+  mutate("Model"="GFS_EN_18")%>%
+  rename("TMAX"="TMAX_ENSEMBLE_AVG",
+         "TMIN"="TMIN_ENSEMBLE_AVG",
+         "TAVG"="TAVG_ENSEMBLE_AVG",
+         "RAIN"="RAIN_ENSEMBLE_AVG")
+
+# GFS OPERATIONAL
+
+fcast_GFS_OP_00<-fcast_GFS_OP_00%>%
+  mutate("Model"="GFS_OP_00")%>%
+  rename("TMAX"="TMAX_OP",
+         "TMIN"="TMIN_OP",
+         "TAVG"="TAVG_OP",
+         "RAIN"="RAIN_OP")
+
+fcast_GFS_OP_06<-fcast_GFS_OP_06%>%
+  mutate("Model"="GFS_OP_06")%>%
+  rename("TMAX"="TMAX_OP",
+         "TMIN"="TMIN_OP",
+         "TAVG"="TAVG_OP",
+         "RAIN"="RAIN_OP")
+
+fcast_GFS_OP_12<-fcast_GFS_OP_12%>%
+  mutate("Model"="GFS_OP_12")%>%
+  rename("TMAX"="TMAX_OP",
+         "TMIN"="TMIN_OP",
+         "TAVG"="TAVG_OP",
+         "RAIN"="RAIN_OP")
+
+fcast_GFS_OP_18<-fcast_GFS_OP_18%>%
+  mutate("Model"="GFS_OP_18")%>%
+  rename("TMAX"="TMAX_OP",
+         "TMIN"="TMIN_OP",
+         "TAVG"="TAVG_OP",
+         "RAIN"="RAIN_OP")
+
+# ECMWF ENSEMBLE
+
+fcast_ECMWF_EN_00<-fcast_ECMWF_EN_00%>%
+  mutate("Model"="ECMWF_EN_00")%>%
+  rename("TMAX"="TMAX_ENSEMBLE_AVG",
+         "TMIN"="TMIN_ENSEMBLE_AVG",
+         "TAVG"="TAVG_ENSEMBLE_AVG",
+         "RAIN"="RAIN_ENSEMBLE_AVG")
+
+fcast_ECMWF_EN_12<-fcast_ECMWF_EN_12%>%
+  mutate("Model"="ECMWF_EN_12")%>%
+  rename("TMAX"="TMAX_ENSEMBLE_AVG",
+         "TMIN"="TMIN_ENSEMBLE_AVG",
+         "TAVG"="TAVG_ENSEMBLE_AVG",
+         "RAIN"="RAIN_ENSEMBLE_AVG")
+
+# ECMWF OPERATIONAL
+
+fcast_ECMWF_OP_00<-fcast_ECMWF_OP_00%>%
+  mutate("Model"="ECMWF_OP_00")%>%
+  rename("TMAX"="TMAX_OP",
+         "TMIN"="TMIN_OP",
+         "TAVG"="TAVG_OP",
+         "RAIN"="RAIN_OP")
+
+fcast_ECMWF_OP_12<-fcast_ECMWF_OP_12%>%
+  mutate("Model"="ECMWF_OP_12")%>%
+  rename("TMAX"="TMAX_OP",
+         "TMIN"="TMIN_OP",
+         "TAVG"="TAVG_OP",
+         "RAIN"="RAIN_OP")
+
+# Create a data frame for all forecasts
+fcast_00_all<-rbind(fcast_GFS_EN_00,fcast_GFS_OP_00,fcast_ECMWF_EN_00,fcast_ECMWF_OP_00)
+fcast_06_all<-rbind(fcast_GFS_EN_06,fcast_GFS_OP_06)
+fcast_12_all<-rbind(fcast_GFS_EN_12,fcast_GFS_OP_12,fcast_ECMWF_EN_12,fcast_ECMWF_OP_12)
+fcast_18_all<-rbind(fcast_GFS_EN_18,fcast_GFS_OP_18)
+fcast_all<-rbind(fcast_00_all,fcast_06_all,fcast_12_all,fcast_18_all)
+
+# Data frame to check the last update date per model
+check_dates<-fcast_all%>%group_by(Model)%>%summarise("max_date"=max(Fcast_date))%>%arrange(max_date,Model)
+
+### Fcast_Date as dates
+fcast_00_all$Fcast_date<-as.Date(fcast_00_all$Fcast_date)
+fcast_06_all$Fcast_date<-as.Date(fcast_06_all$Fcast_date)
+fcast_12_all$Fcast_date<-as.Date(fcast_12_all$Fcast_date)
+fcast_18_all$Fcast_date<-as.Date(fcast_18_all$Fcast_date)
+
+# PREPARE DATA FRAMES FOR FORECAST EVOLUTION GRAPHS
+
+## 1/5 Days
+
+fcast_00_all_graph_1_6<-fcast_00_all%>%
+  select(Fcast_date,DATE,Station.Name,Station.Name, Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+1&DATE<=today()+5)%>%
+  group_by(Station.Name,Zona_Pas, Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip=sum(Precip))%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+fcast_06_all_graph_1_6<-fcast_06_all%>%
+  select(Fcast_date,DATE,Station.Name,Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+1&DATE<=today()+5)%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+fcast_12_all_graph_1_6<-fcast_12_all%>%
+  select(Fcast_date,DATE,Station.Name,Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+1&DATE<=today()+5)%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+fcast_18_all_graph_1_6<-fcast_18_all%>%
+  select(Fcast_date,DATE,Station.Name,Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+1&DATE<=today()+5)%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+## 6/10 Days
+
+fcast_00_all_graph_6_10<-fcast_00_all%>%
+  select(Fcast_date,DATE,Station.Name,Station.Name, Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+6&DATE<=today()+10)%>%
+  group_by(Station.Name,Zona_Pas, Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip=sum(Precip))%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+fcast_06_all_graph_6_10<-fcast_06_all%>%
+  select(Fcast_date,DATE,Station.Name,Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+6&DATE<=today()+10)%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+fcast_12_all_graph_6_10<-fcast_12_all%>%
+  select(Fcast_date,DATE,Station.Name,Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+6&DATE<=today()+10)%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+fcast_18_all_graph_6_10<-fcast_18_all%>%
+  select(Fcast_date,DATE,Station.Name,Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+6&DATE<=today()+10)%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+## 11/15 Days
+
+fcast_00_all_graph_11_15<-fcast_00_all%>%
+  select(Fcast_date,DATE,Station.Name,Station.Name, Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+11&DATE<=today()+15)%>%
+  group_by(Station.Name,Zona_Pas, Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip=sum(Precip))%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+fcast_06_all_graph_11_15<-fcast_06_all%>%
+  select(Fcast_date,DATE,Station.Name,Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+11&DATE<=today()+15)%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+fcast_12_all_graph_11_15<-fcast_12_all%>%
+  select(Fcast_date,DATE,Station.Name,Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+11&DATE<=today()+15)%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+fcast_18_all_graph_11_15<-fcast_18_all%>%
+  select(Fcast_date,DATE,Station.Name,Zona_Pas,RAIN,Model)%>%
+  filter(DATE>=today()+11&DATE<=today()+15)%>%
+  group_by(Zona_Pas,Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  filter(Zona_Pas!="")%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date))
+
+# PREPARE DATA FRAMES FOR WEATHER FORECAST PER DAY PER PAS  REGION
+
+max_date_00<-(max(fcast_00_all$Fcast_date))
+
+fcast_00_all_graph_fcast<-fcast_00_all%>%
+  select(Fcast_date,DATE,Station.Name,Station.Name, Zona_Pas,RAIN,Model)%>%
+  filter(Fcast_date==max_date_00)%>%
+  filter(Zona_Pas!="")%>%
+  group_by(Zona_Pas,DATE,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))
+
+max_date_06<-(max(fcast_06_all$Fcast_date))
+
+fcast_06_all_graph_fcast<-fcast_06_all%>%
+  select(Fcast_date,DATE,Station.Name,Station.Name, Zona_Pas,RAIN,Model)%>%
+  filter(Fcast_date==max_date_06)%>%
+  filter(Zona_Pas!="")%>%
+  group_by(Zona_Pas,DATE,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))
+
+max_date_12<-(max(fcast_12_all$Fcast_date))
+
+fcast_12_all_graph_fcast<-fcast_12_all%>%
+  select(Fcast_date,DATE,Station.Name,Station.Name, Zona_Pas,RAIN,Model)%>%
+  filter(Fcast_date==max_date_12)%>%
+  filter(Zona_Pas!="")%>%
+  group_by(Zona_Pas,DATE,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))
+
+max_date_18<-(max(fcast_18_all$Fcast_date))
+
+fcast_18_all_graph_fcast<-fcast_18_all%>%
+  select(Fcast_date,DATE,Station.Name,Station.Name, Zona_Pas,RAIN,Model)%>%
+  filter(Fcast_date==max_date_18)%>%
+  filter(Zona_Pas!="")%>%
+  group_by(Zona_Pas,DATE,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))
+
+# Realized Precip during the last weeks
+max_realized<-max(realized_precip$DATE)
+max_realized
+
+
+
+```
+
+```{r prepare_verification_dfs,include=FALSE,echo = FALSE}
+# VERIFICATION T+3: comparo las estimaciones de precipitation hechas en el dia T para el período T+1/T+3 vs las precipitaciones reales
+
+
+## FORECAST:  Aca lo que hago es pedirle que me deje solo los registros de estimaciones en los cuales la el rango de dias sea menor o igual que T+3. Luego remuevo los dias que coinciden con el dia de la estimacion. 
+
+i<-3 # i es la cantidad de dias de rango que quiero usar
+
+fcast_00_all_verification<-fcast_00_all%>%
+  select(Fcast_date,DATE,Station.Name,Zona_Pas,RAIN,Model)%>%
+  group_by(Fcast_date,Station.Name,Model)%>%
+  filter(DATE<=(Fcast_date+i)&DATE!=(Fcast_date))%>%
+  group_by(Station.Name,Fcast_date,Model)%>%
+  dplyr::summarise(Precip= sum(RAIN))%>%
+  mutate(Fcast_date_2=as.Date(Fcast_date)+i)
+  
+  
+## LLUVIAS REALES:aca le pido que construya un rolling sum de tres dias y luego para que las fechas coincidan con las del forecast, creo otra columna en la cual le resto a la fecha el mismo periodo.
+
+rolling_sum<-rollify(sum, window = i) # usa el mismo rango de dias que en el caso del forecast
+
+realized_precip_verfication<-realized_precip%>%
+  mutate(precip_3 = rolling_sum(DAILY_RAIN))%>%
+  mutate(DATE_2=DATE-i)
+
+verification_00<-left_join(realized_precip_verfication,fcast_00_all_verification,
+          by=c("DATE"="Fcast_date_2",
+               "Station.Name"="Station.Name"))
+
+verification_00_db<-verification_00%>%na.omit()%>%
+  select(DATE,precip_3,Precip,Model,Zona_Pas,Station.Name)%>%
+  rename("Fcast"="Precip","Real"="precip_3")%>%
+  mutate("Difference"=Fcast-Real)%>%
+  gather(Key,value,-Difference, -DATE,-Model,-Zona_Pas,-Station.Name)%>%
+  mutate(Model2=ifelse(Key=="Real","Real",Model))
+
+verification_00_db$Model<-NULL
+verification_00_db$Key<-NULL
+verification_00_db<-verification_00_db%>%
+  rename("Model"="Model2")%>%
+  filter(Zona_Pas!="")
+
+# Arrange available stations per region
+
+## South / West
+verification_00_south<-verification_00_db%>%filter(Station.Name=="Tandil Aerodrome"|Station.Name=="Bahia Blanca Aerodrome"|Station.Name=="Santa Rosa Aerodrome"|Station.Name=="Dolores Aerodrome"|Station.Name=="Azul Aerodrome")%>%filter(DATE>today()-30)
+
+## Center Regions
+verification_00_centre<-verification_00_db%>%filter(Station.Name=="Rosario Aerodrome"|Station.Name=="Junin Aerodrome"|Station.Name=="Cordoba Aerodrome"|Station.Name=="Marcos Juarez Aerodrome"|Station.Name=="Rio Cuarto Aerodrome"|Station.Name=="Laboulaye"|Station.Name=="Parana Aerodrome")%>%filter(DATE>today()-30)
+
+# North Regions
+verification_00_north<-verification_00_db%>%filter(Station.Name=="Reconquista Aerodrome"|Station.Name=="Ceres Aerodrome"|Station.Name=="Pilar Observatorio"|Station.Name=="Salta Aerodrome"|Station.Name=="Santiago Del Estero Aero."|Station.Name=="Sauce Viejo Aerodrome"|Station.Name=="Tucuman Aerodrome")%>%filter(DATE>today()-30)
+
+```
+
+```{r write_map_urls,echo=FALSE}
+
+# Write URL´s
+
+## SMN MAPS
+smn_soil_moisture_url<- "http://www3.smn.gob.ar/agro/imagenes/bal.gif"
+smn_soil_moisture_change_url<-"http://www3.smn.gob.ar/agro/imagenes/difbalan.gif"
+smn_evapo_url<- "http://www3.smn.gob.ar/agro/imagenes/etp.gif"
+smn_evapo_url2<- "http://www3.smn.gob.ar/agro/imagenes/defexc.gif"
+
+smn_good_cond_url<- "http://www3.smn.gob.ar/agro/imagenes/AG106.gif"
+smn_avoid_start_dry_url<- "http://www3.smn.gob.ar/agro/imagenes/AG105.gif"
+smn_avoid_dry_url<- "http://www3.smn.gob.ar/agro/imagenes/AG104.gif"
+smn_avoid_excess_url<- "http://www3.smn.gob.ar/agro/imagenes/AG108.gif"
+
+smn_quarterly_precip_fcast_url<-"https://www.smn.gob.ar/sites/default/files/styles/boletin/public/prono_pp_ond19.jpg?itok=NYippBda"
+smn_quarterly_temp_fcast_url<-"https://www.smn.gob.ar/sites/default/files/styles/boletin/public/prono_tmed_ond19.jpg?itok=2nKUxwJP"
+
+smn_1_7_precip_url<-"https://estaticos.smn.gob.ar/clima/perspectiva/ppgfs_s1.jpeg"
+smn_1_7_precip_anomaly_url<-"https://estaticos.smn.gob.ar/clima/perspectiva/appgfs_s1.jpeg"  
+smn_8_14_precip_url<-"https://estaticos.smn.gob.ar/clima/perspectiva/ppgfs_s2.jpeg"
+smn_8_14_precip_anomaly_url<-"https://estaticos.smn.gob.ar/clima/perspectiva/appgfs_s2.jpeg"
+                              
+smn_1_7_temp_url<-"https://estaticos.smn.gob.ar/clima/perspectiva/tmedgfs_s1.jpeg"
+smn_1_7_temp_anomaly_url<-"https://estaticos.smn.gob.ar/clima/perspectiva/atmedgfs_s1.jpeg"  
+
+smn_8_14_temp_url<-"https://estaticos.smn.gob.ar/clima/perspectiva/tmedgfs_s2.jpeg"
+smn_8_14_temp_anomaly_url<-"https://estaticos.smn.gob.ar/clima/perspectiva/atmedgfs_s2.jpeg"
+
+
+## FAUBA MAPS
+fauba_soil_moisture_last_url<- "http://www3.smn.gob.ar/serviciosclimaticos/agro/bhoa-imagenes/AU_CA_ultima.jpg"
+fauba_soil_moisture_2_last_url<- "http://www3.smn.gob.ar/serviciosclimaticos/agro/bhoa-imagenes/AU_PE_ultima.jpg"
+
+fauba_soil_moisture_20191007_url<- "http://www3.smn.gob.ar/serviciosclimaticos/agro/bhoa-imagenes/AU_CA20191007.jpg"
+
+
+## GFS MAPS
+gfs_1_7_precip_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/GFS/AR_curr.p.gfs1a.gif"
+gfs_1_7_anomaly_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/GFS/AR_curr.p.gfs1b.gif"  
+
+gfs_8_14_precip_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/GFS/AR_curr.p.gfs2a.gif"
+gfs_8_14_anomaly_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/GFS/AR_curr.p.gfs2b.gif"
+
+
+# REALIZED PRECIP MAPS
+CPC_1_day_precip_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/daily/p.1day.figa.gif"
+CPC_7_day_precip_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/daily/p.7day.figa.gif"
+CPC_7_day_anomaly_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/daily/p.7day.figb.gif"
+CPC_15_day_precip_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/daily/p.15day.figa.gif"
+CPC_15_day_anomaly_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/daily/p.15day.figb.gif"
+CPC_30_day_precip_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/daily/p.30day.figa.gif"  
+CPC_30_day_anomaly_url<-"https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/daily/p.30day.figb.gif"
+
+
+Stations_map_url<- "https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/gnum/AR_curr.p.gnum.gif"
+
+CPC_daily_min_url<-"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/dcmin8.png"
+CPC_daily_max_url<-"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/dcmax8.png"
+CPC_daily_mean<-"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/dcavg8.png"
+CPC_weekly_min_url<-"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/wcmin8.png"
+CPC_weekly_max_url<-"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/wcmax8.png"
+CPC_weekly_mean_url<-"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/wcavg8.png"
+CPC_weekly_anomaly_url<-"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/wctan8.png"
+CPC_monthly_mean_url<-"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/1cavg8.png"
+CPC_monthly_anomaly_url<-"https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/1ctan8.png"
+
+
+## IRI
+iri_quarterly_precip_fcast_1_url<- "https://iri.columbia.edu/climate/forecast/net_asmt_nmme/2019/sep2019/images/OND19_SAm_pcp.gif"
+iri_quarterly_precip_fcast_2_url<-"https://iri.columbia.edu/climate/forecast/net_asmt_nmme/2019/sep2019/images/NDJ20_SAm_pcp.gif"
+
+iri_quarterly_precip_fcast_3_url<-"https://iri.columbia.edu/climate/forecast/net_asmt_nmme/2019/sep2019/images/DJF20_SAm_pcp.gif"
+
+iri_quarterly_precip_fcast_4_url<-"https://iri.columbia.edu/climate/forecast/net_asmt_nmme/2019/sep2019/images/JFM20_SAm_pcp.gif"
+
+### ENSO MODELS & FORECASTS
+
+iri_enso_prob_url<- "https://iri.columbia.edu/wp-content/uploads/2019/10/figure1.png"
+iri_enso_models_url<- "https://iri.columbia.edu/wp-content/uploads/2019/09/figure4.png"
+
+```
+
+```{r download_maps,echo=FALSE}
+
+# GET IMAGES FROM WEBSITES
+
+
+
+gfs_1_7_precip_map<-image_read(gfs_1_7_precip_url)
+gfs_1_7_anomaly_map<-image_read(gfs_1_7_anomaly_url)
+gfs_8_14_precip_map<-image_read(gfs_8_14_precip_url)
+gfs_8_14_anomaly_map<-image_read(gfs_8_14_anomaly_url)
+
+
+smn_1_7_precip_map<-image_read(smn_1_7_precip_url)
+smn_1_7_precip_anomaly_map<-image_read(smn_1_7_precip_anomaly_url)  
+smn_8_14_precip_map<-image_read(smn_8_14_precip_url)
+smn_8_14_precip_anomaly_map<-image_read(smn_8_14_precip_anomaly_url)
+
+smn_1_7_temp_map<-image_read(smn_1_7_temp_url)
+smn_1_7_temp_anomaly_map<-image_read(smn_1_7_temp_anomaly_url)  
+
+smn_8_14_temp_map<-image_read(smn_8_14_temp_url)
+smn_8_14_temp_anomaly_map<-image_read(smn_8_14_temp_anomaly_url)
+
+
+
+
+CPC_7_day_precip_map<-image_read(CPC_7_day_precip_url)
+CPC_7_day_anomaly_map<-image_read(CPC_7_day_anomaly_url)
+CPC_15_day_precip_map<-image_read(CPC_15_day_precip_url)
+CPC_15_day_anomaly_map<-image_read(CPC_15_day_anomaly_url)
+CPC_30_day_precip_map<-image_read(CPC_30_day_precip_url)
+CPC_30_day_anomaly_map<-image_read(CPC_30_day_anomaly_url)
+
+
+
+
+
+smn_soil_moisture_url_map<- image_read(smn_soil_moisture_url)
+smn_soil_moisture_change_map<-image_read(smn_soil_moisture_change_url)
+smn_evapo_map<- image_read(smn_evapo_url)
+smn_evapo2_map<- image_read(smn_evapo_url2)
+
+smn_good_cond_map<- image_read(smn_good_cond_url)
+smn_avoid_start_dry_map<- image_read(smn_avoid_start_dry_url)
+smn_avoid_map<- image_read(smn_avoid_dry_url)
+smn_avoid_excess_map<- image_read(smn_avoid_excess_url)
+
+smn_quarterly_precip_fcast_map<- image_read(smn_quarterly_precip_fcast_url)
+smn_quarterly_temp_fcast_map<- image_read(smn_quarterly_temp_fcast_url)
+
+## IRI
+
+iri_quarterly_precip_fcast_1_map<-image_read(iri_quarterly_precip_fcast_1_url)
+iri_quarterly_precip_fcast_2_map<-image_read(iri_quarterly_precip_fcast_2_url)
+
+iri_quarterly_precip_fcast_3_map<-image_read(iri_quarterly_precip_fcast_3_url)
+iri_quarterly_precip_fcast_4_map<-image_read(iri_quarterly_precip_fcast_4_url)
+
+### ENSO MODELS & FORECASTS
+
+iri_enso_prob_map<- image_read(iri_enso_prob_url)
+iri_enso_models_map<- image_read(iri_enso_models_url)
+
+
+```
+
+# INTRODUCTION / REPORT MAP
+
+By looking at weather forecast maps we can know if it´s going to rain and how much, but from a market point of view, **there are several meaningful questions that cannot be addressed by simply looking at the maps.** For example one may ask the following questions:
+
+*Are the models adding, maintaining or removing the rains from the previous runs
+* [What are the different models (*GFS, ECMWF*) estimating for each period? Which are the differences (regions and timing)?
+* When are the rains occurring en each region?
+* Did the rains really materialized as expected? In which regions it rained more/less than expected?
+
+Another problem that arrises is that information is dispersed, so analysts and traders needs to go from one website to another to get the relevant information on time or wait for reports that have only pieces of the information.
+
+> THIS REPORT AIMS TO PUT THE FORECAST MAPS IN PERSPECTIVE ANSWERING THE RELEVANT QUESTIONS THAT MAY ARRISE AND ADD RELEVANT COMPLEMENTARY INFORMATION IN ORDER TO IMPROVE THE ANALYSIS ON CROP PRODUCTION, AND THUS THE READING OF THE MARKET.
+
+```{r items_to_add,include=FALSE,echo=FALSE}
+# EL OBJETIVO DE ESTE INFORME ES QUE CUANDO UN ANALISTA QUIERA SABER COMO VIENE EL CLIMA/PRONÓSTICOS/HUMEDAD DEL SUELO/ETC, USE ESTE INFORME QUE ES UNA COMPILACION DE INFORMACION RELEVANTE.
+# 
+# For example, if when looking at the forecast maps, we see rains for the 1/5 period, one might want to know if those rains were being forecasted in the previous runs or were recently added. To do this, the current forecast needs to be put in perspective: **How did the current 1-5 days forecast evolved?**
+# 
+# perspectiva de importancia de cada zona
+# indice nacional de lluvias y de verificacion por cultivo
+# evolucion de pronósticos
+# realmente llovió de acuerdo a las expectativas
+# cuando se daran las lluvias
+# que discrepancia existe entre los diferentes modelos
+# cuales modelos vienen funcionando mejor
+# cuales son los pronósticos de largo plazo?
+# cual es la situacion de las reservas de humedad en el suelo? poner los pronósticos en perspectiva, cuanto hace falta que llueva para mantener las condiciones? en que escenario estaríamos entrando dado el pronóstico actual?
+# dado que llovió, fue como lo esperado? en qué zonas llovió mas que lo esperado? en cuales llovio menos?
+# 
+# PARA AGREGAR:
+
+# * Estacionalidad de lluvias en argentina por region para mostrar la distribucion (boxplot),
+# * graficos que muestren que tan alejados de lo normal estan las lluvias desde el comienzo del ciclo
+# *curvas de humedad del suelo y las estimaciones en funcion del pronóstico
+# * Mapas de zonas de produccion de cada cultivo (usar minAgri por departamentos)
+# * Realizado vs lo esperado
+# * Usefull information:
+# -Cuales son los mejores modelos para Argentina?
+# -Bloque ENSO
+# - Qué informacion resulta relevante del ENSO para Argentina? --> temperatura del oceáno en la zona xx5.
+# - Cual es el impacto del ENSO en Argentina? que regiones son perjudicadas y cuales beneficadas en cada caso?
+# 
+
+
+```
+
+<em>\newpage</em>
+
+# CURRENT SITUATION
+
+## LAST WEEK PRECIPITATION & ANOMALY
+
+```{r 7_days_realized_rains,echo=FALSE,fig.height=3,fig.width=6}
+
+grid.arrange(rasterGrob(CPC_7_day_precip_map, width = 1,height = 1),
+             rasterGrob(CPC_7_day_anomaly_map, width = 1,height = 1),ncol=2)
+
+# url<-"https://estaticos.smn.gob.ar/intra/modelos/wrfar2/06UTC/argentina/W_cmet_precip_ar_06UTC73.png?timestamp=1528816092"
+#       https://estaticos.smn.gob.ar/intra/modelos/wrfar2/06UTC/argentina/W_cmet_precip_ar_06UTC18.png?timestamp=1528816092
+# 
+# 
+# image_read(url)
+
+
+
+```
+
+Source: https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/index.shtml
+
+## LAST FORTNIGHT PRECIPITATION & ANOMALY
+
+```{r 15_days_realized_rains,echo=FALSE,fig.height=3,fig.width=6}
+
+grid.arrange(rasterGrob(CPC_15_day_precip_map, width = 1,height = 1),
+             rasterGrob(CPC_15_day_anomaly_map, width = 1,height = 1),ncol=2)
+
+
+```
+
+Source: https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/index.shtml
+
+<em>\newpage</em>
+
+## LAST MONTH PRECIPITATION & ANOMALY
+
+```{r 30_days_realized_rains,echo=FALSE,fig.height=3,fig.width=6}
+grid.arrange(rasterGrob(CPC_30_day_precip_map, width = 1,height = 1),
+             rasterGrob(CPC_30_day_anomaly_map, width = 1,height = 1),ncol=2)
+```
+
+Source: https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/index.shtml
+
+<em>\newpage</em>
+
+## RAINS DURING THE LAST 20 DAYS PER REGION
+
+```{r last_20_days_precip_chart,fig.height=35,fig.width=30,echo=FALSE}
+
+realized_precip%>%filter(DATE>today()-20)%>% ggplot(aes(x = DATE, y = DAILY_RAIN)) +
+  geom_bar(stat="identity", position=position_dodge())+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle(paste0("Realized Precipitation By Region ", day(max_realized-20),"/",month(max_realized-20,label=TRUE) ,"-",day(max_realized),"/",month(max_realized,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))
+
+```
+
+<em>\newpage</em>
+
+## AND HOW DID THE MODELS PERFORM?
+
+### MODEL VERIFICATION (00Z Run) FOR THE LAST 30 days 
+
+#### Southern Region Stations
+
+> Difference between forecast for the next 3 days period vs Realized rains: above cero means rains underperformed and below cero means rains over performed
+
+```{r south_verification_chart,fig.height=35,fig.width=30,echo=FALSE}
+verification_00_south%>%filter(Model=="ECMWF_EN_00"|Model== "ECMWF_OP_00"|Model== "GFS_EN_00"|Model=="GFS_OP_00")%>% ggplot(aes(x = DATE, y = Difference, color =Model )) +
+  geom_line(size=3) +
+  geom_hline(yintercept=0,linetype="dashed", color = "red",size=2)+
+  facet_wrap(~ Station.Name, scales = "free",ncol = 2) +
+  ggtitle( paste0("Models Verification", day(today()-30),"/",month(today()-30,label=TRUE) ,"-",day(today()-1),"/",month(today()-1,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50),
+        plot.title = element_text(hjust=0.5,family = "sans", size = 50, margin=margin(0,0,30,0)),
+        plot.subtitle =element_text(hjust=0.5,family = "sans", size = 35, margin=margin(0,0,50,0)))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+```
+
+<em>\newpage</em>
+
+#### Central Region Stations
+
+```{r ctre_verif_chart,fig.height=35,fig.width=30,echo=FALSE}
+verification_00_centre%>%filter(Model=="ECMWF_EN_00"|Model== "ECMWF_OP_00"|Model== "GFS_EN_00"|Model=="GFS_OP_00")%>% ggplot(aes(x = DATE, y = Difference, color =Model )) +
+  geom_line(size=3) +
+  geom_hline(yintercept=0,linetype="dashed", color = "red",size=2)+
+  facet_wrap(~ Station.Name, scales = "free",ncol = 2) +
+  ggtitle( paste0("Models Verification", day(today()-30),"/",month(today()-30,label=TRUE) ,"-",day(today()-1),"/",month(today()-1,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50),
+        plot.title = element_text(hjust=0.5,family = "sans", size = 50, margin=margin(0,0,30,0)),
+        plot.subtitle =element_text(hjust=0.5,family = "sans", size = 35, margin=margin(0,0,50,0)))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+
+```
+
+<em>\newpage</em>
+
+```{r ctre_verif_last_date_chart,fig.height=35,fig.width=30,echo=FALSE}
+
+verification_00_centre%>%
+  filter(DATE==max(DATE))%>% 
+  ggplot(aes(x = Model, y = value)) +
+  geom_bar(aes(fill=Model,color=Model),stat="identity", position=position_dodge(width = 1.1))+
+  facet_wrap(~ Station.Name, scales = "free",ncol = 2) +
+  ggtitle(paste0("Real Precipitation vs Estimates for the ", day(today()-4),"/",month(today()-4,label=TRUE) ,"-",day(today()-1),"/",month(today()-1,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))
+
+```
+
+<em>\newpage</em>
+
+```{r ctre_verif_last_date_diff_chart,fig.height=35,fig.width=30,echo=FALSE}
+
+verification_00_centre%>%
+  filter(DATE==max(DATE),Model!="Real")%>% 
+  ggplot(aes(x = Model, y = Difference)) +
+  geom_bar(aes(fill=Model,color=Model),stat="identity", position=position_dodge(width = 1.1))+
+  facet_wrap(~ Station.Name, scales = "free",ncol = 2) +
+  ggtitle(paste0("Realized Precipitation By Region ", day(max_realized-20),"/",month(max_realized-20,label=TRUE) ,"-",day(max_realized),"/",month(max_realized,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))
+
+```
+
+<em>\newpage</em>
+
+### Northern Region Stations
+
+```{r north_verification_chart,fig.height=35,fig.width=30,echo=FALSE}
+verification_00_north%>%filter(Model=="ECMWF_EN_00"|Model== "ECMWF_OP_00"|Model== "GFS_EN_00"|Model=="GFS_OP_00")%>% ggplot(aes(x = DATE, y = Difference, color =Model )) +
+  geom_line(size=3) +
+  geom_hline(yintercept=0,linetype="dashed", color = "red",size=2)+
+  facet_wrap(~ Station.Name, scales = "free",ncol = 2) +
+  ggtitle( paste0("Models Verification", day(today()-30),"/",month(today()-30,label=TRUE) ,"-",day(today()-1),"/",month(today()-1,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50),
+        plot.title = element_text(hjust=0.5,family = "sans", size = 50, margin=margin(0,0,30,0)),
+        plot.subtitle =element_text(hjust=0.5,family = "sans", size = 35, margin=margin(0,0,50,0)))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+
+
+```
+
+<em>\newpage</em>
+
+# IMPACT ON CROPS
+
+## SOIL MOISTURE & CHANGE VS LAST DECADE
+
+```{r soil_moisture_maps,echo=FALSE,fig.height=3,fig.width=5}
+grid.arrange(rasterGrob(smn_soil_moisture_url_map, width = 1,height = 1),
+             rasterGrob(smn_soil_moisture_change_map, width = 1,height = 1),ncol=2)
+```
+
+Source: http://www3.smn.gob.ar/serviciosclimaticos/?mod=agro&id=3
+
+## NEEDED PRECIPITATION FOR DIFFERENT SCENARIOS
+
+### PRECIPITATION NEEDED TO HAVE GOOD CONDITIONS & TO AVOID START OF DRYNESS
+
+```{r needed_precip_1,echo=FALSE,fig.height=3,fig.width=5}
+grid.arrange(rasterGrob(smn_good_cond_map, width = 1,height = 1),
+             rasterGrob(smn_avoid_start_dry_map, width = 1,height = 1),ncol=2)
+```
+
+Source: http://www3.smn.gob.ar/serviciosclimaticos/?mod=agro&id=3
+
+<em>\newpage</em>
+
+### PRECIPITATION NEEDED TO AVOID DRYNESS & TO AVOID EXCESSIVE MOISTURE
+
+```{r needed_precip_2,echo=FALSE,fig.height=3,fig.width=6}
+grid.arrange(rasterGrob(smn_avoid_map, width = 1,height = 1),
+             rasterGrob(smn_avoid_excess_map, width = 1,height = 1),ncol=2)
+```
+
+Source: http://www3.smn.gob.ar/serviciosclimaticos/?mod=agro&id=3
+
+<em>\newpage</em>
+
+# WHAT ARE THE MODELS FORECASTING FOR THE SHORT AND LONG TERM?
+
+## BASIC FORECAST MAPS
+
+### **GFS** 1-7 PRECIPITATION & ANOMALY
+
+```{r 1_7_fcast_map_gfs,echo=FALSE,fig.height=3,fig.width=6}
+
+grid.arrange(rasterGrob(gfs_1_7_precip_map, width = 1,height = 1),
+                     rasterGrob(gfs_1_7_anomaly_map,width = 1,height = 1),
+                     ncol=2)
+```
+
+Source: https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/index.shtml
+
+### **SMN** 1-7 PRECIPITATION & ANOMALY
+
+```{r 1_7_fcast_map_smn,echo=FALSE,fig.height=3,fig.width=6}
+
+grid.arrange(rasterGrob(smn_1_7_precip_map, width = 1,height = 1),
+                     rasterGrob(smn_1_7_precip_anomaly_map,width = 1,height = 1),
+                     ncol=2)
+```
+
+<em>\newpage</em>
+
+### **SMN** 1-7 MEAN TEMPERATURE & ANOMALY
+
+```{r 1_7_fcast_temp_map_smn,echo=FALSE}
+
+grid.arrange(rasterGrob(smn_1_7_temp_map, width = 1,height = 1),
+                     rasterGrob(smn_1_7_temp_anomaly_map,width = 1,height = 1),
+                     ncol=2)
+```
+
+
+### **GFS** 8-14 PRECIPITATION & ANOMALY 
+
+```{r 8_14_fcast_precip_map_gfs,echo=FALSE}
+
+grid.arrange(rasterGrob(gfs_8_14_precip_map, width = 1,height = 1),
+             rasterGrob(gfs_8_14_anomaly_map, width = 1,height = 1),ncol=2)
+
+```
+
+Source: https://www.cpc.ncep.noaa.gov/products/JAWF_Monitoring/Argentina/index.shtml
+
+<em>\newpage</em>
+
+### **SMN** 8-14 PRECIPITATION & ANOMALY 
+
+```{r 8_14_fcast_precip_map_smn,echo=FALSE}
+
+grid.arrange(rasterGrob(smn_8_14_precip_map, width = 1,height = 1),
+                     rasterGrob(smn_8_14_precip_anomaly_map,width = 1,height = 1),
+                     ncol=2)
+
+
+
+```
+
+### **SMN** 8-14 MEAN TEMPERATURE & ANOMALY 
+
+```{r 8_14_fcast_temp_map_smn,echo=FALSE}
+
+grid.arrange(rasterGrob(smn_8_14_temp_map, width = 1,height = 1),
+                     rasterGrob(smn_8_14_temp_anomaly_map,width = 1,height = 1),
+                     ncol=2)
+```
+
+
+<em>\newpage</em>
+
+### LONG TERM PRECIPITATION & TEMPERATURE FORECASTS
+
+#### QUARTERLY PRECIPITATION & TEMPERATURE FORECAST (SMN)
+
+```{r long_term_fcast_smn,echo=FALSE,fig.height=3,fig.width=6}
+grid.arrange(rasterGrob(smn_quarterly_precip_fcast_map, width = 1,height = 1),
+             rasterGrob(smn_quarterly_temp_fcast_map, width = 1,height = 1),ncol=2)
+
+```
+
+Source: http://www3.smn.gob.ar/serviciosclimaticos/?mod=agro&id=3
+
+#### QUARTERLY PRECIPITATION & TEMPERATURE FORECAST (IRI)
+
+```{r long_term_fcast_iri_1,echo=FALSE,fig.height=3,fig.width=6}
+grid.arrange(rasterGrob(iri_quarterly_precip_fcast_1_map, width = 1,height = 1),
+             rasterGrob(iri_quarterly_precip_fcast_2_map, width = 1,height = 1),ncol=2)
+
+```
+
+Source: http://www3.smn.gob.ar/serviciosclimaticos/?mod=agro&id=3
+
+<em>\newpage</em>
+
+```{r long_term_fcast_iri_2,echo=FALSE,fig.height=3,fig.width=6}
+
+grid.arrange(rasterGrob(iri_quarterly_precip_fcast_3_map, width = 1,height = 1),
+             rasterGrob(iri_quarterly_precip_fcast_4_map, width = 1,height = 1),ncol=2)
+
+```
+
+### PRECIPITATION FORECAST PER REGION:GFS & ECMWF ENSEMBLE
+
+#### 00Z RUN
+
+```{r 00z_prec_fcast_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_00_all_graph_fcast%>%filter(Model=="GFS_ENS_00"|Model=="ECMWF_EN_00")%>% ggplot(aes(x = DATE, y = Precip, color = Model)) +
+  geom_bar(aes(fill=Model,color=Model), 
+           stat="identity", position=position_dodge())+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle(paste0("Evolution of Precipitation Forecast for the ", day(today()+1),"/",month(today()+1,label=TRUE) ,"-",day(today()+15),"/",month(today()+15,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+  scale_x_date(date_breaks="1 day",
+               date_labels="%d/%m")+
+  theme_minimal() +
+  scale_color_colorblind() +
+  theme(panel.background = element_rect(fill = "lightgrey"),
+        panel.grid.major.x = element_blank(), 
+        panel.grid.minor.x = element_line(colour = "white"),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", 
+                                    size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))
+```
+
+<em>\newpage</em>
+
+#### 06Z RUN
+
+```{r 06z_prec_fcast_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_06_all_graph_fcast%>%filter(Model=="GFS_EN_06"|Model=="GFS_OP_06")%>% ggplot(aes(x = DATE, y = Precip, color = Model)) +
+  geom_bar(aes(fill=Model,color=Model), stat="identity", position=position_dodge())+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle(paste0("Evolution of Precipitation Forecast for the ", day(today()+1),"/",month(today()+1,label=TRUE) ,"-",day(today()+15),"/",month(today()+15,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))
+```
+
+<em>\newpage</em>
+
+#### 12Z RUN
+
+```{r 12z_prec_fcast_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_12_all_graph_fcast%>%filter(Model=="GFS_EN_12"|Model=="ECMWF_EN_12")%>% ggplot(aes(x = DATE, y = Precip, color = Model)) +
+  geom_bar(aes(fill=Model,color=Model), stat="identity", position=position_dodge())+
+  facet_wrap(~ Zona_Pas, scales = "fixed",ncol = 2) +
+  ggtitle(paste0("Evolution of Precipitation Forecast for the ", day(today()+1),"/",month(today()+1,label=TRUE) ,"-",day(today()+15),"/",month(today()+15,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))
+```
+
+<em>\newpage</em>
+
+#### 18Z RUN
+
+```{r 18z_prec_fcast_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_18_all_graph_fcast%>%filter(Model=="GFS_EN_18"|Model=="GFS_OP_18")%>% ggplot(aes(x = DATE, y = Precip, color = Model)) +
+  geom_bar(aes(fill=Model,color=Model), stat="identity", position=position_dodge())+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle(paste0("Evolution of Precipitation Forecast for the ", day(today()+1),"/",month(today()+1,label=TRUE) ,"-",day(today()+15),"/",month(today()+15,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))
+
+```
+
+<em>\newpage</em>
+
+### PRECIPITATION FORECAST EVOLUTION 
+
+#### 1-5 DAYS PERIOD
+
+##### 00z MODELS
+
+```{r 00z_prec_evol_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_00_all_graph_1_6%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+1),"/",month(today()+1,label=TRUE) ,"-",day(today()+6),"/",month(today()+6,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+```
+
+<em>\newpage</em>
+
+##### 06z MODELS
+
+```{r 06z_prec_evol_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_06_all_graph_1_6%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+1),"/",month(today()+1,label=TRUE) ,"-",day(today()+6),"/",month(today()+6,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+```
+
+<em>\newpage</em>
+
+##### 12z MODELS
+
+```{r 12z_prec_evol_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_12_all_graph_1_6%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+1),"/",month(today()+1,label=TRUE) ,"-",day(today()+6),"/",month(today()+6,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+```
+
+<em>\newpage</em>
+
+##### 18z MODELS
+
+```{r 18z_prec_evol_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_18_all_graph_1_6%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+1),"/",month(today()+1,label=TRUE) ,"-",day(today()+6),"/",month(today()+6,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+```
+
+<em>\newpage</em>
+
+#### 6-10 DAYS PERIOD
+
+##### 00z MODELS
+
+```{r 00z_prec_evol_6_10_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_00_all_graph_6_10%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+6),"/",month(today()+6,label=TRUE) ,"-",day(today()+10),"/",month(today()+10,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+```
+
+<em>\newpage</em>
+
+##### 06z MODELS
+
+```{r 06z_prec_evol_6_10_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_06_all_graph_6_10%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+6),"/",month(today()+6,label=TRUE) ,"-",day(today()+10),"/",month(today()+10,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+```
+
+<em>\newpage</em>
+
+##### 12z MODELS
+
+```{r 12z_prec_evol_6_10_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_12_all_graph_6_10%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+6),"/",month(today()+6,label=TRUE) ,"-",day(today()+10),"/",month(today()+10,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+
+```
+
+<em>\newpage</em>
+
+##### 18z MODELS
+
+```{r 18z_prec_evol_6_10_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_18_all_graph_6_10%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+6),"/",month(today()+6,label=TRUE) ,"-",day(today()+10),"/",month(today()+10,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+
+```
+
+<em>\newpage</em>
+
+#### 11-15 DAYS PERIOD
+
+##### 00z MODELS
+
+```{r 00z_prec_evol_11_15_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_00_all_graph_11_15%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+11),"/",month(today()+11,label=TRUE) ,"-",day(today()+15),"/",month(today()+15,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+```
+
+<em>\newpage</em>
+
+##### 06z MODELS
+
+```{r 06z_prec_evol_11_15_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_06_all_graph_11_15%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+11),"/",month(today()+11,label=TRUE) ,"-",day(today()+15),"/",month(today()+15,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+```
+
+<em>\newpage</em>
+
+##### 12z MODELS
+
+```{r 12z_prec_evol_11_15_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_12_all_graph_11_15%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+11),"/",month(today()+11,label=TRUE) ,"-",day(today()+15),"/",month(today()+15,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+```
+
+<em>\newpage</em>
+
+##### 18z MODELS
+
+```{r 18z_prec_evol_11_15_chart,fig.height=35,fig.width=30,echo=FALSE}
+fcast_18_all_graph_11_15%>% ggplot(aes(x = Fcast_date_2, y = Precip, color = Model)) +
+  geom_line(size=3) +
+  geom_point(size=7)+
+  facet_wrap(~ Zona_Pas, scales = "free",ncol = 2) +
+  ggtitle( paste0("Evolution of Precipitation Forecast for the ", day(today()+11),"/",month(today()+11,label=TRUE) ,"-",day(today()+15),"/",month(today()+15,label=TRUE)," Period"))+
+  xlab("Forecast Issue Date")+
+  ylab("Precipitation (mm)")+
+   theme_minimal() + scale_color_colorblind() +
+  theme(panel.grid.major.x = element_line(),
+        axis.text.x = element_text(angle = 90, 
+                                   vjust = 0.5),
+        legend.position="top",
+        legend.background = element_rect(fill="lightblue",
+                                  size=0.5, linetype="solid", 
+                                  colour ="darkblue"),
+        legend.title = element_text(color = "blue", size = 50),
+        legend.text = element_text(size = 40),
+        text = element_text(size = 40),
+        title = element_text(size=50))+
+    scale_x_date(date_breaks="1 day", date_labels="%d/%m")
+
+```
+
+<em>\newpage</em>
+
+## ENSO PROBABLITIES & MODELS
+
+```{r enso_prob,echo=FALSE,fig.height=3,fig.width=6}
+
+grid.arrange(rasterGrob(iri_enso_prob_map, width = 1,height = 1),
+             rasterGrob(iri_enso_models_map, width = 1,height = 1),ncol=2)
+
+```

@@ -1,0 +1,5 @@
+"0","gfs_1_7_precip_map<-image_read(gfs_1_7_precip_url)
+"
+"2","Error in image_read(gfs_1_7_precip_url) : 
+  object 'gfs_1_7_precip_url' not found
+"

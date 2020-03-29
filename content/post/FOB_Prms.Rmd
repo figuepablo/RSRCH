@@ -1,0 +1,387 @@
+---
+title: "Hello R Markdown"
+author: "Frida Gomam"
+date: 2015-07-23T21:13:14-05:00
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+You can embed an R code chunk like this:
+
+```{r package_load, echo=FALSE, cache=FALSE, include=FALSE, warning=FALSE}
+library(knitr)
+library(rmdformats)
+library(stringi)
+library(plyr)
+library(dplyr)
+library(lubridate)
+library(stringr)
+library(xlsx)
+library(tidyr)
+library(ggplot2)
+library(ggthemes)
+library(lubridate)
+library(quantmod)
+library(scales)
+library(extrafont)
+library(gridExtra)
+library(grid)
+library(readxl)
+library(trelliscopejs)
+library(directlabels)
+library(ggthemes)
+
+```
+
+
+```{r load_crn,include=FALSE,echo=FALSE,warning=FALSE}
+
+read_excel_allsheets <- function(filename, tibble = FALSE) {
+    # I prefer straight data.frames
+    # but if you like tidyverse tibbles (the default with read_excel)
+    # then just pass tibble = TRUE
+    sheets <- readxl::excel_sheets(filename)[1:12]
+    x <- lapply(sheets, function(X) readxl::read_excel(filename, sheet = X,skip = 4))
+    if(!tibble) x <- lapply(x, as.data.frame)
+    names(x) <- sheets
+    x
+}
+
+
+mysheets <- read_excel_allsheets("C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/COMMERCIAL DATA/PRICES/COMMODITIES/Granos_y_Subproductos/Nacionales/Basis/MinAgri_FOB_prms/Data/CRN_Basis_MinAgri.xlsx")
+
+
+list2env(mysheets ,.GlobalEnv)
+
+
+# August_MinAgri_long<-August_MinAgri%>%
+#   select(Month_day_Year,Year_Number,Delivery,Underlying,Underlying_Year,`2016`:`2020`)%>%
+#   gather("Year","Price",-Month_day_Year,-Year_Number,-Delivery,-Underlying,-Underlying_Year)%>%
+#   mutate(Year=as.numeric(Year))%>%
+#   mutate(year_date=Year-Year_Number)%>%
+#   mutate(Underlying_Year=as.numeric(Underlying_Year))%>%
+#   mutate(Date=mdy(str_c(Month_day_Year,year_date,sep ="_")))%>%
+#   mutate(Underlying_Y=str_c(Underlying,Year+Underlying_Year,sep = "_"))%>%
+#   mutate(Delivery_date=dmy(str_c(Delivery,Year,sep ="_")))%>%
+#   filter(Price!=0)%>%
+#   select(Date,Underlying_Y,Delivery_date,Price)%>%
+#   rename(Underlying=Underlying_Y,Delivery=Delivery_date)
+#   
+
+sheet_names<-readxl::excel_sheets("C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/COMMERCIAL DATA/PRICES/COMMODITIES/Granos_y_Subproductos/Nacionales/Basis/MinAgri_FOB_prms/Data/CRN_Basis_MinAgri.xlsx")[1:12]
+
+for (i in sheet_names) {
+  m<-eval(parse(text =paste0(i)))
+  
+assign(paste0(i,"_long"),m%>%
+  select(Month_day_Year,Year_Number,Delivery,Underlying,Underlying_Year,`2016`:`2020`)%>%
+  gather("Year","Price",-Month_day_Year,-Year_Number,-Delivery,-Underlying,-Underlying_Year)%>%
+ mutate(Year=as.numeric(Year))%>%
+  mutate(year_date=Year-Year_Number)%>%
+  mutate(Underlying_Year=as.numeric(Underlying_Year))%>%
+  mutate(Date=mdy(str_c(Month_day_Year,year_date,sep ="_")))%>%
+  mutate(Reference_year_date=2019-Year_Number)%>%
+  mutate(Reference_Date=mdy(str_c(Month_day_Year,Reference_year_date,sep ="_")))%>%
+  mutate(Underlying_Y=str_c(Underlying,Year+Underlying_Year,sep = "_"))%>%
+  mutate(Delivery_date=dmy(str_c(Delivery,Year,sep ="_")))%>%
+  filter(Price!=0)%>%
+  select(Date,Underlying_Y,Delivery_date,Price,Reference_Date)%>%
+  rename(Underlying=Underlying_Y,Delivery=Delivery_date)%>%
+  mutate(Commodity="CORN"))
+
+}
+
+names<-str_c(sheet_names,"long",sep = "_")
+
+CRN_Summary<-do.call(bind_rows, lapply(names, get))
+
+
+
+
+
+
+```
+
+
+```{r load_sbm, message=F,warning=F,include=FALSE, echo=FALSE}
+
+read_excel_allsheets <- function(filename, tibble = FALSE) {
+    # I prefer straight data.frames
+    # but if you like tidyverse tibbles (the default with read_excel)
+    # then just pass tibble = TRUE
+    sheets <- readxl::excel_sheets(filename)[1:12]
+    x <- lapply(sheets, function(X) readxl::read_excel(filename, sheet = X,skip = 4))
+    if(!tibble) x <- lapply(x, as.data.frame)
+    names(x) <- sheets
+    x
+}
+
+
+mysheets <- read_excel_allsheets("C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/COMMERCIAL DATA/PRICES/COMMODITIES/Granos_y_Subproductos/Nacionales/Basis/MinAgri_FOB_prms/Data/SBM_Basis_MinAgri.xlsx")
+
+
+list2env(mysheets ,.GlobalEnv)
+
+
+# August_MinAgri_long<-August_MinAgri%>%
+#   select(Month_day_Year,Year_Number,Delivery,Underlying,Underlying_Year,`2016`:`2020`)%>%
+#   gather("Year","Price",-Month_day_Year,-Year_Number,-Delivery,-Underlying,-Underlying_Year)%>%
+#   mutate(Year=as.numeric(Year))%>%
+#   mutate(year_date=Year-Year_Number)%>%
+#   mutate(Underlying_Year=as.numeric(Underlying_Year))%>%
+#   mutate(Date=mdy(str_c(Month_day_Year,year_date,sep ="_")))%>%
+#   mutate(Underlying_Y=str_c(Underlying,Year+Underlying_Year,sep = "_"))%>%
+#   mutate(Delivery_date=dmy(str_c(Delivery,Year,sep ="_")))%>%
+#   filter(Price!=0)%>%
+#   select(Date,Underlying_Y,Delivery_date,Price)%>%
+#   rename(Underlying=Underlying_Y,Delivery=Delivery_date)
+#   
+
+sheet_names<-readxl::excel_sheets("C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/COMMERCIAL DATA/PRICES/COMMODITIES/Granos_y_Subproductos/Nacionales/Basis/MinAgri_FOB_prms/Data/SBM_Basis_MinAgri.xlsx")[1:12]
+
+for (i in sheet_names) {
+  m<-eval(parse(text =paste0(i)))
+  
+assign(paste0(i,"_long"),m%>%
+  select(Month_day_Year,Year_Number,Delivery,Underlying,Underlying_Year,`2016`:`2020`)%>%
+  gather("Year","Price",-Month_day_Year,-Year_Number,-Delivery,-Underlying,-Underlying_Year)%>%
+ mutate(Year=as.numeric(Year))%>%
+  mutate(year_date=Year-Year_Number)%>%
+  mutate(Underlying_Year=as.numeric(Underlying_Year))%>%
+  mutate(Date=mdy(str_c(Month_day_Year,year_date,sep ="_")))%>%
+  mutate(Reference_year_date=2019-Year_Number)%>%
+  mutate(Reference_Date=mdy(str_c(Month_day_Year,Reference_year_date,sep ="_")))%>%
+  mutate(Underlying_Y=str_c(Underlying,Year+Underlying_Year,sep = "_"))%>%
+  mutate(Delivery_date=dmy(str_c(Delivery,Year,sep ="_")))%>%
+  filter(Price!=0)%>%
+  select(Date,Underlying_Y,Delivery_date,Price,Reference_Date)%>%
+  rename(Underlying=Underlying_Y,Delivery=Delivery_date)%>%
+  mutate(Commodity="SBM"))
+
+}
+
+names<-str_c(sheet_names,"long",sep = "_")
+
+SBM_Summary<-do.call(bind_rows, lapply(names, get))
+
+```
+
+
+```{r load_sbs,message=F,warning=F,include=FALSE, echo=FALSE}
+read_excel_allsheets <- function(filename, tibble = FALSE) {
+    # I prefer straight data.frames
+    # but if you like tidyverse tibbles (the default with read_excel)
+    # then just pass tibble = TRUE
+    sheets <- readxl::excel_sheets(filename)[1:12]
+    x <- lapply(sheets, function(X) readxl::read_excel(filename, sheet = X,skip = 4))
+    if(!tibble) x <- lapply(x, as.data.frame)
+    names(x) <- sheets
+    x
+}
+
+
+mysheets <- read_excel_allsheets("C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/COMMERCIAL DATA/PRICES/COMMODITIES/Granos_y_Subproductos/Nacionales/Basis/MinAgri_FOB_prms/Data/SBS_Basis_MinAgri.xlsx")
+mysheets$January_MinAgri
+
+list2env(mysheets ,.GlobalEnv)
+
+
+sheet_names<-readxl::excel_sheets("C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/COMMERCIAL DATA/PRICES/COMMODITIES/Granos_y_Subproductos/Nacionales/Basis/MinAgri_FOB_prms/Data/SBS_Basis_MinAgri.xlsx")[1:12]
+
+for (i in sheet_names) {
+  m<-eval(parse(text =paste0(i)))
+  
+assign(paste0(i,"_long"),m%>%
+  select(Month_day_Year,Year_Number,Delivery,Underlying,Underlying_Year,`2016`:`2020`)%>%
+  gather("Year","Price",-Month_day_Year,-Year_Number,-Delivery,-Underlying,-Underlying_Year)%>%
+ mutate(Year=as.numeric(Year))%>%
+  mutate(year_date=Year-Year_Number)%>%
+  mutate(Underlying_Year=as.numeric(Underlying_Year))%>%
+  mutate(Date=mdy(str_c(Month_day_Year,year_date,sep ="_")))%>%
+  mutate(Reference_year_date=2019-Year_Number)%>%
+  mutate(Reference_Date=mdy(str_c(Month_day_Year,Reference_year_date,sep ="_")))%>%
+  mutate(Underlying_Y=str_c(Underlying,Year+Underlying_Year,sep = "_"))%>%
+  mutate(Delivery_date=dmy(str_c(Delivery,Year,sep ="_")))%>%
+  filter(Price!=0)%>%
+  select(Date,Underlying_Y,Delivery_date,Price,Reference_Date)%>%
+  rename(Underlying=Underlying_Y,Delivery=Delivery_date)%>%
+  mutate(Commodity="SBS"))
+
+}
+
+names<-str_c(sheet_names,"long",sep = "_")
+
+SBS_Summary<-do.call(bind_rows, lapply(names, get))
+
+
+
+```
+
+
+```{r load_sbo,message=F,warning=F,include=FALSE, echo=FALSE}
+read_excel_allsheets <- function(filename, tibble = FALSE) {
+    # I prefer straight data.frames
+    # but if you like tidyverse tibbles (the default with read_excel)
+    # then just pass tibble = TRUE
+    sheets <- readxl::excel_sheets(filename)[1:12]
+    x <- lapply(sheets, function(X) readxl::read_excel(filename, sheet = X,skip = 4))
+    if(!tibble) x <- lapply(x, as.data.frame)
+    names(x) <- sheets
+    x
+}
+
+
+mysheets <- read_excel_allsheets("C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/COMMERCIAL DATA/PRICES/COMMODITIES/Granos_y_Subproductos/Nacionales/Basis/MinAgri_FOB_prms/Data/SBO_Basis_MinAgri.xlsx")
+mysheets$January_MinAgri
+
+list2env(mysheets ,.GlobalEnv)
+
+
+sheet_names<-readxl::excel_sheets("C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/COMMERCIAL DATA/PRICES/COMMODITIES/Granos_y_Subproductos/Nacionales/Basis/MinAgri_FOB_prms/Data/SBO_Basis_MinAgri.xlsx")[1:12]
+
+for (i in sheet_names) {
+  m<-eval(parse(text =paste0(i)))
+  
+assign(paste0(i,"_long"),m%>%
+  select(Month_day_Year,Year_Number,Delivery,Underlying,Underlying_Year,`2016`:`2020`)%>%
+  gather("Year","Price",-Month_day_Year,-Year_Number,-Delivery,-Underlying,-Underlying_Year)%>%
+ mutate(Year=as.numeric(Year))%>%
+  mutate(year_date=Year-Year_Number)%>%
+  mutate(Underlying_Year=as.numeric(Underlying_Year))%>%
+  mutate(Date=mdy(str_c(Month_day_Year,year_date,sep ="_")))%>%
+  mutate(Reference_year_date=2019-Year_Number)%>%
+  mutate(Reference_Date=mdy(str_c(Month_day_Year,Reference_year_date,sep ="_")))%>%
+  mutate(Underlying_Y=str_c(Underlying,Year+Underlying_Year,sep = "_"))%>%
+  mutate(Delivery_date=dmy(str_c(Delivery,Year,sep ="_")))%>%
+  filter(Price!=0)%>%
+  select(Date,Underlying_Y,Delivery_date,Price,Reference_Date)%>%
+  rename(Underlying=Underlying_Y,Delivery=Delivery_date)%>%
+  mutate(Commodity="SBO"))
+
+}
+
+names<-str_c(sheet_names,"long",sep = "_")
+
+SBO_Summary<-do.call(bind_rows, lapply(names, get))
+
+
+```
+
+
+```{r merge_all, include=FALSE, echo=FALSE, warning=FALSE,message=FALSE}
+
+names<-c("CRN_Summary","SBM_Summary","SBS_Summary","SBO_Summary")
+
+all_crops_summary<-do.call(bind_rows, lapply(names, get))
+
+
+
+
+
+all_crops_summary<-all_crops_summary%>%
+  mutate(Delivery_Month=month(Delivery))%>%
+  mutate(Delivery_Year=year(Delivery))
+
+month_names<-data.frame(Month= c("January","February","March","April","May","June","July","August","September","October","November","December"),
+           Number=c(1:12))
+
+all_crops_summary<-left_join(all_crops_summary,month_names,by=c("Delivery_Month"="Number"))
+
+all_crops_summary$Month<- factor(all_crops_summary$Month,levels=c("January","February","March","April","May","June","July","August","September","October","November","December"))
+
+```
+
+
+# SOYBEAN FOB PRMIUMS
+
+```{r soybean_graph,warning=FALSE,echo=FALSE,message=FALSE}
+
+
+all_crops_summary%>%filter(Commodity=="SBS")%>%
+ggplot(aes(x=Reference_Date,y=Price,color=as.character(Delivery_Year)))+
+  geom_line()+
+  labs(x="Date",y="FOB Basis (Cts/Bu)")+
+  guides(color=FALSE)+
+  scale_color_calc()+
+  geom_dl(aes(label = Delivery_Year,color=as.factor(Delivery_Year)), method = list(dl.combine("last.points"), cex = 0.8))+
+  facet_trelliscope(~ Month, scales = "free",ncol = 2,nrow = 2,width = 1000,name = "SBS_FOB_PRMS", self_contained = TRUE,path = "SBS_FOB")
+
+
+
+
+
+```
+
+
+
+# SOYBEAN MEAL FOB PRMIUMS
+
+```{r soybeanmeal_graph,warning=FALSE,echo=FALSE,message=FALSE}
+
+
+all_crops_summary%>%filter(Commodity=="SBM")%>%
+ggplot(aes(x=Reference_Date,y=Price,color=as.character(Delivery_Year)))+
+  geom_line()+
+  labs(x="Date",y="FOB Basis (Cts/Bu)")+
+  guides(color=FALSE)+
+  scale_color_calc()+
+  geom_dl(aes(label = Delivery_Year,color=as.factor(Delivery_Year)), method = list(dl.combine("last.points"), cex = 0.8))+
+  facet_trelliscope(~ Month, scales = "free",ncol = 2,nrow = 2,width = 1000,name = "SBM_FOB_PRMS", self_contained = TRUE,path = "SBM_FOB")
+
+
+
+
+
+```
+
+# SOYBEAN OIL FOB PRMIUMS
+
+```{r soybeanoil_graph,warning=FALSE,echo=FALSE,message=FALSE}
+
+
+all_crops_summary%>%filter(Commodity=="SBO")%>%
+ggplot(aes(x=Reference_Date,y=Price,color=as.character(Delivery_Year)))+
+  geom_line()+
+  labs(x="Date",y="FOB Basis (Cts/Bu)")+
+  guides(color=FALSE)+
+  scale_color_calc()+
+  geom_dl(aes(label = Delivery_Year,color=as.factor(Delivery_Year)), method = list(dl.combine("last.points"), cex = 0.8))+
+  facet_trelliscope(~ Month, scales = "free",ncol = 2,nrow = 2,width = 1000,name = "SBO_FOB_PRMS", self_contained = TRUE,path = "SBO_FOB")
+
+
+
+
+
+```
+
+
+
+# CORN FOB PRMIUMS
+
+```{r, warning=FALSE,echo=FALSE,warning=FALSE,message=FALSE}
+
+all_crops_summary%>%filter(Commodity=="CORN")%>%
+ggplot(aes(x=Reference_Date,y=Price,color=as.character(Delivery_Year)))+
+  geom_line()+
+  labs(x="Date",y="FOB Basis (Cts/Bu)")+
+  guides(color=FALSE)+
+  scale_color_calc()+
+  geom_dl(aes(label = Delivery_Year,color=as.factor(Delivery_Year)), method = list(dl.combine("last.points"), cex = 0.8))+
+  facet_trelliscope(~ Month, scales = "free",ncol = 2,nrow=2, width = 1000,name = "CORN_FOB_PRMS", self_contained = TRUE,path = "CRN_FOB",auto_cog = FALSE)
+
+
+
+
+
+```

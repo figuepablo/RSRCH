@@ -1,0 +1,2521 @@
+"Station.Name";"DATE";"Zona_Pas";"Admin";"DAILY_MAX_TEMP";"DAILY_MIN_TEMP";"DAILY_RAIN"
+"Rosario Aerodrome";2019-07-19;"N_BELT";"Santa Fe";"19.30";4,8;0
+"Rosario Aerodrome";2019-07-20;"N_BELT";"Santa Fe";"23.30";7,5;0
+"Rosario Aerodrome";2019-07-21;"N_BELT";"Santa Fe";"25.50";18,3;1e-04
+"Rosario Aerodrome";2019-07-22;"N_BELT";"Santa Fe";"16.40";6,1;0
+"Rosario Aerodrome";2019-07-23;"N_BELT";"Santa Fe";"14.60";5,8;6
+"Rosario Aerodrome";2019-07-24;"N_BELT";"Santa Fe";"14.60";4,1;2
+"Rosario Aerodrome";2019-07-25;"N_BELT";"Santa Fe";"9.50";6,6;22
+"Rosario Aerodrome";2019-07-26;"N_BELT";"Santa Fe";"13.60";8,3;1e-04
+"Rosario Aerodrome";2019-07-27;"N_BELT";"Santa Fe";"17.40";0,1;0
+"Rosario Aerodrome";2019-07-28;"N_BELT";"Santa Fe";"13.40";7,5;3
+"Rosario Aerodrome";2019-07-29;"N_BELT";"Santa Fe";"13.30";9,6;0
+"Rosario Aerodrome";2019-07-30;"N_BELT";"Santa Fe";"17.50";1;0
+"Rosario Aerodrome";2019-07-31;"N_BELT";"Santa Fe";"22.00";5,7;0
+"Rosario Aerodrome";2019-08-01;"N_BELT";"Santa Fe";"17.70";10,4;0
+"Rosario Aerodrome";2019-08-02;"N_BELT";"Santa Fe";"16.60";0,9;0
+"Rosario Aerodrome";2019-08-03;"N_BELT";"Santa Fe";"18.00";-2,5;0
+"Rosario Aerodrome";2019-08-04;"N_BELT";"Santa Fe";"18.30";-0,1;0
+"Rosario Aerodrome";2019-08-05;"N_BELT";"Santa Fe";"19.40";3,9;0
+"Rosario Aerodrome";2019-08-06;"N_BELT";"Santa Fe";"23.20";10,1;0
+"Rosario Aerodrome";2019-08-07;"N_BELT";"Santa Fe";"18.90";7;0
+"Rosario Aerodrome";2019-08-08;"N_BELT";"Santa Fe";"13.40";9,5;2
+"Rosario Aerodrome";2019-08-09;"N_BELT";"Santa Fe";"11.10";7,3;1
+"Rosario Aerodrome";2019-08-10;"N_BELT";"Santa Fe";"17.50";-0,7;0
+"Rosario Aerodrome";2019-08-11;"N_BELT";"Santa Fe";"18.40";5,4;0
+"Rosario Aerodrome";2019-08-12;"N_BELT";"Santa Fe";"16.00";5,1;0
+"Rosario Aerodrome";2019-08-13;"N_BELT";"Santa Fe";"11.60";-1;0
+"Rosario Aerodrome";2019-08-14;"N_BELT";"Santa Fe";"12.60";-2,3;0
+"Rosario Aerodrome";2019-08-15;"N_BELT";"Santa Fe";"16.10";4,4;0
+"Rosario Aerodrome";2019-08-16;"N_BELT";"Santa Fe";"22.30";4,5;0
+"Rosario Aerodrome";2019-08-17;"N_BELT";"Santa Fe";"21.40";13,4;0
+"Rosario Aerodrome";2019-08-18;"N_BELT";"Santa Fe";"16.00";3,9;0
+"Rosario Aerodrome";2019-08-19;"N_BELT";"Santa Fe";"11.00";2,1;0
+"Rosario Aerodrome";2019-08-20;"N_BELT";"Santa Fe";"12.60";4,9;0
+"Rosario Aerodrome";2019-08-21;"N_BELT";"Santa Fe";"15.10";5,3;0
+"Rosario Aerodrome";2019-08-22;"N_BELT";"Santa Fe";"20.00";7,2;0
+"Rosario Aerodrome";2019-08-23;"N_BELT";"Santa Fe";"18.50";2,2;0
+"Rosario Aerodrome";2019-08-24;"N_BELT";"Santa Fe";"20.60";7,9;0
+"Rosario Aerodrome";2019-08-25;"N_BELT";"Santa Fe";"19.60";10,1;0
+"Rosario Aerodrome";2019-08-26;"N_BELT";"Santa Fe";"23.00";9,7;0
+"Rosario Aerodrome";2019-08-27;"N_BELT";"Santa Fe";"25.90";15;0
+"Rosario Aerodrome";2019-08-28;"N_BELT";"Santa Fe";"29.00";16;0
+"Rosario Aerodrome";2019-08-29;"N_BELT";"Santa Fe";"25.00";18,4;0
+"Rosario Aerodrome";2019-08-30;"N_BELT";"Santa Fe";"20.30";9,6;0
+"Rosario Aerodrome";2019-08-31;"N_BELT";"Santa Fe";"21.00";0,8;0
+"Rosario Aerodrome";2019-09-01;"N_BELT";"Santa Fe";"17.70";2;0
+"Rosario Aerodrome";2019-09-02;"N_BELT";"Santa Fe";"16.80";6,5;0
+"Rosario Aerodrome";2019-09-03;"N_BELT";"Santa Fe";"14.10";-2,7;0
+"Rosario Aerodrome";2019-09-04;"N_BELT";"Santa Fe";"15.30";-3,4;0
+"Rosario Aerodrome";2019-09-05;"N_BELT";"Santa Fe";"13.30";5,8;0
+"Rosario Aerodrome";2019-09-06;"N_BELT";"Santa Fe";"14.40";6;0
+"Rosario Aerodrome";2019-09-07;"N_BELT";"Santa Fe";"21.30";10,1;0
+"Rosario Aerodrome";2019-09-08;"N_BELT";"Santa Fe";"21.60";6,3;19
+"Rosario Aerodrome";2019-09-09;"N_BELT";"Santa Fe";"15.90";11,5;9
+"Rosario Aerodrome";2019-09-10;"N_BELT";"Santa Fe";"16.40";11,3;1e-04
+"Rosario Aerodrome";2019-09-11;"N_BELT";"Santa Fe";"19.20";9;0
+"Rosario Aerodrome";2019-09-12;"N_BELT";"Santa Fe";"19.50";4,1;0
+"Rosario Aerodrome";2019-09-13;"N_BELT";"Santa Fe";"20.00";3,9;0
+"Rosario Aerodrome";2019-09-14;"N_BELT";"Santa Fe";"22.30";10;0
+"Rosario Aerodrome";2019-09-15;"N_BELT";"Santa Fe";"26.10";12;0
+"Rosario Aerodrome";2019-09-16;"N_BELT";"Santa Fe";"22.50";12,7;0
+"Rosario Aerodrome";2019-09-17;"N_BELT";"Santa Fe";"23.70";-0,9;0
+"Rosario Aerodrome";2019-09-18;"N_BELT";"Santa Fe";"25.50";2;0
+"Rosario Aerodrome";2019-09-19;"N_BELT";"Santa Fe";"18.10";10,5;0
+"Rosario Aerodrome";2019-09-20;"N_BELT";"Santa Fe";"21.60";-1,9;0
+"Rosario Aerodrome";2019-09-21;"N_BELT";"Santa Fe";"25.50";0,9;0
+"Rosario Aerodrome";2019-09-22;"N_BELT";"Santa Fe";"21.70";5,1;0
+"Rosario Aerodrome";2019-09-23;"N_BELT";"Santa Fe";"24.40";10,9;0
+"Rosario Aerodrome";2019-09-24;"N_BELT";"Santa Fe";"26.00";5,6;0
+"Rosario Aerodrome";2019-09-25;"N_BELT";"Santa Fe";"29.80";6,3;0
+"Rosario Aerodrome";2019-09-26;"N_BELT";"Santa Fe";"30.00";8,8;0
+"Rosario Aerodrome";2019-09-27;"N_BELT";"Santa Fe";"25.30";12,5;0
+"Rosario Aerodrome";2019-09-28;"N_BELT";"Santa Fe";"26.90";11,7;0
+"Rosario Aerodrome";2019-09-29;"N_BELT";"Santa Fe";"32.70";12,4;0
+"Rosario Aerodrome";2019-09-30;"N_BELT";"Santa Fe";"35.80";20,1;12
+"Rosario Aerodrome";2019-10-01;"N_BELT";"Santa Fe";"19.50";10,8;2
+"Rosario Aerodrome";2019-10-02;"N_BELT";"Santa Fe";"20.50";9,9;0
+"Rosario Aerodrome";2019-10-03;"N_BELT";"Santa Fe";"15.40";11;2
+"Rosario Aerodrome";2019-10-04;"N_BELT";"Santa Fe";"16.20";11,8;8
+"Rosario Aerodrome";2019-10-05;"N_BELT";"Santa Fe";"20.20";8,9;0
+"Rosario Aerodrome";2019-10-06;"N_BELT";"Santa Fe";"21.60";5,7;0
+"Rosario Aerodrome";2019-10-07;"N_BELT";"Santa Fe";"25.60";8,9;1e-04
+"Rosario Aerodrome";2019-10-08;"N_BELT";"Santa Fe";"24.40";12,4;1
+"Rosario Aerodrome";2019-10-09;"N_BELT";"Santa Fe";"28.70";13,6;0
+"Rosario Aerodrome";2019-10-10;"N_BELT";"Santa Fe";"31.90";17,4;0
+"Rosario Aerodrome";2019-10-11;"N_BELT";"Santa Fe";"31.70";21,6;0
+"Rosario Aerodrome";2019-10-12;"N_BELT";"Santa Fe";"27.70";20,4;9
+"Rosario Aerodrome";2019-10-13;"N_BELT";"Santa Fe";"23.70";17,7;5
+"Rosario Aerodrome";2019-10-14;"N_BELT";"Santa Fe";"14.70";9;1e-04
+"Rosario Aerodrome";2019-10-15;"N_BELT";"Santa Fe";"11.90";8,4;1
+"Rosario Aerodrome";2019-10-16;"N_BELT";"Santa Fe";"15.80";11,6;0
+"Reconquista Aerodrome";2019-07-19;"CN_SANTA_FE";"Santa Fe";"23.50";9,4;0
+"Reconquista Aerodrome";2019-07-20;"CN_SANTA_FE";"Santa Fe";"26.00";17,1;0
+"Reconquista Aerodrome";2019-07-21;"CN_SANTA_FE";"Santa Fe";"31.10";21,8;0
+"Reconquista Aerodrome";2019-07-22;"CN_SANTA_FE";"Santa Fe";"15.10";15,1;0
+"Reconquista Aerodrome";2019-07-23;"CN_SANTA_FE";"Santa Fe";"11.60";10,8;8
+"Reconquista Aerodrome";2019-07-24;"CN_SANTA_FE";"Santa Fe";"9.40";8,5;24
+"Reconquista Aerodrome";2019-07-25;"CN_SANTA_FE";"Santa Fe";"11.00";8,3;1e-04
+"Reconquista Aerodrome";2019-07-26;"CN_SANTA_FE";"Santa Fe";"11.00";7,4;0,1
+"Reconquista Aerodrome";2019-07-27;"CN_SANTA_FE";"Santa Fe";"13.30";9;0,4
+"Reconquista Aerodrome";2019-07-28;"CN_SANTA_FE";"Santa Fe";"13.70";8,2;1e-04
+"Reconquista Aerodrome";2019-07-29;"CN_SANTA_FE";"Santa Fe";"18.70";7,9;0
+"Reconquista Aerodrome";2019-07-30;"CN_SANTA_FE";"Santa Fe";"20.30";6,6;0
+"Reconquista Aerodrome";2019-07-31;"CN_SANTA_FE";"Santa Fe";"26.10";9,2;0
+"Reconquista Aerodrome";2019-08-01;"CN_SANTA_FE";"Santa Fe";"18.20";16,5;0,1
+"Reconquista Aerodrome";2019-08-02;"CN_SANTA_FE";"Santa Fe";"18.20";6,5;0
+"Reconquista Aerodrome";2019-08-03;"CN_SANTA_FE";"Santa Fe";"19.00";2,3;0
+"Reconquista Aerodrome";2019-08-04;"CN_SANTA_FE";"Santa Fe";"18.70";3;0
+"Reconquista Aerodrome";2019-08-05;"CN_SANTA_FE";"Santa Fe";"22.00";5,7;0
+"Reconquista Aerodrome";2019-08-06;"CN_SANTA_FE";"Santa Fe";"26.50";10,9;0
+"Reconquista Aerodrome";2019-08-07;"CN_SANTA_FE";"Santa Fe";"26.20";12,2;5
+"Reconquista Aerodrome";2019-08-08;"CN_SANTA_FE";"Santa Fe";"16.40";16,4;2
+"Reconquista Aerodrome";2019-08-09;"CN_SANTA_FE";"Santa Fe";"11.00";9,9;0,3
+"Reconquista Aerodrome";2019-08-10;"CN_SANTA_FE";"Santa Fe";"18.00";4,3;0
+"Reconquista Aerodrome";2019-08-11;"CN_SANTA_FE";"Santa Fe";"19.90";8;0
+"Reconquista Aerodrome";2019-08-12;"CN_SANTA_FE";"Santa Fe";"20.80";8,6;0
+"Reconquista Aerodrome";2019-08-13;"CN_SANTA_FE";"Santa Fe";"14.90";6;0
+"Reconquista Aerodrome";2019-08-14;"CN_SANTA_FE";"Santa Fe";"14.80";2;0
+"Reconquista Aerodrome";2019-08-15;"CN_SANTA_FE";"Santa Fe";"22.60";4,6;0
+"Reconquista Aerodrome";2019-08-16;"CN_SANTA_FE";"Santa Fe";"29.20";11,6;0
+"Reconquista Aerodrome";2019-08-17;"CN_SANTA_FE";"Santa Fe";"32.00";20,7;0
+"Reconquista Aerodrome";2019-08-18;"CN_SANTA_FE";"Santa Fe";"20.40";10,8;0
+"Reconquista Aerodrome";2019-08-19;"CN_SANTA_FE";"Santa Fe";"15.40";6;0
+"Reconquista Aerodrome";2019-08-20;"CN_SANTA_FE";"Santa Fe";"17.80";2,1;0
+"Reconquista Aerodrome";2019-08-21;"CN_SANTA_FE";"Santa Fe";"21.80";5,3;0
+"Reconquista Aerodrome";2019-08-22;"CN_SANTA_FE";"Santa Fe";"21.10";10,5;0
+"Reconquista Aerodrome";2019-08-23;"CN_SANTA_FE";"Santa Fe";"21.60";5;0
+"Reconquista Aerodrome";2019-08-24;"CN_SANTA_FE";"Santa Fe";"24.40";7,4;0
+"Reconquista Aerodrome";2019-08-25;"CN_SANTA_FE";"Santa Fe";"19.10";12,3;10
+"Reconquista Aerodrome";2019-08-26;"CN_SANTA_FE";"Santa Fe";"25.50";16,5;0
+"Reconquista Aerodrome";2019-08-27;"CN_SANTA_FE";"Santa Fe";"27.50";15;0
+"Reconquista Aerodrome";2019-08-28;"CN_SANTA_FE";"Santa Fe";"33.00";16,2;0
+"Reconquista Aerodrome";2019-08-29;"CN_SANTA_FE";"Santa Fe";"35.50";20,8;0
+"Reconquista Aerodrome";2019-08-30;"CN_SANTA_FE";"Santa Fe";"22.00";17,1;0
+"Reconquista Aerodrome";2019-08-31;"CN_SANTA_FE";"Santa Fe";"21.10";7,4;0
+"Reconquista Aerodrome";2019-09-01;"CN_SANTA_FE";"Santa Fe";"21.70";6,8;0
+"Reconquista Aerodrome";2019-09-02;"CN_SANTA_FE";"Santa Fe";"24.00";7,1;0
+"Reconquista Aerodrome";2019-09-03;"CN_SANTA_FE";"Santa Fe";"16.70";7,2;0
+"Reconquista Aerodrome";2019-09-04;"CN_SANTA_FE";"Santa Fe";"17.50";4,2;0
+"Reconquista Aerodrome";2019-09-05;"CN_SANTA_FE";"Santa Fe";"18.40";8,3;0
+"Reconquista Aerodrome";2019-09-06;"CN_SANTA_FE";"Santa Fe";"18.10";8,3;0
+"Reconquista Aerodrome";2019-09-07;"CN_SANTA_FE";"Santa Fe";"22.80";11,2;0
+"Reconquista Aerodrome";2019-09-08;"CN_SANTA_FE";"Santa Fe";"19.50";15,4;9
+"Reconquista Aerodrome";2019-09-09;"CN_SANTA_FE";"Santa Fe";"24.80";16,4;0,2
+"Reconquista Aerodrome";2019-09-10;"CN_SANTA_FE";"Santa Fe";"17.90";14,5;1e-04
+"Reconquista Aerodrome";2019-09-11;"CN_SANTA_FE";"Santa Fe";"19.50";13;0
+"Reconquista Aerodrome";2019-09-12;"CN_SANTA_FE";"Santa Fe";"18.50";10,1;0
+"Reconquista Aerodrome";2019-09-13;"CN_SANTA_FE";"Santa Fe";"22.50";5,3;0
+"Reconquista Aerodrome";2019-09-14;"CN_SANTA_FE";"Santa Fe";"26.40";10,3;0
+"Reconquista Aerodrome";2019-09-15;"CN_SANTA_FE";"Santa Fe";"34.40";15,1;0
+"Reconquista Aerodrome";2019-09-16;"CN_SANTA_FE";"Santa Fe";"20.30";19,5;0
+"Reconquista Aerodrome";2019-09-17;"CN_SANTA_FE";"Santa Fe";"22.10";9,7;0
+"Reconquista Aerodrome";2019-09-18;"CN_SANTA_FE";"Santa Fe";"26.00";6,7;0
+"Reconquista Aerodrome";2019-09-19;"CN_SANTA_FE";"Santa Fe";"27.20";13;0
+"Reconquista Aerodrome";2019-09-20;"CN_SANTA_FE";"Santa Fe";"20.80";8,6;0
+"Reconquista Aerodrome";2019-09-21;"CN_SANTA_FE";"Santa Fe";"23.80";6;0
+"Reconquista Aerodrome";2019-09-22;"CN_SANTA_FE";"Santa Fe";"26.40";7,6;0
+"Reconquista Aerodrome";2019-09-23;"CN_SANTA_FE";"Santa Fe";"26.00";8,9;0
+"Reconquista Aerodrome";2019-09-24;"CN_SANTA_FE";"Santa Fe";"27.70";11,5;0
+"Reconquista Aerodrome";2019-09-25;"CN_SANTA_FE";"Santa Fe";"28.90";8,9;0
+"Reconquista Aerodrome";2019-09-26;"CN_SANTA_FE";"Santa Fe";"30.00";9,9;0
+"Reconquista Aerodrome";2019-09-27;"CN_SANTA_FE";"Santa Fe";"29.70";13,1;0
+"Reconquista Aerodrome";2019-09-28;"CN_SANTA_FE";"Santa Fe";"31.00";14,1;0
+"Reconquista Aerodrome";2019-09-29;"CN_SANTA_FE";"Santa Fe";"35.50";16,6;0
+"Reconquista Aerodrome";2019-09-30;"CN_SANTA_FE";"Santa Fe";"38.50";22,6;0
+"Reconquista Aerodrome";2019-10-01;"CN_SANTA_FE";"Santa Fe";"30.90";26,1;40
+"Reconquista Aerodrome";2019-10-02;"CN_SANTA_FE";"Santa Fe";"16.30";13,5;2
+"Reconquista Aerodrome";2019-10-03;"CN_SANTA_FE";"Santa Fe";"18.70";14,7;0,8
+"Reconquista Aerodrome";2019-10-04;"CN_SANTA_FE";"Santa Fe";"18.10";16,2;0,6
+"Reconquista Aerodrome";2019-10-05;"CN_SANTA_FE";"Santa Fe";"18.00";14;0
+"Reconquista Aerodrome";2019-10-06;"CN_SANTA_FE";"Santa Fe";"23.00";9,3;0
+"Reconquista Aerodrome";2019-10-07;"CN_SANTA_FE";"Santa Fe";"29.30";11,8;0
+"Reconquista Aerodrome";2019-10-08;"CN_SANTA_FE";"Santa Fe";"29.50";14,5;0
+"Reconquista Aerodrome";2019-10-09;"CN_SANTA_FE";"Santa Fe";"31.80";15,7;0
+"Reconquista Aerodrome";2019-10-10;"CN_SANTA_FE";"Santa Fe";"35.70";20;0
+"Reconquista Aerodrome";2019-10-11;"CN_SANTA_FE";"Santa Fe";"39.50";24;0
+"Reconquista Aerodrome";2019-10-12;"CN_SANTA_FE";"Santa Fe";"40.10";27;0
+"Reconquista Aerodrome";2019-10-13;"CN_SANTA_FE";"Santa Fe";"28.50";23,9;33
+"Reconquista Aerodrome";2019-10-14;"CN_SANTA_FE";"Santa Fe";"11.10";9,8;8
+"Reconquista Aerodrome";2019-10-15;"CN_SANTA_FE";"Santa Fe";"13.60";10,5;3
+"Reconquista Aerodrome";2019-10-16;"CN_SANTA_FE";"Santa Fe";"18.40";13,6;0
+"Resistencia Aero.";2019-07-19;"CHACO_SANTIAGO";"Chaco";"23.80";14,9;0
+"Resistencia Aero.";2019-07-20;"CHACO_SANTIAGO";"Chaco";"28.50";16;0
+"Resistencia Aero.";2019-07-21;"CHACO_SANTIAGO";"Chaco";"32.00";21,7;0
+"Resistencia Aero.";2019-07-22;"CHACO_SANTIAGO";"Chaco";"27.50";19,4;0
+"Resistencia Aero.";2019-07-23;"CHACO_SANTIAGO";"Chaco";"13.10";12,5;5
+"Resistencia Aero.";2019-07-24;"CHACO_SANTIAGO";"Chaco";"11.50";10,6;44
+"Resistencia Aero.";2019-07-25;"CHACO_SANTIAGO";"Chaco";"9.80";8;1e-04
+"Resistencia Aero.";2019-07-26;"CHACO_SANTIAGO";"Chaco";"13.00";6,8;0
+"Resistencia Aero.";2019-07-27;"CHACO_SANTIAGO";"Chaco";"13.20";5,9;1e-04
+"Resistencia Aero.";2019-07-28;"CHACO_SANTIAGO";"Chaco";"17.00";8,1;0
+"Resistencia Aero.";2019-07-29;"CHACO_SANTIAGO";"Chaco";"21.00";10;0
+"Resistencia Aero.";2019-07-30;"CHACO_SANTIAGO";"Chaco";"23.20";8,1;0
+"Resistencia Aero.";2019-07-31;"CHACO_SANTIAGO";"Chaco";"28.60";7,4;0
+"Resistencia Aero.";2019-08-01;"CHACO_SANTIAGO";"Chaco";"27.00";16,2;1e-04
+"Resistencia Aero.";2019-08-02;"CHACO_SANTIAGO";"Chaco";"18.00";6,6;0
+"Resistencia Aero.";2019-08-03;"CHACO_SANTIAGO";"Chaco";"19.20";1;0
+"Resistencia Aero.";2019-08-04;"CHACO_SANTIAGO";"Chaco";"19.50";1,4;0
+"Resistencia Aero.";2019-08-05;"CHACO_SANTIAGO";"Chaco";"23.40";3,3;0
+"Resistencia Aero.";2019-08-06;"CHACO_SANTIAGO";"Chaco";"26.70";9,1;0
+"Resistencia Aero.";2019-08-07;"CHACO_SANTIAGO";"Chaco";"30.60";14,4;0
+"Resistencia Aero.";2019-08-08;"CHACO_SANTIAGO";"Chaco";"24.00";19,1;3
+"Resistencia Aero.";2019-08-09;"CHACO_SANTIAGO";"Chaco";"12.00";9,4;1e-04
+"Resistencia Aero.";2019-08-10;"CHACO_SANTIAGO";"Chaco";"19.00";8,8;0
+"Resistencia Aero.";2019-08-11;"CHACO_SANTIAGO";"Chaco";"19.80";5,2;0
+"Resistencia Aero.";2019-08-12;"CHACO_SANTIAGO";"Chaco";"21.70";12,1;0
+"Resistencia Aero.";2019-08-13;"CHACO_SANTIAGO";"Chaco";"16.80";6;0
+"Resistencia Aero.";2019-08-14;"CHACO_SANTIAGO";"Chaco";"16.00";1,4;0
+"Resistencia Aero.";2019-08-15;"CHACO_SANTIAGO";"Chaco";"24.90";1,7;0
+"Resistencia Aero.";2019-08-16;"CHACO_SANTIAGO";"Chaco";"31.20";14,8;0
+"Resistencia Aero.";2019-08-17;"CHACO_SANTIAGO";"Chaco";"30.90";16;0
+"Resistencia Aero.";2019-08-18;"CHACO_SANTIAGO";"Chaco";"20.50";13,5;0
+"Resistencia Aero.";2019-08-19;"CHACO_SANTIAGO";"Chaco";"19.40";7,1;0
+"Resistencia Aero.";2019-08-20;"CHACO_SANTIAGO";"Chaco";"22.50";3;0
+"Resistencia Aero.";2019-08-21;"CHACO_SANTIAGO";"Chaco";"24.70";7,3;0
+"Resistencia Aero.";2019-08-22;"CHACO_SANTIAGO";"Chaco";"22.20";11,9;0
+"Resistencia Aero.";2019-08-23;"CHACO_SANTIAGO";"Chaco";"24.00";4;0
+"Resistencia Aero.";2019-08-24;"CHACO_SANTIAGO";"Chaco";"27.20";6,9;0
+"Resistencia Aero.";2019-08-25;"CHACO_SANTIAGO";"Chaco";"29.00";15,7;57
+"Resistencia Aero.";2019-08-26;"CHACO_SANTIAGO";"Chaco";"25.20";16,9;2
+"Resistencia Aero.";2019-08-27;"CHACO_SANTIAGO";"Chaco";"29.00";14,5;0
+"Resistencia Aero.";2019-08-28;"CHACO_SANTIAGO";"Chaco";"32.80";16,3;0
+"Resistencia Aero.";2019-08-29;"CHACO_SANTIAGO";"Chaco";"34.40";17,2;0
+"Resistencia Aero.";2019-08-30;"CHACO_SANTIAGO";"Chaco";"32.00";22,8;30
+"Resistencia Aero.";2019-08-31;"CHACO_SANTIAGO";"Chaco";"22.00";12,9;0
+"Resistencia Aero.";2019-09-01;"CHACO_SANTIAGO";"Chaco";"22.20";8,4;0
+"Resistencia Aero.";2019-09-02;"CHACO_SANTIAGO";"Chaco";"22.70";6,4;0
+"Resistencia Aero.";2019-09-03;"CHACO_SANTIAGO";"Chaco";"20.80";8,5;0
+"Resistencia Aero.";2019-09-04;"CHACO_SANTIAGO";"Chaco";"20.00";6,8;0
+"Resistencia Aero.";2019-09-05;"CHACO_SANTIAGO";"Chaco";"18.00";10,1;0
+"Resistencia Aero.";2019-09-06;"CHACO_SANTIAGO";"Chaco";"27.30";13,2;0
+"Resistencia Aero.";2019-09-07;"CHACO_SANTIAGO";"Chaco";"30.20";15,4;0
+"Resistencia Aero.";2019-09-08;"CHACO_SANTIAGO";"Chaco";"24.50";17,3;0
+"Resistencia Aero.";2019-09-09;"CHACO_SANTIAGO";"Chaco";"27.30";17,2;0,5
+"Resistencia Aero.";2019-09-10;"CHACO_SANTIAGO";"Chaco";"19.70";15,3;4
+"Resistencia Aero.";2019-09-11;"CHACO_SANTIAGO";"Chaco";"16.70";14,2;1
+"Resistencia Aero.";2019-09-12;"CHACO_SANTIAGO";"Chaco";"21.40";11,6;0
+"Resistencia Aero.";2019-09-13;"CHACO_SANTIAGO";"Chaco";"22.00";6,3;0
+"Resistencia Aero.";2019-09-14;"CHACO_SANTIAGO";"Chaco";"28.00";11,5;0
+"Resistencia Aero.";2019-09-15;"CHACO_SANTIAGO";"Chaco";"36.50";18,4;0
+"Resistencia Aero.";2019-09-16;"CHACO_SANTIAGO";"Chaco";"29.70";23,8;1e-04
+"Resistencia Aero.";2019-09-17;"CHACO_SANTIAGO";"Chaco";"21.00";14,1;1e-04
+"Resistencia Aero.";2019-09-18;"CHACO_SANTIAGO";"Chaco";"25.50";14;0
+"Resistencia Aero.";2019-09-19;"CHACO_SANTIAGO";"Chaco";"27.80";10,8;0
+"Resistencia Aero.";2019-09-20;"CHACO_SANTIAGO";"Chaco";"23.60";10,5;0
+"Resistencia Aero.";2019-09-21;"CHACO_SANTIAGO";"Chaco";"25.50";5,5;0
+"Resistencia Aero.";2019-09-22;"CHACO_SANTIAGO";"Chaco";"26.00";10;0
+"Resistencia Aero.";2019-09-23;"CHACO_SANTIAGO";"Chaco";"28.00";13,4;0
+"Resistencia Aero.";2019-09-24;"CHACO_SANTIAGO";"Chaco";"29.10";14,9;0
+"Resistencia Aero.";2019-09-25;"CHACO_SANTIAGO";"Chaco";"30.60";12,4;0
+"Resistencia Aero.";2019-09-26;"CHACO_SANTIAGO";"Chaco";"31.20";9,4;0
+"Resistencia Aero.";2019-09-27;"CHACO_SANTIAGO";"Chaco";"30.50";11,4;0
+"Resistencia Aero.";2019-09-28;"CHACO_SANTIAGO";"Chaco";"35.50";15,4;0
+"Resistencia Aero.";2019-09-29;"CHACO_SANTIAGO";"Chaco";"36.40";17,9;0
+"Resistencia Aero.";2019-09-30;"CHACO_SANTIAGO";"Chaco";"38.40";22;0
+"Resistencia Aero.";2019-10-01;"CHACO_SANTIAGO";"Chaco";"39.40";25,5;32
+"Resistencia Aero.";2019-10-02;"CHACO_SANTIAGO";"Chaco";"17.60";14,9;1
+"Resistencia Aero.";2019-10-03;"CHACO_SANTIAGO";"Chaco";"19.80";17,1;1
+"Resistencia Aero.";2019-10-04;"CHACO_SANTIAGO";"Chaco";"20.80";18;0,2
+"Resistencia Aero.";2019-10-05;"CHACO_SANTIAGO";"Chaco";"16.60";14,1;0,6
+"Resistencia Aero.";2019-10-06;"CHACO_SANTIAGO";"Chaco";"23.80";11,4;0
+"Resistencia Aero.";2019-10-07;"CHACO_SANTIAGO";"Chaco";"28.60";9,7;0
+"Resistencia Aero.";2019-10-08;"CHACO_SANTIAGO";"Chaco";"30.00";12,4;0
+"Resistencia Aero.";2019-10-09;"CHACO_SANTIAGO";"Chaco";"32.50";12,8;0
+"Resistencia Aero.";2019-10-10;"CHACO_SANTIAGO";"Chaco";"36.50";19,1;0
+"Resistencia Aero.";2019-10-11;"CHACO_SANTIAGO";"Chaco";"39.60";21,8;0
+"Resistencia Aero.";2019-10-12;"CHACO_SANTIAGO";"Chaco";"38.50";25,4;0
+"Resistencia Aero.";2019-10-13;"CHACO_SANTIAGO";"Chaco";"39.10";23,3;38
+"Resistencia Aero.";2019-10-14;"CHACO_SANTIAGO";"Chaco";"17.40";16,4;9
+"Resistencia Aero.";2019-10-15;"CHACO_SANTIAGO";"Chaco";"15.30";13,1;3
+"Resistencia Aero.";2019-10-16;"CHACO_SANTIAGO";"Chaco";"19.00";12,3;0
+"Formosa Aerodrome";2019-07-19;"";"Formosa";"24.70";15,4;0
+"Formosa Aerodrome";2019-07-20;"";"Formosa";"29.50";15,8;0
+"Formosa Aerodrome";2019-07-21;"";"Formosa";"31.50";21,9;0
+"Formosa Aerodrome";2019-07-22;"";"Formosa";"30.80";22,4;13
+"Formosa Aerodrome";2019-07-23;"";"Formosa";"15.30";14,8;15
+"Formosa Aerodrome";2019-07-24;"";"Formosa";"12.00";10,5;36
+"Formosa Aerodrome";2019-07-25;"";"Formosa";"10.60";8,6;30
+"Formosa Aerodrome";2019-07-26;"";"Formosa";"15.00";8;0
+"Formosa Aerodrome";2019-07-27;"";"Formosa";"12.60";9,6;0
+"Formosa Aerodrome";2019-07-28;"";"Formosa";"16.50";10,3;0
+"Formosa Aerodrome";2019-07-29;"";"Formosa";"21.30";11,5;0
+"Formosa Aerodrome";2019-07-30;"";"Formosa";"23.60";12,8;0
+"Formosa Aerodrome";2019-07-31;"";"Formosa";"30.10";12,6;0
+"Formosa Aerodrome";2019-08-01;"";"Formosa";"30.70";17,6;4
+"Formosa Aerodrome";2019-08-02;"";"Formosa";"18.20";9,6;0
+"Formosa Aerodrome";2019-08-03;"";"Formosa";"19.00";3,8;0
+"Formosa Aerodrome";2019-08-04;"";"Formosa";"19.20";4,4;0
+"Formosa Aerodrome";2019-08-05;"";"Formosa";"23.80";6,4;0
+"Formosa Aerodrome";2019-08-06;"";"Formosa";"27.20";11,1;0
+"Formosa Aerodrome";2019-08-07;"";"Formosa";"30.80";15,5;0
+"Formosa Aerodrome";2019-08-08;"";"Formosa";"31.40";20,5;0
+"Formosa Aerodrome";2019-08-09;"";"Formosa";"13.00";10,4;0
+"Formosa Aerodrome";2019-08-10;"";"Formosa";"16.70";10,4;0
+"Formosa Aerodrome";2019-08-11;"";"Formosa";"23.00";8,7;0
+"Formosa Aerodrome";2019-08-12;"";"Formosa";"24.50";14,4;0
+"Formosa Aerodrome";2019-08-13;"";"Formosa";"17.50";9,8;0
+"Formosa Aerodrome";2019-08-14;"";"Formosa";"16.30";5,1;0
+"Formosa Aerodrome";2019-08-15;"";"Formosa";"25.50";5;0
+"Formosa Aerodrome";2019-08-16;"";"Formosa";"32.20";14,2;0
+"Formosa Aerodrome";2019-08-17;"";"Formosa";"31.70";20,4;0
+"Formosa Aerodrome";2019-08-18;"";"Formosa";"23.30";18;0
+"Formosa Aerodrome";2019-08-19;"";"Formosa";"20.60";11;0
+"Formosa Aerodrome";2019-08-20;"";"Formosa";"23.30";7,2;0
+"Formosa Aerodrome";2019-08-21;"";"Formosa";"25.80";9,3;0
+"Formosa Aerodrome";2019-08-22;"";"Formosa";"21.00";13;0
+"Formosa Aerodrome";2019-08-23;"";"Formosa";"23.60";5,2;0
+"Formosa Aerodrome";2019-08-24;"";"Formosa";"28.80";9,4;0
+"Formosa Aerodrome";2019-08-25;"";"Formosa";"26.90";14,6;17
+"Formosa Aerodrome";2019-08-26;"";"Formosa";"20.90";17,4;14
+"Formosa Aerodrome";2019-08-27;"";"Formosa";"29.20";14,9;0
+"Formosa Aerodrome";2019-08-28;"";"Formosa";"33.40";16,3;0
+"Formosa Aerodrome";2019-08-29;"";"Formosa";"34.00";18;0
+"Formosa Aerodrome";2019-08-30;"";"Formosa";"34.40";20,2;10
+"Formosa Aerodrome";2019-08-31;"";"Formosa";"22.20";15,6;0,1
+"Formosa Aerodrome";2019-09-01;"";"Formosa";"21.00";10,9;0
+"Formosa Aerodrome";2019-09-02;"";"Formosa";"22.40";7,5;0
+"Formosa Aerodrome";2019-09-03;"";"Formosa";"22.50";9,5;0
+"Formosa Aerodrome";2019-09-04;"";"Formosa";"21.20";9,6;0
+"Formosa Aerodrome";2019-09-05;"";"Formosa";"17.10";12;0
+"Formosa Aerodrome";2019-09-06;"";"Formosa";"30.40";13;0
+"Formosa Aerodrome";2019-09-07;"";"Formosa";"33.60";18,1;0
+"Formosa Aerodrome";2019-09-08;"";"Formosa";"33.40";19,4;0
+"Formosa Aerodrome";2019-09-09;"";"Formosa";"36.40";21,3;0
+"Formosa Aerodrome";2019-09-10;"";"Formosa";"24.50";18,2;1e-04
+"Formosa Aerodrome";2019-09-11;"";"Formosa";"18.00";16;5
+"Formosa Aerodrome";2019-09-12;"";"Formosa";"23.00";14,9;0
+"Formosa Aerodrome";2019-09-13;"";"Formosa";"24.60";10;0
+"Formosa Aerodrome";2019-09-14;"";"Formosa";"28.50";13,3;0
+"Formosa Aerodrome";2019-09-15;"";"Formosa";"37.50";18,3;0
+"Formosa Aerodrome";2019-09-16;"";"Formosa";"38.40";23,2;0
+"Formosa Aerodrome";2019-09-17;"";"Formosa";"19.50";16,2;0
+"Formosa Aerodrome";2019-09-18;"";"Formosa";"23.80";15,7;0
+"Formosa Aerodrome";2019-09-19;"";"Formosa";"26.50";12;0
+"Formosa Aerodrome";2019-09-20;"";"Formosa";"24.70";13,8;0
+"Formosa Aerodrome";2019-09-21;"";"Formosa";"25.50";10;0
+"Formosa Aerodrome";2019-09-22;"";"Formosa";"28.20";10,9;0
+"Formosa Aerodrome";2019-09-23;"";"Formosa";"30.60";11,6;0
+"Formosa Aerodrome";2019-09-24;"";"Formosa";"31.20";16,6;0
+"Formosa Aerodrome";2019-09-25;"";"Formosa";"31.10";16,4;0
+"Formosa Aerodrome";2019-09-26;"";"Formosa";"30.50";10,4;0
+"Formosa Aerodrome";2019-09-27;"";"Formosa";"33.50";11,4;0
+"Formosa Aerodrome";2019-09-28;"";"Formosa";"36.50";14,9;0
+"Formosa Aerodrome";2019-09-29;"";"Formosa";"37.10";18,4;0
+"Formosa Aerodrome";2019-09-30;"";"Formosa";"39.10";22,7;0
+"Formosa Aerodrome";2019-10-01;"";"Formosa";"40.70";26;1
+"Formosa Aerodrome";2019-10-02;"";"Formosa";"20.50";16,7;4
+"Formosa Aerodrome";2019-10-03;"";"Formosa";"26.90";15,8;1e-04
+"Formosa Aerodrome";2019-10-04;"";"Formosa";"22.50";18,1;47
+"Formosa Aerodrome";2019-10-05;"";"Formosa";"17.80";16,7;10
+"Formosa Aerodrome";2019-10-06;"";"Formosa";"21.90";14,7;0
+"Formosa Aerodrome";2019-10-07;"";"Formosa";"27.70";10,8;0
+"Formosa Aerodrome";2019-10-08;"";"Formosa";"30.90";14,8;0
+"Formosa Aerodrome";2019-10-09;"";"Formosa";"33.70";16,4;0
+"Formosa Aerodrome";2019-10-10;"";"Formosa";"36.80";19;0
+"Formosa Aerodrome";2019-10-11;"";"Formosa";"38.50";22,8;0
+"Formosa Aerodrome";2019-10-12;"";"Formosa";"38.60";25,8;0
+"Formosa Aerodrome";2019-10-13;"";"Formosa";"38.70";24,9;22
+"Formosa Aerodrome";2019-10-14;"";"Formosa";"26.00";22,1;8
+"Formosa Aerodrome";2019-10-15;"";"Formosa";"17.70";16;0,7
+"Formosa Aerodrome";2019-10-16;"";"Formosa";"19.70";13,6;0
+"Ceres Aerodrome";2019-07-19;"CN_SANTA_FE";"Santa Fe";"22.00";7;0
+"Ceres Aerodrome";2019-07-20;"CN_SANTA_FE";"Santa Fe";"25.60";13,6;0
+"Ceres Aerodrome";2019-07-21;"CN_SANTA_FE";"Santa Fe";"30.20";17,6;0
+"Ceres Aerodrome";2019-07-22;"CN_SANTA_FE";"Santa Fe";"17.50";13,8;1e-04
+"Ceres Aerodrome";2019-07-23;"CN_SANTA_FE";"Santa Fe";"11.60";9,8;0,8
+"Ceres Aerodrome";2019-07-24;"CN_SANTA_FE";"Santa Fe";"9.50";6,6;20
+"Ceres Aerodrome";2019-07-25;"CN_SANTA_FE";"Santa Fe";"7.20";5,6;5,3
+"Ceres Aerodrome";2019-07-26;"CN_SANTA_FE";"Santa Fe";"15.20";6,4;0
+"Ceres Aerodrome";2019-07-27;"CN_SANTA_FE";"Santa Fe";"17.80";2,2;1e-04
+"Ceres Aerodrome";2019-07-28;"CN_SANTA_FE";"Santa Fe";"12.60";7;1e-04
+"Ceres Aerodrome";2019-07-29;"CN_SANTA_FE";"Santa Fe";"18.50";5,6;0
+"Ceres Aerodrome";2019-07-30;"CN_SANTA_FE";"Santa Fe";"20.70";6;0
+"Ceres Aerodrome";2019-07-31;"CN_SANTA_FE";"Santa Fe";"25.20";9,4;0
+"Ceres Aerodrome";2019-08-01;"CN_SANTA_FE";"Santa Fe";"17.40";13,6;0
+"Ceres Aerodrome";2019-08-02;"CN_SANTA_FE";"Santa Fe";"18.00";6;0
+"Ceres Aerodrome";2019-08-03;"CN_SANTA_FE";"Santa Fe";"19.20";1,4;0
+"Ceres Aerodrome";2019-08-04;"CN_SANTA_FE";"Santa Fe";"19.70";3,3;0
+"Ceres Aerodrome";2019-08-05;"CN_SANTA_FE";"Santa Fe";"22.00";5;0
+"Ceres Aerodrome";2019-08-06;"CN_SANTA_FE";"Santa Fe";"25.40";8,1;0
+"Ceres Aerodrome";2019-08-07;"CN_SANTA_FE";"Santa Fe";"19.50";9,4;0
+"Ceres Aerodrome";2019-08-08;"CN_SANTA_FE";"Santa Fe";"12.30";11,5;7
+"Ceres Aerodrome";2019-08-09;"CN_SANTA_FE";"Santa Fe";"13.00";6,7;0
+"Ceres Aerodrome";2019-08-10;"CN_SANTA_FE";"Santa Fe";"18.50";0;0
+"Ceres Aerodrome";2019-08-11;"CN_SANTA_FE";"Santa Fe";"21.20";5,9;0
+"Ceres Aerodrome";2019-08-12;"CN_SANTA_FE";"Santa Fe";"20.20";7,2;0
+"Ceres Aerodrome";2019-08-13;"CN_SANTA_FE";"Santa Fe";"15.40";3,4;0
+"Ceres Aerodrome";2019-08-14;"CN_SANTA_FE";"Santa Fe";"15.40";-0,8;0
+"Ceres Aerodrome";2019-08-15;"CN_SANTA_FE";"Santa Fe";"20.20";2,5;0
+"Ceres Aerodrome";2019-08-16;"CN_SANTA_FE";"Santa Fe";"28.00";7,2;0
+"Ceres Aerodrome";2019-08-17;"CN_SANTA_FE";"Santa Fe";"24.60";13,8;0
+"Ceres Aerodrome";2019-08-18;"CN_SANTA_FE";"Santa Fe";"20.80";7,2;0
+"Ceres Aerodrome";2019-08-19;"CN_SANTA_FE";"Santa Fe";"16.30";3,8;0
+"Ceres Aerodrome";2019-08-20;"CN_SANTA_FE";"Santa Fe";"17.80";1,5;0
+"Ceres Aerodrome";2019-08-21;"CN_SANTA_FE";"Santa Fe";"22.00";3;0
+"Ceres Aerodrome";2019-08-22;"CN_SANTA_FE";"Santa Fe";"22.00";10;0
+"Ceres Aerodrome";2019-08-23;"CN_SANTA_FE";"Santa Fe";"22.20";5;0
+"Ceres Aerodrome";2019-08-24;"CN_SANTA_FE";"Santa Fe";"24.50";5,8;0
+"Ceres Aerodrome";2019-08-25;"CN_SANTA_FE";"Santa Fe";"24.80";12;0
+"Ceres Aerodrome";2019-08-26;"CN_SANTA_FE";"Santa Fe";"26.60";13,9;0
+"Ceres Aerodrome";2019-08-27;"CN_SANTA_FE";"Santa Fe";"29.00";14,2;0
+"Ceres Aerodrome";2019-08-28;"CN_SANTA_FE";"Santa Fe";"33.40";17,2;0
+"Ceres Aerodrome";2019-08-29;"CN_SANTA_FE";"Santa Fe";"27.50";19,2;0
+"Ceres Aerodrome";2019-08-30;"CN_SANTA_FE";"Santa Fe";"18.80";13;0
+"Ceres Aerodrome";2019-08-31;"CN_SANTA_FE";"Santa Fe";"22.20";7;0
+"Ceres Aerodrome";2019-09-01;"CN_SANTA_FE";"Santa Fe";"21.70";5;0
+"Ceres Aerodrome";2019-09-02;"CN_SANTA_FE";"Santa Fe";"24.40";5,5;0
+"Ceres Aerodrome";2019-09-03;"CN_SANTA_FE";"Santa Fe";"15.20";7,1;0
+"Ceres Aerodrome";2019-09-04;"CN_SANTA_FE";"Santa Fe";"17.50";2,5;0
+"Ceres Aerodrome";2019-09-05;"CN_SANTA_FE";"Santa Fe";"19.00";9,2;0
+"Ceres Aerodrome";2019-09-06;"CN_SANTA_FE";"Santa Fe";"22.50";3,8;0
+"Ceres Aerodrome";2019-09-07;"CN_SANTA_FE";"Santa Fe";"20.40";8;0
+"Ceres Aerodrome";2019-09-08;"CN_SANTA_FE";"Santa Fe";"21.70";10,1;39
+"Ceres Aerodrome";2019-09-09;"CN_SANTA_FE";"Santa Fe";"19.20";14,1;0
+"Ceres Aerodrome";2019-09-10;"CN_SANTA_FE";"Santa Fe";"17.20";12,6;0
+"Ceres Aerodrome";2019-09-11;"CN_SANTA_FE";"Santa Fe";"18.00";11,6;0
+"Ceres Aerodrome";2019-09-12;"CN_SANTA_FE";"Santa Fe";"18.00";7,4;0
+"Ceres Aerodrome";2019-09-13;"CN_SANTA_FE";"Santa Fe";"20.80";3,6;0
+"Ceres Aerodrome";2019-09-14;"CN_SANTA_FE";"Santa Fe";"25.60";7,8;0
+"Ceres Aerodrome";2019-09-15;"CN_SANTA_FE";"Santa Fe";"32.00";13,4;0
+"Ceres Aerodrome";2019-09-16;"CN_SANTA_FE";"Santa Fe";"21.60";14,7;0
+"Ceres Aerodrome";2019-09-17;"CN_SANTA_FE";"Santa Fe";"23.60";8,8;0
+"Ceres Aerodrome";2019-09-18;"CN_SANTA_FE";"Santa Fe";"26.50";12;0
+"Ceres Aerodrome";2019-09-19;"CN_SANTA_FE";"Santa Fe";"22.20";10,5;0
+"Ceres Aerodrome";2019-09-20;"CN_SANTA_FE";"Santa Fe";"21.50";5;0
+"Ceres Aerodrome";2019-09-21;"CN_SANTA_FE";"Santa Fe";"24.00";4,2;0
+"Ceres Aerodrome";2019-09-22;"CN_SANTA_FE";"Santa Fe";"26.50";6;0
+"Ceres Aerodrome";2019-09-23;"CN_SANTA_FE";"Santa Fe";"25.60";8,1;0
+"Ceres Aerodrome";2019-09-24;"CN_SANTA_FE";"Santa Fe";"28.10";13;0
+"Ceres Aerodrome";2019-09-25;"CN_SANTA_FE";"Santa Fe";"30.20";10,3;0
+"Ceres Aerodrome";2019-09-26;"CN_SANTA_FE";"Santa Fe";"31.00";10,5;0
+"Ceres Aerodrome";2019-09-27;"CN_SANTA_FE";"Santa Fe";"30.80";11,6;0
+"Ceres Aerodrome";2019-09-28;"CN_SANTA_FE";"Santa Fe";"32.80";11,5;0
+"Ceres Aerodrome";2019-09-29;"CN_SANTA_FE";"Santa Fe";"35.50";16,5;0
+"Ceres Aerodrome";2019-09-30;"CN_SANTA_FE";"Santa Fe";"37.40";23;0
+"Ceres Aerodrome";2019-10-01;"CN_SANTA_FE";"Santa Fe";"18.00";16,5;5
+"Ceres Aerodrome";2019-10-02;"CN_SANTA_FE";"Santa Fe";"20.80";12,6;0,8
+"Ceres Aerodrome";2019-10-03;"CN_SANTA_FE";"Santa Fe";"13.80";12,8;9
+"Ceres Aerodrome";2019-10-04;"CN_SANTA_FE";"Santa Fe";"14.40";12,8;0,1
+"Ceres Aerodrome";2019-10-05;"CN_SANTA_FE";"Santa Fe";"20.40";10,6;0
+"Ceres Aerodrome";2019-10-06;"CN_SANTA_FE";"Santa Fe";"24.00";7;0
+"Ceres Aerodrome";2019-10-07;"CN_SANTA_FE";"Santa Fe";"29.60";10,6;0
+"Ceres Aerodrome";2019-10-08;"CN_SANTA_FE";"Santa Fe";"30.30";14,8;0
+"Ceres Aerodrome";2019-10-09;"CN_SANTA_FE";"Santa Fe";"32.50";15,8;0
+"Ceres Aerodrome";2019-10-10;"CN_SANTA_FE";"Santa Fe";"36.20";17;0
+"Ceres Aerodrome";2019-10-11;"CN_SANTA_FE";"Santa Fe";"39.50";22;0
+"Ceres Aerodrome";2019-10-12;"CN_SANTA_FE";"Santa Fe";"41.00";26,5;0
+"Ceres Aerodrome";2019-10-13;"CN_SANTA_FE";"Santa Fe";"23.00";18;9
+"Ceres Aerodrome";2019-10-14;"CN_SANTA_FE";"Santa Fe";"12.00";10,5;3
+"Ceres Aerodrome";2019-10-15;"CN_SANTA_FE";"Santa Fe";"11.20";7,4;2
+"Ceres Aerodrome";2019-10-16;"CN_SANTA_FE";"Santa Fe";"16.40";10,7;0
+"Cordoba Aerodrome";2019-07-19;"CN_CORDOBA";"Cordoba";"21.10";0,8;0
+"Cordoba Aerodrome";2019-07-20;"CN_CORDOBA";"Cordoba";"24.40";4,2;0
+"Cordoba Aerodrome";2019-07-21;"CN_CORDOBA";"Cordoba";"23.60";15,1;1e-04
+"Cordoba Aerodrome";2019-07-22;"CN_CORDOBA";"Cordoba";"14.60";6,3;0
+"Cordoba Aerodrome";2019-07-23;"CN_CORDOBA";"Cordoba";"10.00";5,4;0,6
+"Cordoba Aerodrome";2019-07-24;"CN_CORDOBA";"Cordoba";"12.10";4,4;1e-04
+"Cordoba Aerodrome";2019-07-25;"CN_CORDOBA";"Cordoba";"10.20";4,5;0,5
+"Cordoba Aerodrome";2019-07-26;"CN_CORDOBA";"Cordoba";"17.10";-3,4;0
+"Cordoba Aerodrome";2019-07-27;"CN_CORDOBA";"Cordoba";"19.10";0,8;0
+"Cordoba Aerodrome";2019-07-28;"CN_CORDOBA";"Cordoba";"12.40";4,8;1e-04
+"Cordoba Aerodrome";2019-07-29;"CN_CORDOBA";"Cordoba";"18.10";5,6;0
+"Cordoba Aerodrome";2019-07-30;"CN_CORDOBA";"Cordoba";"24.90";4,2;0
+"Cordoba Aerodrome";2019-07-31;"CN_CORDOBA";"Cordoba";"26.20";1,4;0
+"Cordoba Aerodrome";2019-08-01;"CN_CORDOBA";"Cordoba";"18.90";9,6;0
+"Cordoba Aerodrome";2019-08-02;"CN_CORDOBA";"Cordoba";"17.00";0,7;0
+"Cordoba Aerodrome";2019-08-03;"CN_CORDOBA";"Cordoba";"20.00";-2,9;0
+"Cordoba Aerodrome";2019-08-04;"CN_CORDOBA";"Cordoba";"22.30";0,6;0
+"Cordoba Aerodrome";2019-08-05;"CN_CORDOBA";"Cordoba";"25.40";4,3;0
+"Cordoba Aerodrome";2019-08-06;"CN_CORDOBA";"Cordoba";"28.30";9;0
+"Cordoba Aerodrome";2019-08-07;"CN_CORDOBA";"Cordoba";"17.20";6,4;0
+"Cordoba Aerodrome";2019-08-08;"CN_CORDOBA";"Cordoba";"11.00";4,4;1e-04
+"Cordoba Aerodrome";2019-08-09;"CN_CORDOBA";"Cordoba";"14.50";4,4;0
+"Cordoba Aerodrome";2019-08-10;"CN_CORDOBA";"Cordoba";"21.40";-1,2;0
+"Cordoba Aerodrome";2019-08-11;"CN_CORDOBA";"Cordoba";"23.30";2,2;0
+"Cordoba Aerodrome";2019-08-12;"CN_CORDOBA";"Cordoba";"18.00";4;0
+"Cordoba Aerodrome";2019-08-13;"CN_CORDOBA";"Cordoba";"13.30";-1,7;0
+"Cordoba Aerodrome";2019-08-14;"CN_CORDOBA";"Cordoba";"14.60";0,6;0
+"Cordoba Aerodrome";2019-08-15;"CN_CORDOBA";"Cordoba";"20.30";-0,6;0
+"Cordoba Aerodrome";2019-08-16;"CN_CORDOBA";"Cordoba";"25.00";0,4;0
+"Cordoba Aerodrome";2019-08-17;"CN_CORDOBA";"Cordoba";"23.10";7,5;0
+"Cordoba Aerodrome";2019-08-18;"CN_CORDOBA";"Cordoba";"17.90";2,4;0
+"Cordoba Aerodrome";2019-08-19;"CN_CORDOBA";"Cordoba";"13.20";4,8;0
+"Cordoba Aerodrome";2019-08-20;"CN_CORDOBA";"Cordoba";"13.70";1;0
+"Cordoba Aerodrome";2019-08-21;"CN_CORDOBA";"Cordoba";"17.50";-2,1;0
+"Cordoba Aerodrome";2019-08-22;"CN_CORDOBA";"Cordoba";"22.70";3,5;0
+"Cordoba Aerodrome";2019-08-23;"CN_CORDOBA";"Cordoba";"21.30";4,5;0
+"Cordoba Aerodrome";2019-08-24;"CN_CORDOBA";"Cordoba";"23.00";3,3;0
+"Cordoba Aerodrome";2019-08-25;"CN_CORDOBA";"Cordoba";"25.70";7,6;0
+"Cordoba Aerodrome";2019-08-26;"CN_CORDOBA";"Cordoba";"27.20";6,7;0
+"Cordoba Aerodrome";2019-08-27;"CN_CORDOBA";"Cordoba";"28.60";11;0
+"Cordoba Aerodrome";2019-08-28;"CN_CORDOBA";"Cordoba";"34.40";14,1;0
+"Cordoba Aerodrome";2019-08-29;"CN_CORDOBA";"Cordoba";"23.40";16,6;0
+"Cordoba Aerodrome";2019-08-30;"CN_CORDOBA";"Cordoba";"20.00";6,7;0
+"Cordoba Aerodrome";2019-08-31;"CN_CORDOBA";"Cordoba";"21.00";1,3;0
+"Cordoba Aerodrome";2019-09-01;"CN_CORDOBA";"Cordoba";"19.20";2;0
+"Cordoba Aerodrome";2019-09-02;"CN_CORDOBA";"Cordoba";"20.20";3,2;0
+"Cordoba Aerodrome";2019-09-03;"CN_CORDOBA";"Cordoba";"13.70";-0,7;0
+"Cordoba Aerodrome";2019-09-04;"CN_CORDOBA";"Cordoba";"12.00";-1,2;0
+"Cordoba Aerodrome";2019-09-05;"CN_CORDOBA";"Cordoba";"16.00";5;0
+"Cordoba Aerodrome";2019-09-06;"CN_CORDOBA";"Cordoba";"19.20";3,5;0
+"Cordoba Aerodrome";2019-09-07;"CN_CORDOBA";"Cordoba";"20.30";0,3;0
+"Cordoba Aerodrome";2019-09-08;"CN_CORDOBA";"Cordoba";"21.70";4,5;2
+"Cordoba Aerodrome";2019-09-09;"CN_CORDOBA";"Cordoba";"16.60";10,6;3
+"Cordoba Aerodrome";2019-09-10;"CN_CORDOBA";"Cordoba";"13.90";7,7;2
+"Cordoba Aerodrome";2019-09-11;"CN_CORDOBA";"Cordoba";"16.00";7;1e-04
+"Cordoba Aerodrome";2019-09-12;"CN_CORDOBA";"Cordoba";"20.80";2,5;0
+"Cordoba Aerodrome";2019-09-13;"CN_CORDOBA";"Cordoba";"20.60";4;0
+"Cordoba Aerodrome";2019-09-14;"CN_CORDOBA";"Cordoba";"25.10";6,2;0
+"Cordoba Aerodrome";2019-09-15;"CN_CORDOBA";"Cordoba";"34.30";10,6;1e-04
+"Cordoba Aerodrome";2019-09-16;"CN_CORDOBA";"Cordoba";"19.40";12,6;0
+"Cordoba Aerodrome";2019-09-17;"CN_CORDOBA";"Cordoba";"20.60";3,4;0
+"Cordoba Aerodrome";2019-09-18;"CN_CORDOBA";"Cordoba";"28.30";7,8;0
+"Cordoba Aerodrome";2019-09-19;"CN_CORDOBA";"Cordoba";"18.20";10,6;0
+"Cordoba Aerodrome";2019-09-20;"CN_CORDOBA";"Cordoba";"20.50";1,2;0
+"Cordoba Aerodrome";2019-09-21;"CN_CORDOBA";"Cordoba";"26.40";2,4;0
+"Cordoba Aerodrome";2019-09-22;"CN_CORDOBA";"Cordoba";"24.30";1,5;0
+"Cordoba Aerodrome";2019-09-23;"CN_CORDOBA";"Cordoba";"23.20";8,7;0
+"Cordoba Aerodrome";2019-09-24;"CN_CORDOBA";"Cordoba";"28.00";8,8;0
+"Cordoba Aerodrome";2019-09-25;"CN_CORDOBA";"Cordoba";"30.50";8;0
+"Cordoba Aerodrome";2019-09-26;"CN_CORDOBA";"Cordoba";"30.50";8,6;0
+"Cordoba Aerodrome";2019-09-27;"CN_CORDOBA";"Cordoba";"28.40";9,3;0
+"Cordoba Aerodrome";2019-09-28;"CN_CORDOBA";"Cordoba";"31.30";12,9;0
+"Cordoba Aerodrome";2019-09-29;"CN_CORDOBA";"Cordoba";"36.00";16,6;0
+"Cordoba Aerodrome";2019-09-30;"CN_CORDOBA";"Cordoba";"36.70";16,5;1e-04
+"Cordoba Aerodrome";2019-10-01;"CN_CORDOBA";"Cordoba";"20.40";14,2;0
+"Cordoba Aerodrome";2019-10-02;"CN_CORDOBA";"Cordoba";"21.40";5,2;0,7
+"Cordoba Aerodrome";2019-10-03;"CN_CORDOBA";"Cordoba";"11.00";8,2;2
+"Cordoba Aerodrome";2019-10-04;"CN_CORDOBA";"Cordoba";"12.60";8,1;0
+"Cordoba Aerodrome";2019-10-05;"CN_CORDOBA";"Cordoba";"21.40";3;0
+"Cordoba Aerodrome";2019-10-06;"CN_CORDOBA";"Cordoba";"26.00";5,9;0
+"Cordoba Aerodrome";2019-10-07;"CN_CORDOBA";"Cordoba";"26.30";10,1;0
+"Cordoba Aerodrome";2019-10-08;"CN_CORDOBA";"Cordoba";"26.50";9,8;0
+"Cordoba Aerodrome";2019-10-09;"CN_CORDOBA";"Cordoba";"35.60";10,5;0
+"Cordoba Aerodrome";2019-10-10;"CN_CORDOBA";"Cordoba";"36.80";13,1;0
+"Cordoba Aerodrome";2019-10-11;"CN_CORDOBA";"Cordoba";"34.30";16,3;0
+"Cordoba Aerodrome";2019-10-12;"CN_CORDOBA";"Cordoba";"30.60";17;10
+"Cordoba Aerodrome";2019-10-13;"CN_CORDOBA";"Cordoba";"24.00";17,1;38
+"Cordoba Aerodrome";2019-10-14;"CN_CORDOBA";"Cordoba";"9.60";9,6;1
+"Cordoba Aerodrome";2019-10-15;"CN_CORDOBA";"Cordoba";"11.30";6,6;1
+"Cordoba Aerodrome";2019-10-16;"CN_CORDOBA";"Cordoba";"14.20";8,1;0
+"Parana Aerodrome";2019-07-19;"C_ENTRE_RIOS";"Entre Rios";"21.10";8,5;0
+"Parana Aerodrome";2019-07-20;"C_ENTRE_RIOS";"Entre Rios";"23.10";11;0
+"Parana Aerodrome";2019-07-21;"C_ENTRE_RIOS";"Entre Rios";"26.00";19,3;0,3
+"Parana Aerodrome";2019-07-22;"C_ENTRE_RIOS";"Entre Rios";"15.50";12,5;0
+"Parana Aerodrome";2019-07-23;"C_ENTRE_RIOS";"Entre Rios";"12.00";9;3
+"Parana Aerodrome";2019-07-24;"C_ENTRE_RIOS";"Entre Rios";"11.70";7;22
+"Parana Aerodrome";2019-07-25;"C_ENTRE_RIOS";"Entre Rios";"9.90";6,5;19
+"Parana Aerodrome";2019-07-26;"C_ENTRE_RIOS";"Entre Rios";"11.70";9;1e-04
+"Parana Aerodrome";2019-07-27;"C_ENTRE_RIOS";"Entre Rios";"16.50";3,5;0
+"Parana Aerodrome";2019-07-28;"C_ENTRE_RIOS";"Entre Rios";"12.70";9,2;0,3
+"Parana Aerodrome";2019-07-29;"C_ENTRE_RIOS";"Entre Rios";"15.50";10;0
+"Parana Aerodrome";2019-07-30;"C_ENTRE_RIOS";"Entre Rios";"17.20";5,6;0
+"Parana Aerodrome";2019-07-31;"C_ENTRE_RIOS";"Entre Rios";"22.40";10,5;0
+"Parana Aerodrome";2019-08-01;"C_ENTRE_RIOS";"Entre Rios";"17.20";12,6;0
+"Parana Aerodrome";2019-08-02;"C_ENTRE_RIOS";"Entre Rios";"15.80";5,4;0
+"Parana Aerodrome";2019-08-03;"C_ENTRE_RIOS";"Entre Rios";"16.90";4,7;0
+"Parana Aerodrome";2019-08-04;"C_ENTRE_RIOS";"Entre Rios";"16.50";3,4;0
+"Parana Aerodrome";2019-08-05;"C_ENTRE_RIOS";"Entre Rios";"18.70";7,2;0
+"Parana Aerodrome";2019-08-06;"C_ENTRE_RIOS";"Entre Rios";"24.20";12,6;0
+"Parana Aerodrome";2019-08-07;"C_ENTRE_RIOS";"Entre Rios";"19.50";11,4;0
+"Parana Aerodrome";2019-08-08;"C_ENTRE_RIOS";"Entre Rios";"12.40";10,9;3
+"Parana Aerodrome";2019-08-09;"C_ENTRE_RIOS";"Entre Rios";"8.80";7,6;2
+"Parana Aerodrome";2019-08-10;"C_ENTRE_RIOS";"Entre Rios";"15.80";4,4;0
+"Parana Aerodrome";2019-08-11;"C_ENTRE_RIOS";"Entre Rios";"18.20";4,2;0
+"Parana Aerodrome";2019-08-12;"C_ENTRE_RIOS";"Entre Rios";"17.30";9;0
+"Parana Aerodrome";2019-08-13;"C_ENTRE_RIOS";"Entre Rios";"11.20";3,5;0
+"Parana Aerodrome";2019-08-14;"C_ENTRE_RIOS";"Entre Rios";"12.60";-0,5;0
+"Parana Aerodrome";2019-08-15;"C_ENTRE_RIOS";"Entre Rios";"16.70";2,1;0
+"Parana Aerodrome";2019-08-16;"C_ENTRE_RIOS";"Entre Rios";"24.20";8;0
+"Parana Aerodrome";2019-08-17;"C_ENTRE_RIOS";"Entre Rios";"23.70";16;0
+"Parana Aerodrome";2019-08-18;"C_ENTRE_RIOS";"Entre Rios";"16.30";7,4;0
+"Parana Aerodrome";2019-08-19;"C_ENTRE_RIOS";"Entre Rios";"12.90";3;0
+"Parana Aerodrome";2019-08-20;"C_ENTRE_RIOS";"Entre Rios";"14.90";1,8;0
+"Parana Aerodrome";2019-08-21;"C_ENTRE_RIOS";"Entre Rios";"18.60";2,8;0
+"Parana Aerodrome";2019-08-22;"C_ENTRE_RIOS";"Entre Rios";"19.10";8,4;0
+"Parana Aerodrome";2019-08-23;"C_ENTRE_RIOS";"Entre Rios";"19.60";5,1;0
+"Parana Aerodrome";2019-08-24;"C_ENTRE_RIOS";"Entre Rios";"20.90";5,6;0
+"Parana Aerodrome";2019-08-25;"C_ENTRE_RIOS";"Entre Rios";"22.20";11,1;11
+"Parana Aerodrome";2019-08-26;"C_ENTRE_RIOS";"Entre Rios";"22.90";13,9;0
+"Parana Aerodrome";2019-08-27;"C_ENTRE_RIOS";"Entre Rios";"26.30";14;0
+"Parana Aerodrome";2019-08-28;"C_ENTRE_RIOS";"Entre Rios";"28.80";16,6;0
+"Parana Aerodrome";2019-08-29;"C_ENTRE_RIOS";"Entre Rios";"26.10";20,4;7
+"Parana Aerodrome";2019-08-30;"C_ENTRE_RIOS";"Entre Rios";"17.80";11,5;0
+"Parana Aerodrome";2019-08-31;"C_ENTRE_RIOS";"Entre Rios";"19.90";8;0
+"Parana Aerodrome";2019-09-01;"C_ENTRE_RIOS";"Entre Rios";"19.50";8,5;0
+"Parana Aerodrome";2019-09-02;"C_ENTRE_RIOS";"Entre Rios";"20.40";5;0,2
+"Parana Aerodrome";2019-09-03;"C_ENTRE_RIOS";"Entre Rios";"12.80";2;0
+"Parana Aerodrome";2019-09-04;"C_ENTRE_RIOS";"Entre Rios";"15.50";4,2;0
+"Parana Aerodrome";2019-09-05;"C_ENTRE_RIOS";"Entre Rios";"14.70";5,7;0
+"Parana Aerodrome";2019-09-06;"C_ENTRE_RIOS";"Entre Rios";"16.70";5,3;1e-04
+"Parana Aerodrome";2019-09-07;"C_ENTRE_RIOS";"Entre Rios";"20.50";11,9;1e-04
+"Parana Aerodrome";2019-09-08;"C_ENTRE_RIOS";"Entre Rios";"20.00";10,3;43
+"Parana Aerodrome";2019-09-09;"C_ENTRE_RIOS";"Entre Rios";"15.60";13,1;10
+"Parana Aerodrome";2019-09-10;"C_ENTRE_RIOS";"Entre Rios";"18.00";12;0
+"Parana Aerodrome";2019-09-11;"C_ENTRE_RIOS";"Entre Rios";"18.30";9,7;0
+"Parana Aerodrome";2019-09-12;"C_ENTRE_RIOS";"Entre Rios";"17.10";7,5;0
+"Parana Aerodrome";2019-09-13;"C_ENTRE_RIOS";"Entre Rios";"20.00";6;0
+"Parana Aerodrome";2019-09-14;"C_ENTRE_RIOS";"Entre Rios";"22.20";10,5;0
+"Parana Aerodrome";2019-09-15;"C_ENTRE_RIOS";"Entre Rios";"29.50";10,7;0
+"Parana Aerodrome";2019-09-16;"C_ENTRE_RIOS";"Entre Rios";"20.70";13,7;0
+"Parana Aerodrome";2019-09-17;"C_ENTRE_RIOS";"Entre Rios";"20.70";7,6;0
+"Parana Aerodrome";2019-09-18;"C_ENTRE_RIOS";"Entre Rios";"24.90";10,8;0
+"Parana Aerodrome";2019-09-19;"C_ENTRE_RIOS";"Entre Rios";"20.00";13,8;0
+"Parana Aerodrome";2019-09-20;"C_ENTRE_RIOS";"Entre Rios";"20.00";4,5;0
+"Parana Aerodrome";2019-09-21;"C_ENTRE_RIOS";"Entre Rios";"22.80";5,7;0
+"Parana Aerodrome";2019-09-22;"C_ENTRE_RIOS";"Entre Rios";"23.10";7,1;0
+"Parana Aerodrome";2019-09-23;"C_ENTRE_RIOS";"Entre Rios";"23.50";6,9;0
+"Parana Aerodrome";2019-09-24;"C_ENTRE_RIOS";"Entre Rios";"27.00";8,6;0
+"Parana Aerodrome";2019-09-25;"C_ENTRE_RIOS";"Entre Rios";"28.20";11,5;0
+"Parana Aerodrome";2019-09-26;"C_ENTRE_RIOS";"Entre Rios";"28.90";13,5;0
+"Parana Aerodrome";2019-09-27;"C_ENTRE_RIOS";"Entre Rios";"27.00";13,5;0
+"Parana Aerodrome";2019-09-28;"C_ENTRE_RIOS";"Entre Rios";"27.40";11,6;0
+"Parana Aerodrome";2019-09-29;"C_ENTRE_RIOS";"Entre Rios";"30.90";13,6;0
+"Parana Aerodrome";2019-09-30;"C_ENTRE_RIOS";"Entre Rios";"35.30";20,9;3
+"Parana Aerodrome";2019-10-01;"C_ENTRE_RIOS";"Entre Rios";"15.10";14,2;0,6
+"Parana Aerodrome";2019-10-02;"C_ENTRE_RIOS";"Entre Rios";"16.70";11,8;0
+"Parana Aerodrome";2019-10-03;"C_ENTRE_RIOS";"Entre Rios";"17.20";11,6;5
+"Parana Aerodrome";2019-10-04;"C_ENTRE_RIOS";"Entre Rios";"14.70";13;2
+"Parana Aerodrome";2019-10-05;"C_ENTRE_RIOS";"Entre Rios";"19.00";10,9;0
+"Parana Aerodrome";2019-10-06;"C_ENTRE_RIOS";"Entre Rios";"22.00";8,5;0
+"Parana Aerodrome";2019-10-07;"C_ENTRE_RIOS";"Entre Rios";"27.00";11,5;3
+"Parana Aerodrome";2019-10-08;"C_ENTRE_RIOS";"Entre Rios";"19.10";14,9;4
+"Parana Aerodrome";2019-10-09;"C_ENTRE_RIOS";"Entre Rios";"28.70";14,4;0
+"Parana Aerodrome";2019-10-10;"C_ENTRE_RIOS";"Entre Rios";"31.10";16,5;0
+"Parana Aerodrome";2019-10-11;"C_ENTRE_RIOS";"Entre Rios";"36.50";23,2;0
+"Parana Aerodrome";2019-10-12;"C_ENTRE_RIOS";"Entre Rios";"37.20";24,9;19
+"Parana Aerodrome";2019-10-13;"C_ENTRE_RIOS";"Entre Rios";"22.00";17,8;4
+"Parana Aerodrome";2019-10-14;"C_ENTRE_RIOS";"Entre Rios";"13.30";9,1;0,2
+"Parana Aerodrome";2019-10-15;"C_ENTRE_RIOS";"Entre Rios";"12.20";8,1;5
+"Parana Aerodrome";2019-10-16;"C_ENTRE_RIOS";"Entre Rios";"16.20";12;0
+"Laboulaye";2019-07-19;"S_CORDOBA";"Cordoba";"17.90";-2,1;0
+"Laboulaye";2019-07-20;"S_CORDOBA";"Cordoba";"19.30";3,7;0
+"Laboulaye";2019-07-21;"S_CORDOBA";"Cordoba";"17.40";12,5;0
+"Laboulaye";2019-07-22;"S_CORDOBA";"Cordoba";"14.30";7,5;0
+"Laboulaye";2019-07-23;"S_CORDOBA";"Cordoba";"9.90";5;1e-04
+"Laboulaye";2019-07-24;"S_CORDOBA";"Cordoba";"14.10";5,7;0
+"Laboulaye";2019-07-25;"S_CORDOBA";"Cordoba";"12.90";1,2;0
+"Laboulaye";2019-07-26;"S_CORDOBA";"Cordoba";"16.50";0,1;0
+"Laboulaye";2019-07-27;"S_CORDOBA";"Cordoba";"19.80";0,4;0
+"Laboulaye";2019-07-28;"S_CORDOBA";"Cordoba";"13.30";3,9;0
+"Laboulaye";2019-07-29;"S_CORDOBA";"Cordoba";"15.70";6,1;0
+"Laboulaye";2019-07-30;"S_CORDOBA";"Cordoba";"22.90";1,9;0
+"Laboulaye";2019-07-31;"S_CORDOBA";"Cordoba";"21.40";4,2;0
+"Laboulaye";2019-08-01;"S_CORDOBA";"Cordoba";"17.70";5,9;0
+"Laboulaye";2019-08-02;"S_CORDOBA";"Cordoba";"17.30";1,5;0
+"Laboulaye";2019-08-03;"S_CORDOBA";"Cordoba";"20.40";-0,2;0
+"Laboulaye";2019-08-04;"S_CORDOBA";"Cordoba";"20.90";0,5;0
+"Laboulaye";2019-08-05;"S_CORDOBA";"Cordoba";"22.50";1,8;0
+"Laboulaye";2019-08-06;"S_CORDOBA";"Cordoba";"21.70";2,4;0
+"Laboulaye";2019-08-07;"S_CORDOBA";"Cordoba";"16.00";1,5;0
+"Laboulaye";2019-08-08;"S_CORDOBA";"Cordoba";"12.20";1,7;1e-04
+"Laboulaye";2019-08-09;"S_CORDOBA";"Cordoba";"15.30";5,3;0
+"Laboulaye";2019-08-10;"S_CORDOBA";"Cordoba";"20.90";-2;0
+"Laboulaye";2019-08-11;"S_CORDOBA";"Cordoba";"21.10";0,1;0
+"Laboulaye";2019-08-12;"S_CORDOBA";"Cordoba";"14.60";3;0
+"Laboulaye";2019-08-13;"S_CORDOBA";"Cordoba";"12.10";-2,6;0
+"Laboulaye";2019-08-14;"S_CORDOBA";"Cordoba";"14.60";-1,6;0
+"Laboulaye";2019-08-15;"S_CORDOBA";"Cordoba";"17.10";-0,4;0
+"Laboulaye";2019-08-16;"S_CORDOBA";"Cordoba";"22.30";0,7;0
+"Laboulaye";2019-08-17;"S_CORDOBA";"Cordoba";"20.80";6,5;0
+"Laboulaye";2019-08-18;"S_CORDOBA";"Cordoba";"14.60";3,6;0
+"Laboulaye";2019-08-19;"S_CORDOBA";"Cordoba";"12.70";3,8;0
+"Laboulaye";2019-08-20;"S_CORDOBA";"Cordoba";"15.60";4,8;0
+"Laboulaye";2019-08-21;"S_CORDOBA";"Cordoba";"18.30";2,2;0
+"Laboulaye";2019-08-22;"S_CORDOBA";"Cordoba";"20.70";4,2;0
+"Laboulaye";2019-08-23;"S_CORDOBA";"Cordoba";"22.00";4;0
+"Laboulaye";2019-08-24;"S_CORDOBA";"Cordoba";"22.30";5,6;0
+"Laboulaye";2019-08-25;"S_CORDOBA";"Cordoba";"23.70";3,9;0
+"Laboulaye";2019-08-26;"S_CORDOBA";"Cordoba";"24.30";4,9;0
+"Laboulaye";2019-08-27;"S_CORDOBA";"Cordoba";"27.00";11;0
+"Laboulaye";2019-08-28;"S_CORDOBA";"Cordoba";"29.00";15,8;0
+"Laboulaye";2019-08-29;"S_CORDOBA";"Cordoba";"18.90";14,8;0
+"Laboulaye";2019-08-30;"S_CORDOBA";"Cordoba";"18.80";7,2;0
+"Laboulaye";2019-08-31;"S_CORDOBA";"Cordoba";"20.70";2,7;0
+"Laboulaye";2019-09-01;"S_CORDOBA";"Cordoba";"16.40";1,9;0
+"Laboulaye";2019-09-02;"S_CORDOBA";"Cordoba";"13.40";2,1;0
+"Laboulaye";2019-09-03;"S_CORDOBA";"Cordoba";"14.40";-3,2;0
+"Laboulaye";2019-09-04;"S_CORDOBA";"Cordoba";"15.90";-2;0
+"Laboulaye";2019-09-05;"S_CORDOBA";"Cordoba";"14.60";6,9;0
+"Laboulaye";2019-09-06;"S_CORDOBA";"Cordoba";"19.50";3,6;0
+"Laboulaye";2019-09-07;"S_CORDOBA";"Cordoba";"20.70";3,7;0
+"Laboulaye";2019-09-08;"S_CORDOBA";"Cordoba";"23.50";3,8;2
+"Laboulaye";2019-09-09;"S_CORDOBA";"Cordoba";"13.00";10,7;4
+"Laboulaye";2019-09-10;"S_CORDOBA";"Cordoba";"19.20";7,9;0,3
+"Laboulaye";2019-09-11;"S_CORDOBA";"Cordoba";"10.10";7,4;3
+"Laboulaye";2019-09-12;"S_CORDOBA";"Cordoba";"21.30";0,7;0
+"Laboulaye";2019-09-13;"S_CORDOBA";"Cordoba";"22.40";2,6;0
+"Laboulaye";2019-09-14;"S_CORDOBA";"Cordoba";"24.60";2;0
+"Laboulaye";2019-09-15;"S_CORDOBA";"Cordoba";"28.70";8,2;0
+"Laboulaye";2019-09-16;"S_CORDOBA";"Cordoba";"19.60";10,1;0
+"Laboulaye";2019-09-17;"S_CORDOBA";"Cordoba";"27.60";5,4;0
+"Laboulaye";2019-09-18;"S_CORDOBA";"Cordoba";"27.30";6,5;0
+"Laboulaye";2019-09-19;"S_CORDOBA";"Cordoba";"17.30";10,8;0
+"Laboulaye";2019-09-20;"S_CORDOBA";"Cordoba";"21.90";2,5;0
+"Laboulaye";2019-09-21;"S_CORDOBA";"Cordoba";"23.90";3,4;0
+"Laboulaye";2019-09-22;"S_CORDOBA";"Cordoba";"24.90";3,1;0
+"Laboulaye";2019-09-23;"S_CORDOBA";"Cordoba";"26.80";5,8;0
+"Laboulaye";2019-09-24;"S_CORDOBA";"Cordoba";"30.50";8;0
+"Laboulaye";2019-09-25;"S_CORDOBA";"Cordoba";"32.70";7,3;0
+"Laboulaye";2019-09-26;"S_CORDOBA";"Cordoba";"32.30";9,3;0
+"Laboulaye";2019-09-27;"S_CORDOBA";"Cordoba";"28.80";13,9;0
+"Laboulaye";2019-09-28;"S_CORDOBA";"Cordoba";"31.70";10,9;0
+"Laboulaye";2019-09-29;"S_CORDOBA";"Cordoba";"35.60";14,4;0
+"Laboulaye";2019-09-30;"S_CORDOBA";"Cordoba";"24.90";19,5;0,9
+"Laboulaye";2019-10-01;"S_CORDOBA";"Cordoba";"21.70";9,5;0
+"Laboulaye";2019-10-02;"S_CORDOBA";"Cordoba";"21.30";3,9;0
+"Laboulaye";2019-10-03;"S_CORDOBA";"Cordoba";"12.30";4,6;0,7
+"Laboulaye";2019-10-04;"S_CORDOBA";"Cordoba";"13.50";6,8;0
+"Laboulaye";2019-10-05;"S_CORDOBA";"Cordoba";"23.10";-0,4;0
+"Laboulaye";2019-10-06;"S_CORDOBA";"Cordoba";"26.30";3,9;0
+"Laboulaye";2019-10-07;"S_CORDOBA";"Cordoba";"24.00";7,9;0
+"Laboulaye";2019-10-08;"S_CORDOBA";"Cordoba";"27.20";8,5;0
+"Laboulaye";2019-10-09;"S_CORDOBA";"Cordoba";"32.30";9,7;0
+"Laboulaye";2019-10-10;"S_CORDOBA";"Cordoba";"33.70";14,8;5
+"Laboulaye";2019-10-11;"S_CORDOBA";"Cordoba";"31.20";19,8;1e-04
+"Laboulaye";2019-10-12;"S_CORDOBA";"Cordoba";"28.50";18,7;0
+"Laboulaye";2019-10-13;"S_CORDOBA";"Cordoba";"22.30";13,7;0
+"Laboulaye";2019-10-14;"S_CORDOBA";"Cordoba";"13.70";9;0,5
+"Laboulaye";2019-10-15;"S_CORDOBA";"Cordoba";"10.90";7,8;4
+"Laboulaye";2019-10-16;"S_CORDOBA";"Cordoba";"14.00";9,5;0
+"Junin Aerodrome";2019-07-19;"S_BELT";"Buenos Aires";"18.50";1,4;0
+"Junin Aerodrome";2019-07-20;"S_BELT";"Buenos Aires";"19.90";5,2;0
+"Junin Aerodrome";2019-07-21;"S_BELT";"Buenos Aires";"20.50";17,6;0,8
+"Junin Aerodrome";2019-07-22;"S_BELT";"Buenos Aires";"12.90";7,8;0
+"Junin Aerodrome";2019-07-23;"S_BELT";"Buenos Aires";"10.00";4;0
+"Junin Aerodrome";2019-07-24;"S_BELT";"Buenos Aires";"14.70";1,4;0
+"Junin Aerodrome";2019-07-25;"S_BELT";"Buenos Aires";"12.60";3,8;2
+"Junin Aerodrome";2019-07-26;"S_BELT";"Buenos Aires";"14.60";6,9;1e-04
+"Junin Aerodrome";2019-07-27;"S_BELT";"Buenos Aires";"21.60";0,2;0
+"Junin Aerodrome";2019-07-28;"S_BELT";"Buenos Aires";"14.50";2,6;1e-04
+"Junin Aerodrome";2019-07-29;"S_BELT";"Buenos Aires";"12.50";8,2;0
+"Junin Aerodrome";2019-07-30;"S_BELT";"Buenos Aires";"21.60";0,6;0
+"Junin Aerodrome";2019-07-31;"S_BELT";"Buenos Aires";"20.70";5,5;0
+"Junin Aerodrome";2019-08-01;"S_BELT";"Buenos Aires";"16.00";9,2;0
+"Junin Aerodrome";2019-08-02;"S_BELT";"Buenos Aires";"16.00";3;0
+"Junin Aerodrome";2019-08-03;"S_BELT";"Buenos Aires";"18.00";-1;0
+"Junin Aerodrome";2019-08-04;"S_BELT";"Buenos Aires";"19.50";-0,5;0
+"Junin Aerodrome";2019-08-05;"S_BELT";"Buenos Aires";"20.00";5;0
+"Junin Aerodrome";2019-08-06;"S_BELT";"Buenos Aires";"23.50";3;0
+"Junin Aerodrome";2019-08-07;"S_BELT";"Buenos Aires";"17.80";6,5;0
+"Junin Aerodrome";2019-08-08;"S_BELT";"Buenos Aires";"11.40";4,4;0
+"Junin Aerodrome";2019-08-09;"S_BELT";"Buenos Aires";"13.00";5,2;0
+"Junin Aerodrome";2019-08-10;"S_BELT";"Buenos Aires";"19.80";-3,5;0
+"Junin Aerodrome";2019-08-11;"S_BELT";"Buenos Aires";"20.50";1;0
+"Junin Aerodrome";2019-08-12;"S_BELT";"Buenos Aires";"13.30";0,8;0
+"Junin Aerodrome";2019-08-13;"S_BELT";"Buenos Aires";"11.00";-0,8;0
+"Junin Aerodrome";2019-08-14;"S_BELT";"Buenos Aires";"13.40";-4,5;0
+"Junin Aerodrome";2019-08-15;"S_BELT";"Buenos Aires";"16.50";-0,5;0
+"Junin Aerodrome";2019-08-16;"S_BELT";"Buenos Aires";"22.30";0,8;4
+"Junin Aerodrome";2019-08-17;"S_BELT";"Buenos Aires";"19.80";8;0
+"Junin Aerodrome";2019-08-18;"S_BELT";"Buenos Aires";"14.00";4,3;0
+"Junin Aerodrome";2019-08-19;"S_BELT";"Buenos Aires";"7.50";1,2;0
+"Junin Aerodrome";2019-08-20;"S_BELT";"Buenos Aires";"13.00";2,4;0
+"Junin Aerodrome";2019-08-21;"S_BELT";"Buenos Aires";"15.60";1;0
+"Junin Aerodrome";2019-08-22;"S_BELT";"Buenos Aires";"18.20";6,2;0
+"Junin Aerodrome";2019-08-23;"S_BELT";"Buenos Aires";"19.20";2,8;0
+"Junin Aerodrome";2019-08-24;"S_BELT";"Buenos Aires";"19.80";5;0
+"Junin Aerodrome";2019-08-25;"S_BELT";"Buenos Aires";"21.20";5;0
+"Junin Aerodrome";2019-08-26;"S_BELT";"Buenos Aires";"22.50";5,3;0
+"Junin Aerodrome";2019-08-27;"S_BELT";"Buenos Aires";"25.00";11,5;0
+"Junin Aerodrome";2019-08-28;"S_BELT";"Buenos Aires";"28.80";14,5;1e-04
+"Junin Aerodrome";2019-08-29;"S_BELT";"Buenos Aires";"19.20";16,5;1e-04
+"Junin Aerodrome";2019-08-30;"S_BELT";"Buenos Aires";"17.40";11;1e-04
+"Junin Aerodrome";2019-08-31;"S_BELT";"Buenos Aires";"18.80";4,5;0
+"Junin Aerodrome";2019-09-01;"S_BELT";"Buenos Aires";"15.00";3;0
+"Junin Aerodrome";2019-09-02;"S_BELT";"Buenos Aires";"14.40";0,5;0
+"Junin Aerodrome";2019-09-03;"S_BELT";"Buenos Aires";"13.20";-5,4;0
+"Junin Aerodrome";2019-09-04;"S_BELT";"Buenos Aires";"13.00";-0,8;0
+"Junin Aerodrome";2019-09-05;"S_BELT";"Buenos Aires";"13.00";-0,8;0
+"Junin Aerodrome";2019-09-06;"S_BELT";"Buenos Aires";"16.80";4,2;0
+"Junin Aerodrome";2019-09-07;"S_BELT";"Buenos Aires";"18.60";7,5;0
+"Junin Aerodrome";2019-09-08;"S_BELT";"Buenos Aires";"19.50";5,8;1e-04
+"Junin Aerodrome";2019-09-09;"S_BELT";"Buenos Aires";"12.90";11,4;13
+"Junin Aerodrome";2019-09-10;"S_BELT";"Buenos Aires";"18.00";8,5;0,5
+"Junin Aerodrome";2019-09-11;"S_BELT";"Buenos Aires";"13.90";8,2;1
+"Junin Aerodrome";2019-09-12;"S_BELT";"Buenos Aires";"20.30";0,5;0
+"Junin Aerodrome";2019-09-13;"S_BELT";"Buenos Aires";"21.50";3;0
+"Junin Aerodrome";2019-09-14;"S_BELT";"Buenos Aires";"22.20";5;0
+"Junin Aerodrome";2019-09-15;"S_BELT";"Buenos Aires";"26.00";8,7;4
+"Junin Aerodrome";2019-09-16;"S_BELT";"Buenos Aires";"19.00";10,5;0
+"Junin Aerodrome";2019-09-17;"S_BELT";"Buenos Aires";"25.00";-0,1;0
+"Junin Aerodrome";2019-09-18;"S_BELT";"Buenos Aires";"24.80";5;0
+"Junin Aerodrome";2019-09-19;"S_BELT";"Buenos Aires";"16.00";11,7;0
+"Junin Aerodrome";2019-09-20;"S_BELT";"Buenos Aires";"20.40";0,1;0
+"Junin Aerodrome";2019-09-21;"S_BELT";"Buenos Aires";"23.00";2,2;0
+"Junin Aerodrome";2019-09-22;"S_BELT";"Buenos Aires";"22.00";5,8;0
+"Junin Aerodrome";2019-09-23;"S_BELT";"Buenos Aires";"24.50";5,5;0
+"Junin Aerodrome";2019-09-24;"S_BELT";"Buenos Aires";"28.00";5,5;0
+"Junin Aerodrome";2019-09-25;"S_BELT";"Buenos Aires";"30.80";8;0
+"Junin Aerodrome";2019-09-26;"S_BELT";"Buenos Aires";"30.40";9,6;0
+"Junin Aerodrome";2019-09-27;"S_BELT";"Buenos Aires";"25.20";10;0
+"Junin Aerodrome";2019-09-28;"S_BELT";"Buenos Aires";"28.00";11,5;0
+"Junin Aerodrome";2019-09-29;"S_BELT";"Buenos Aires";"33.00";11,8;0
+"Junin Aerodrome";2019-09-30;"S_BELT";"Buenos Aires";"29.20";20,4;5
+"Junin Aerodrome";2019-10-01;"S_BELT";"Buenos Aires";"20.00";10;0
+"Junin Aerodrome";2019-10-02;"S_BELT";"Buenos Aires";"19.80";8,8;0
+"Junin Aerodrome";2019-10-03;"S_BELT";"Buenos Aires";"13.80";3,9;5
+"Junin Aerodrome";2019-10-04;"S_BELT";"Buenos Aires";"13.70";8,6;0,3
+"Junin Aerodrome";2019-10-05;"S_BELT";"Buenos Aires";"20.80";7;0
+"Junin Aerodrome";2019-10-06;"S_BELT";"Buenos Aires";"23.20";5,5;0
+"Junin Aerodrome";2019-10-07;"S_BELT";"Buenos Aires";"25.00";10,7;0
+"Junin Aerodrome";2019-10-08;"S_BELT";"Buenos Aires";"27.00";9;0
+"Junin Aerodrome";2019-10-09;"S_BELT";"Buenos Aires";"27.60";7,8;5
+"Junin Aerodrome";2019-10-10;"S_BELT";"Buenos Aires";"29.50";15,7;6
+"Junin Aerodrome";2019-10-11;"S_BELT";"Buenos Aires";"27.20";18;148
+"Junin Aerodrome";2019-10-12;"S_BELT";"Buenos Aires";"22.60";17;26
+"Junin Aerodrome";2019-10-13;"S_BELT";"Buenos Aires";"19.30";15,5;0
+"Junin Aerodrome";2019-10-14;"S_BELT";"Buenos Aires";"14.50";7,4;4
+"Junin Aerodrome";2019-10-15;"S_BELT";"Buenos Aires";"11.50";6,3;11
+"Junin Aerodrome";2019-10-16;"S_BELT";"Buenos Aires";"16.00";9,8;0
+"Aeroparque Bs. As. Aerodrome";2019-07-19;"C_BUENOSAIRES";"Distrito Federal";"17.00";10,9;0
+"Aeroparque Bs. As. Aerodrome";2019-07-20;"C_BUENOSAIRES";"Distrito Federal";"17.50";12,8;0
+"Aeroparque Bs. As. Aerodrome";2019-07-21;"C_BUENOSAIRES";"Distrito Federal";"26.00";16;26
+"Aeroparque Bs. As. Aerodrome";2019-07-22;"C_BUENOSAIRES";"Distrito Federal";"15.60";10,4;0
+"Aeroparque Bs. As. Aerodrome";2019-07-23;"C_BUENOSAIRES";"Distrito Federal";"12.00";9,5;0
+"Aeroparque Bs. As. Aerodrome";2019-07-24;"C_BUENOSAIRES";"Distrito Federal";"13.50";7,3;0
+"Aeroparque Bs. As. Aerodrome";2019-07-25;"C_BUENOSAIRES";"Distrito Federal";"12.90";9,1;24
+"Aeroparque Bs. As. Aerodrome";2019-07-26;"C_BUENOSAIRES";"Distrito Federal";"14.20";10,6;0,5
+"Aeroparque Bs. As. Aerodrome";2019-07-27;"C_BUENOSAIRES";"Distrito Federal";"14.50";8,3;0
+"Aeroparque Bs. As. Aerodrome";2019-07-28;"C_BUENOSAIRES";"Distrito Federal";"14.80";9,2;0
+"Aeroparque Bs. As. Aerodrome";2019-07-29;"C_BUENOSAIRES";"Distrito Federal";"14.00";11,2;0
+"Aeroparque Bs. As. Aerodrome";2019-07-30;"C_BUENOSAIRES";"Distrito Federal";"15.40";9;0
+"Aeroparque Bs. As. Aerodrome";2019-07-31;"C_BUENOSAIRES";"Distrito Federal";"20.00";10,8;0
+"Aeroparque Bs. As. Aerodrome";2019-08-01;"C_BUENOSAIRES";"Distrito Federal";"16.90";13;0
+"Aeroparque Bs. As. Aerodrome";2019-08-02;"C_BUENOSAIRES";"Distrito Federal";"15.30";7,8;0
+"Aeroparque Bs. As. Aerodrome";2019-08-03;"C_BUENOSAIRES";"Distrito Federal";"16.30";7,2;0
+"Aeroparque Bs. As. Aerodrome";2019-08-04;"C_BUENOSAIRES";"Distrito Federal";"16.50";7,3;0
+"Aeroparque Bs. As. Aerodrome";2019-08-05;"C_BUENOSAIRES";"Distrito Federal";"16.30";8,3;0
+"Aeroparque Bs. As. Aerodrome";2019-08-06;"C_BUENOSAIRES";"Distrito Federal";"20.40";10,8;0
+"Aeroparque Bs. As. Aerodrome";2019-08-07;"C_BUENOSAIRES";"Distrito Federal";"14.80";11,5;0
+"Aeroparque Bs. As. Aerodrome";2019-08-08;"C_BUENOSAIRES";"Distrito Federal";"14.50";10,9;6
+"Aeroparque Bs. As. Aerodrome";2019-08-09;"C_BUENOSAIRES";"Distrito Federal";"9.80";7,8;7
+"Aeroparque Bs. As. Aerodrome";2019-08-10;"C_BUENOSAIRES";"Distrito Federal";"16.50";5,6;0
+"Aeroparque Bs. As. Aerodrome";2019-08-11;"C_BUENOSAIRES";"Distrito Federal";"16.00";7,7;0
+"Aeroparque Bs. As. Aerodrome";2019-08-12;"C_BUENOSAIRES";"Distrito Federal";"12.90";10,6;0
+"Aeroparque Bs. As. Aerodrome";2019-08-13;"C_BUENOSAIRES";"Distrito Federal";"10.50";2,6;0
+"Aeroparque Bs. As. Aerodrome";2019-08-14;"C_BUENOSAIRES";"Distrito Federal";"10.50";2,5;0
+"Aeroparque Bs. As. Aerodrome";2019-08-15;"C_BUENOSAIRES";"Distrito Federal";"13.50";9,1;0
+"Aeroparque Bs. As. Aerodrome";2019-08-16;"C_BUENOSAIRES";"Distrito Federal";"17.20";11,2;15
+"Aeroparque Bs. As. Aerodrome";2019-08-17;"C_BUENOSAIRES";"Distrito Federal";"17.00";13,3;20
+"Aeroparque Bs. As. Aerodrome";2019-08-18;"C_BUENOSAIRES";"Distrito Federal";"12.00";7,3;0
+"Aeroparque Bs. As. Aerodrome";2019-08-19;"C_BUENOSAIRES";"Distrito Federal";"8.10";3,8;0
+"Aeroparque Bs. As. Aerodrome";2019-08-20;"C_BUENOSAIRES";"Distrito Federal";"10.20";6,1;0
+"Aeroparque Bs. As. Aerodrome";2019-08-21;"C_BUENOSAIRES";"Distrito Federal";"11.30";7,5;0
+"Aeroparque Bs. As. Aerodrome";2019-08-22;"C_BUENOSAIRES";"Distrito Federal";"13.00";9,4;0
+"Aeroparque Bs. As. Aerodrome";2019-08-23;"C_BUENOSAIRES";"Distrito Federal";"15.80";7,5;0
+"Aeroparque Bs. As. Aerodrome";2019-08-24;"C_BUENOSAIRES";"Distrito Federal";"16.50";11;0
+"Aeroparque Bs. As. Aerodrome";2019-08-25;"C_BUENOSAIRES";"Distrito Federal";"15.80";11,9;0
+"Aeroparque Bs. As. Aerodrome";2019-08-26;"C_BUENOSAIRES";"Distrito Federal";"18.50";13,3;0
+"Aeroparque Bs. As. Aerodrome";2019-08-27;"C_BUENOSAIRES";"Distrito Federal";"20.50";13,8;0
+"Aeroparque Bs. As. Aerodrome";2019-08-28;"C_BUENOSAIRES";"Distrito Federal";"22.00";15,6;7
+"Aeroparque Bs. As. Aerodrome";2019-08-29;"C_BUENOSAIRES";"Distrito Federal";"22.70";18,9;1e-04
+"Aeroparque Bs. As. Aerodrome";2019-08-30;"C_BUENOSAIRES";"Distrito Federal";"16.30";12,8;1e-04
+"Aeroparque Bs. As. Aerodrome";2019-08-31;"C_BUENOSAIRES";"Distrito Federal";"19.60";10;0
+"Aeroparque Bs. As. Aerodrome";2019-09-01;"C_BUENOSAIRES";"Distrito Federal";"13.90";7,3;0
+"Aeroparque Bs. As. Aerodrome";2019-09-02;"C_BUENOSAIRES";"Distrito Federal";"16.50";7,6;0
+"Aeroparque Bs. As. Aerodrome";2019-09-03;"C_BUENOSAIRES";"Distrito Federal";"13.50";4;0
+"Aeroparque Bs. As. Aerodrome";2019-09-04;"C_BUENOSAIRES";"Distrito Federal";"12.60";4,8;1e-04
+"Aeroparque Bs. As. Aerodrome";2019-09-05;"C_BUENOSAIRES";"Distrito Federal";"11.00";7,3;0
+"Aeroparque Bs. As. Aerodrome";2019-09-06;"C_BUENOSAIRES";"Distrito Federal";"14.80";8,8;0
+"Aeroparque Bs. As. Aerodrome";2019-09-07;"C_BUENOSAIRES";"Distrito Federal";"18.90";12,3;0
+"Aeroparque Bs. As. Aerodrome";2019-09-08;"C_BUENOSAIRES";"Distrito Federal";"16.70";11,8;3
+"Aeroparque Bs. As. Aerodrome";2019-09-09;"C_BUENOSAIRES";"Distrito Federal";"14.10";12,2;18
+"Aeroparque Bs. As. Aerodrome";2019-09-10;"C_BUENOSAIRES";"Distrito Federal";"16.20";11,3;0
+"Aeroparque Bs. As. Aerodrome";2019-09-11;"C_BUENOSAIRES";"Distrito Federal";"15.50";11;1e-04
+"Aeroparque Bs. As. Aerodrome";2019-09-12;"C_BUENOSAIRES";"Distrito Federal";"15.80";8,4;0
+"Aeroparque Bs. As. Aerodrome";2019-09-13;"C_BUENOSAIRES";"Distrito Federal";"15.70";10,7;0
+"Aeroparque Bs. As. Aerodrome";2019-09-14;"C_BUENOSAIRES";"Distrito Federal";"18.00";12,2;0
+"Aeroparque Bs. As. Aerodrome";2019-09-15;"C_BUENOSAIRES";"Distrito Federal";"19.00";13,4;0
+"Aeroparque Bs. As. Aerodrome";2019-09-16;"C_BUENOSAIRES";"Distrito Federal";"20.00";12,3;0
+"Aeroparque Bs. As. Aerodrome";2019-09-17;"C_BUENOSAIRES";"Distrito Federal";"23.70";10,2;0
+"Aeroparque Bs. As. Aerodrome";2019-09-18;"C_BUENOSAIRES";"Distrito Federal";"17.90";13,2;0
+"Aeroparque Bs. As. Aerodrome";2019-09-19;"C_BUENOSAIRES";"Distrito Federal";"19.10";14,5;0
+"Aeroparque Bs. As. Aerodrome";2019-09-20;"C_BUENOSAIRES";"Distrito Federal";"21.00";7,3;0
+"Aeroparque Bs. As. Aerodrome";2019-09-21;"C_BUENOSAIRES";"Distrito Federal";"24.40";10,3;0
+"Aeroparque Bs. As. Aerodrome";2019-09-22;"C_BUENOSAIRES";"Distrito Federal";"15.80";9,3;0
+"Aeroparque Bs. As. Aerodrome";2019-09-23;"C_BUENOSAIRES";"Distrito Federal";"17.80";10,9;0
+"Aeroparque Bs. As. Aerodrome";2019-09-24;"C_BUENOSAIRES";"Distrito Federal";"20.50";11,4;0
+"Aeroparque Bs. As. Aerodrome";2019-09-25;"C_BUENOSAIRES";"Distrito Federal";"30.70";15,3;0
+"Aeroparque Bs. As. Aerodrome";2019-09-26;"C_BUENOSAIRES";"Distrito Federal";"22.50";15,2;0
+"Aeroparque Bs. As. Aerodrome";2019-09-27;"C_BUENOSAIRES";"Distrito Federal";"17.50";13,4;0
+"Aeroparque Bs. As. Aerodrome";2019-09-28;"C_BUENOSAIRES";"Distrito Federal";"21.00";13,4;0
+"Aeroparque Bs. As. Aerodrome";2019-09-29;"C_BUENOSAIRES";"Distrito Federal";"23.30";15,3;0
+"Aeroparque Bs. As. Aerodrome";2019-09-30;"C_BUENOSAIRES";"Distrito Federal";"24.20";18,3;28
+"Aeroparque Bs. As. Aerodrome";2019-10-01;"C_BUENOSAIRES";"Distrito Federal";"15.50";11,9;1
+"Aeroparque Bs. As. Aerodrome";2019-10-02;"C_BUENOSAIRES";"Distrito Federal";"17.00";10,3;0
+"Aeroparque Bs. As. Aerodrome";2019-10-03;"C_BUENOSAIRES";"Distrito Federal";"13.60";7,8;3
+"Aeroparque Bs. As. Aerodrome";2019-10-04;"C_BUENOSAIRES";"Distrito Federal";"15.00";12;2
+"Aeroparque Bs. As. Aerodrome";2019-10-05;"C_BUENOSAIRES";"Distrito Federal";"19.20";10,8;0
+"Aeroparque Bs. As. Aerodrome";2019-10-06;"C_BUENOSAIRES";"Distrito Federal";"19.50";11,8;0
+"Aeroparque Bs. As. Aerodrome";2019-10-07;"C_BUENOSAIRES";"Distrito Federal";"25.40";12,9;0
+"Aeroparque Bs. As. Aerodrome";2019-10-08;"C_BUENOSAIRES";"Distrito Federal";"26.50";14,3;0
+"Aeroparque Bs. As. Aerodrome";2019-10-09;"C_BUENOSAIRES";"Distrito Federal";"23.10";15;9
+"Aeroparque Bs. As. Aerodrome";2019-10-10;"C_BUENOSAIRES";"Distrito Federal";"25.60";17,4;20
+"Aeroparque Bs. As. Aerodrome";2019-10-11;"C_BUENOSAIRES";"Distrito Federal";"21.70";18,3;59
+"Aeroparque Bs. As. Aerodrome";2019-10-12;"C_BUENOSAIRES";"Distrito Federal";"20.30";16,6;28
+"Aeroparque Bs. As. Aerodrome";2019-10-13;"C_BUENOSAIRES";"Distrito Federal";"18.90";17,6;0
+"Aeroparque Bs. As. Aerodrome";2019-10-14;"C_BUENOSAIRES";"Distrito Federal";"12.80";8,8;0
+"Aeroparque Bs. As. Aerodrome";2019-10-15;"C_BUENOSAIRES";"Distrito Federal";"15.30";9,6;8
+"Aeroparque Bs. As. Aerodrome";2019-10-16;"C_BUENOSAIRES";"Distrito Federal";"16.50";11,8;0
+"Santa Rosa Aerodrome";2019-07-19;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"17.90";-2,6;0
+"Santa Rosa Aerodrome";2019-07-20;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"14.00";1;0
+"Santa Rosa Aerodrome";2019-07-21;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"16.50";9,2;0
+"Santa Rosa Aerodrome";2019-07-22;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"13.60";3,2;0
+"Santa Rosa Aerodrome";2019-07-23;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"14.80";-2,5;0
+"Santa Rosa Aerodrome";2019-07-24;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"16.80";-2,5;0
+"Santa Rosa Aerodrome";2019-07-25;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"15.60";-2;0
+"Santa Rosa Aerodrome";2019-07-26;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.10";-1,8;0
+"Santa Rosa Aerodrome";2019-07-27;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"16.20";-0,6;0
+"Santa Rosa Aerodrome";2019-07-28;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"15.20";3,1;0
+"Santa Rosa Aerodrome";2019-07-29;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"21.10";4,4;0
+"Santa Rosa Aerodrome";2019-07-30;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"22.50";9,2;0
+"Santa Rosa Aerodrome";2019-07-31;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"15.30";5,6;0
+"Santa Rosa Aerodrome";2019-08-01;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"15.40";1,9;0
+"Santa Rosa Aerodrome";2019-08-02;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"14.90";3,2;0
+"Santa Rosa Aerodrome";2019-08-03;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"20.50";-0,8;0
+"Santa Rosa Aerodrome";2019-08-04;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"24.90";1,4;0
+"Santa Rosa Aerodrome";2019-08-05;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"16.25";3,6;0
+"Santa Rosa Aerodrome";2019-08-06;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.20";4,8;0
+"Santa Rosa Aerodrome";2019-08-07;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"15.30";4,5;0
+"Santa Rosa Aerodrome";2019-08-08;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"14.20";-4,2;0
+"Santa Rosa Aerodrome";2019-08-09;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"15.90";-3,8;0
+"Santa Rosa Aerodrome";2019-08-10;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"22.50";1,2;0
+"Santa Rosa Aerodrome";2019-08-11;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"20.00";3,3;0
+"Santa Rosa Aerodrome";2019-08-12;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"11.10";3,2;0
+"Santa Rosa Aerodrome";2019-08-13;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"11.30";-5,6;0
+"Santa Rosa Aerodrome";2019-08-14;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"15.30";-1,5;0
+"Santa Rosa Aerodrome";2019-08-15;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"18.30";-0,2;0
+"Santa Rosa Aerodrome";2019-08-16;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.40";-0,2;0
+"Santa Rosa Aerodrome";2019-08-17;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"20.50";2,9;0
+"Santa Rosa Aerodrome";2019-08-18;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"10.40";3;0
+"Santa Rosa Aerodrome";2019-08-19;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"2.90";0,5;3
+"Santa Rosa Aerodrome";2019-08-20;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"10.00";2,2;0
+"Santa Rosa Aerodrome";2019-08-21;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"13.50";2,1;0
+"Santa Rosa Aerodrome";2019-08-22;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"20.00";1,5;0
+"Santa Rosa Aerodrome";2019-08-23;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"21.50";4,8;0
+"Santa Rosa Aerodrome";2019-08-24;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"24.70";7,1;0
+"Santa Rosa Aerodrome";2019-08-25;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"21.40";5,3;0
+"Santa Rosa Aerodrome";2019-08-26;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"26.50";5,4;0
+"Santa Rosa Aerodrome";2019-08-27;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"24.30";11,1;0
+"Santa Rosa Aerodrome";2019-08-28;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"32.10";15,4;0
+"Santa Rosa Aerodrome";2019-08-29;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.40";8,7;0
+"Santa Rosa Aerodrome";2019-08-30;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.48";1,5;0
+"Santa Rosa Aerodrome";2019-08-31;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"18.50";0,8;0
+"Santa Rosa Aerodrome";2019-09-01;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"14.70";1,6;0
+"Santa Rosa Aerodrome";2019-09-02;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"11.00";0,5;0
+"Santa Rosa Aerodrome";2019-09-03;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"15.00";-6,9;0
+"Santa Rosa Aerodrome";2019-09-04;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"11.90";-4,5;0
+"Santa Rosa Aerodrome";2019-09-05;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"9.20";1,5;0
+"Santa Rosa Aerodrome";2019-09-06;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"13.50";2,3;0
+"Santa Rosa Aerodrome";2019-09-07;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"17.50";4,4;0
+"Santa Rosa Aerodrome";2019-09-08;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"20.60";3;0
+"Santa Rosa Aerodrome";2019-09-09;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"15.70";8,4;1e-04
+"Santa Rosa Aerodrome";2019-09-10;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.00";5,8;1e-04
+"Santa Rosa Aerodrome";2019-09-11;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"13.60";3,2;0
+"Santa Rosa Aerodrome";2019-09-12;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.90";3,4;0
+"Santa Rosa Aerodrome";2019-09-13;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"23.30";3,9;0
+"Santa Rosa Aerodrome";2019-09-14;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"25.20";7,2;0
+"Santa Rosa Aerodrome";2019-09-15;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"22.80";9,1;1e-04
+"Santa Rosa Aerodrome";2019-09-16;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.20";7,3;0
+"Santa Rosa Aerodrome";2019-09-17;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"25.90";6,6;0
+"Santa Rosa Aerodrome";2019-09-18;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"26.60";3;0
+"Santa Rosa Aerodrome";2019-09-19;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"17.20";7,4;0
+"Santa Rosa Aerodrome";2019-09-20;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"20.40";1,1;0
+"Santa Rosa Aerodrome";2019-09-21;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"21.80";2,8;0
+"Santa Rosa Aerodrome";2019-09-22;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"23.60";4;0
+"Santa Rosa Aerodrome";2019-09-23;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"31.00";7,9;0
+"Santa Rosa Aerodrome";2019-09-24;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"31.70";7;0
+"Santa Rosa Aerodrome";2019-09-25;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"32.80";9,9;0
+"Santa Rosa Aerodrome";2019-09-26;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"32.40";10,1;0
+"Santa Rosa Aerodrome";2019-09-27;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"26.70";13,9;2
+"Santa Rosa Aerodrome";2019-09-28;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"28.40";13,8;0
+"Santa Rosa Aerodrome";2019-09-29;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"31.40";13,5;2
+"Santa Rosa Aerodrome";2019-09-30;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.40";13,3;0
+"Santa Rosa Aerodrome";2019-10-01;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"17.40";10;0
+"Santa Rosa Aerodrome";2019-10-02;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.70";2,4;0
+"Santa Rosa Aerodrome";2019-10-03;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"21.21";4,8;1e-04
+"Santa Rosa Aerodrome";2019-10-04;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"19.40";6,5;0
+"Santa Rosa Aerodrome";2019-10-05;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"24.50";2,6;0
+"Santa Rosa Aerodrome";2019-10-06;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"30.10";9,1;0
+"Santa Rosa Aerodrome";2019-10-07;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"23.20";14,8;0
+"Santa Rosa Aerodrome";2019-10-08;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"26.50";8,4;0
+"Santa Rosa Aerodrome";2019-10-09;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"28.60";7,7;0
+"Santa Rosa Aerodrome";2019-10-10;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"32.10";7,9;0
+"Santa Rosa Aerodrome";2019-10-11;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"30.30";15,6;0
+"Santa Rosa Aerodrome";2019-10-12;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"29.40";13,6;0
+"Santa Rosa Aerodrome";2019-10-13;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"18.50";9,6;0
+"Santa Rosa Aerodrome";2019-10-14;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"12.20";7;1
+"Santa Rosa Aerodrome";2019-10-15;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"13.60";5,6;1e-04
+"Santa Rosa Aerodrome";2019-10-16;"SW_BUENOSAIRES_S_LAPAMPA";"La Pampa";"14.40";8;0
+"Mar Del Plata Aerodrome";2019-07-19;"C_BUENOSAIRES";"Buenos Aires";"15.20";-0,9;0
+"Mar Del Plata Aerodrome";2019-07-20;"C_BUENOSAIRES";"Buenos Aires";"15.20";6,5;1e-04
+"Mar Del Plata Aerodrome";2019-07-21;"C_BUENOSAIRES";"Buenos Aires";"17.00";14,8;18
+"Mar Del Plata Aerodrome";2019-07-22;"C_BUENOSAIRES";"Buenos Aires";"14.00";6,8;0
+"Mar Del Plata Aerodrome";2019-07-23;"C_BUENOSAIRES";"Buenos Aires";"12.60";-0,2;0
+"Mar Del Plata Aerodrome";2019-07-24;"C_BUENOSAIRES";"Buenos Aires";"11.60";-0,6;0
+"Mar Del Plata Aerodrome";2019-07-25;"C_BUENOSAIRES";"Buenos Aires";"11.20";-1,5;0,3
+"Mar Del Plata Aerodrome";2019-07-26;"C_BUENOSAIRES";"Buenos Aires";"13.50";8;0,2
+"Mar Del Plata Aerodrome";2019-07-27;"C_BUENOSAIRES";"Buenos Aires";"13.10";5;0
+"Mar Del Plata Aerodrome";2019-07-28;"C_BUENOSAIRES";"Buenos Aires";"12.60";-1,5;0
+"Mar Del Plata Aerodrome";2019-07-29;"C_BUENOSAIRES";"Buenos Aires";"12.90";4;0
+"Mar Del Plata Aerodrome";2019-07-30;"C_BUENOSAIRES";"Buenos Aires";"15.60";2,5;0
+"Mar Del Plata Aerodrome";2019-07-31;"C_BUENOSAIRES";"Buenos Aires";"14.40";6,7;0
+"Mar Del Plata Aerodrome";2019-08-01;"C_BUENOSAIRES";"Buenos Aires";"13.50";4,6;0,6
+"Mar Del Plata Aerodrome";2019-08-02;"C_BUENOSAIRES";"Buenos Aires";"11.70";6,7;0,2
+"Mar Del Plata Aerodrome";2019-08-03;"C_BUENOSAIRES";"Buenos Aires";"13.20";2,5;0
+"Mar Del Plata Aerodrome";2019-08-04;"C_BUENOSAIRES";"Buenos Aires";"17.60";2;0
+"Mar Del Plata Aerodrome";2019-08-05;"C_BUENOSAIRES";"Buenos Aires";"17.50";6,5;0
+"Mar Del Plata Aerodrome";2019-08-06;"C_BUENOSAIRES";"Buenos Aires";"19.50";3,3;0
+"Mar Del Plata Aerodrome";2019-08-07;"C_BUENOSAIRES";"Buenos Aires";"15.80";-2;0
+"Mar Del Plata Aerodrome";2019-08-08;"C_BUENOSAIRES";"Buenos Aires";"12.00";-0,4;0
+"Mar Del Plata Aerodrome";2019-08-09;"C_BUENOSAIRES";"Buenos Aires";"11.30";-3,8;0
+"Mar Del Plata Aerodrome";2019-08-10;"C_BUENOSAIRES";"Buenos Aires";"17.10";-1,8;0
+"Mar Del Plata Aerodrome";2019-08-11;"C_BUENOSAIRES";"Buenos Aires";"16.20";2,6;0
+"Mar Del Plata Aerodrome";2019-08-12;"C_BUENOSAIRES";"Buenos Aires";"7.90";1,7;1
+"Mar Del Plata Aerodrome";2019-08-13;"C_BUENOSAIRES";"Buenos Aires";"8.60";1;1e-04
+"Mar Del Plata Aerodrome";2019-08-14;"C_BUENOSAIRES";"Buenos Aires";"10.50";-4,5;0
+"Mar Del Plata Aerodrome";2019-08-15;"C_BUENOSAIRES";"Buenos Aires";"13.70";1,7;0
+"Mar Del Plata Aerodrome";2019-08-16;"C_BUENOSAIRES";"Buenos Aires";"14.90";0,3;0
+"Mar Del Plata Aerodrome";2019-08-17;"C_BUENOSAIRES";"Buenos Aires";"11.80";0,7;0,5
+"Mar Del Plata Aerodrome";2019-08-18;"C_BUENOSAIRES";"Buenos Aires";"7.70";5;0,1
+"Mar Del Plata Aerodrome";2019-08-19;"C_BUENOSAIRES";"Buenos Aires";"6.30";3,3;1e-04
+"Mar Del Plata Aerodrome";2019-08-20;"C_BUENOSAIRES";"Buenos Aires";"9.80";-3,3;0
+"Mar Del Plata Aerodrome";2019-08-21;"C_BUENOSAIRES";"Buenos Aires";"9.20";-2,3;1e-04
+"Mar Del Plata Aerodrome";2019-08-22;"C_BUENOSAIRES";"Buenos Aires";"15.50";5,4;1e-04
+"Mar Del Plata Aerodrome";2019-08-23;"C_BUENOSAIRES";"Buenos Aires";"13.20";-0,2;0
+"Mar Del Plata Aerodrome";2019-08-24;"C_BUENOSAIRES";"Buenos Aires";"18.50";2;0
+"Mar Del Plata Aerodrome";2019-08-25;"C_BUENOSAIRES";"Buenos Aires";"17.70";7,6;0
+"Mar Del Plata Aerodrome";2019-08-26;"C_BUENOSAIRES";"Buenos Aires";"19.50";8,2;0
+"Mar Del Plata Aerodrome";2019-08-27;"C_BUENOSAIRES";"Buenos Aires";"18.60";8,8;0
+"Mar Del Plata Aerodrome";2019-08-28;"C_BUENOSAIRES";"Buenos Aires";"24.00";12,9;6
+"Mar Del Plata Aerodrome";2019-08-29;"C_BUENOSAIRES";"Buenos Aires";"16.50";12,6;0
+"Mar Del Plata Aerodrome";2019-08-30;"C_BUENOSAIRES";"Buenos Aires";"18.10";0,9;0
+"Mar Del Plata Aerodrome";2019-08-31;"C_BUENOSAIRES";"Buenos Aires";"15.40";3,4;0,2
+"Mar Del Plata Aerodrome";2019-09-01;"C_BUENOSAIRES";"Buenos Aires";"10.80";5,6;0,5
+"Mar Del Plata Aerodrome";2019-09-02;"C_BUENOSAIRES";"Buenos Aires";"9.70";-2;0,7
+"Mar Del Plata Aerodrome";2019-09-03;"C_BUENOSAIRES";"Buenos Aires";"12.40";1,8;0,7
+"Mar Del Plata Aerodrome";2019-09-04;"C_BUENOSAIRES";"Buenos Aires";"9.80";2,1;1e-04
+"Mar Del Plata Aerodrome";2019-09-05;"C_BUENOSAIRES";"Buenos Aires";"8.00";3,5;0
+"Mar Del Plata Aerodrome";2019-09-06;"C_BUENOSAIRES";"Buenos Aires";"12.00";4,7;1
+"Mar Del Plata Aerodrome";2019-09-07;"C_BUENOSAIRES";"Buenos Aires";"11.70";10;6
+"Mar Del Plata Aerodrome";2019-09-08;"C_BUENOSAIRES";"Buenos Aires";"14.40";9,5;0,2
+"Mar Del Plata Aerodrome";2019-09-09;"C_BUENOSAIRES";"Buenos Aires";"11.50";9,8;0,6
+"Mar Del Plata Aerodrome";2019-09-10;"C_BUENOSAIRES";"Buenos Aires";"14.50";7,8;0
+"Mar Del Plata Aerodrome";2019-09-11;"C_BUENOSAIRES";"Buenos Aires";"10.70";6,4;0
+"Mar Del Plata Aerodrome";2019-09-12;"C_BUENOSAIRES";"Buenos Aires";"19.30";0,6;0
+"Mar Del Plata Aerodrome";2019-09-13;"C_BUENOSAIRES";"Buenos Aires";"10.20";6,5;0
+"Mar Del Plata Aerodrome";2019-09-14;"C_BUENOSAIRES";"Buenos Aires";"17.40";4,5;0
+"Mar Del Plata Aerodrome";2019-09-15;"C_BUENOSAIRES";"Buenos Aires";"18.10";9;2
+"Mar Del Plata Aerodrome";2019-09-16;"C_BUENOSAIRES";"Buenos Aires";"15.50";6,5;0
+"Mar Del Plata Aerodrome";2019-09-17;"C_BUENOSAIRES";"Buenos Aires";"22.50";1,2;0
+"Mar Del Plata Aerodrome";2019-09-18;"C_BUENOSAIRES";"Buenos Aires";"18.60";7,7;0
+"Mar Del Plata Aerodrome";2019-09-19;"C_BUENOSAIRES";"Buenos Aires";"14.30";10;0
+"Mar Del Plata Aerodrome";2019-09-20;"C_BUENOSAIRES";"Buenos Aires";"18.20";-0,5;0
+"Mar Del Plata Aerodrome";2019-09-21;"C_BUENOSAIRES";"Buenos Aires";"17.60";1,3;0
+"Mar Del Plata Aerodrome";2019-09-22;"C_BUENOSAIRES";"Buenos Aires";"17.10";-1,4;0
+"Mar Del Plata Aerodrome";2019-09-23;"C_BUENOSAIRES";"Buenos Aires";"20.20";1,5;0
+"Mar Del Plata Aerodrome";2019-09-24;"C_BUENOSAIRES";"Buenos Aires";"21.50";5,4;0
+"Mar Del Plata Aerodrome";2019-09-25;"C_BUENOSAIRES";"Buenos Aires";"18.50";6,9;0
+"Mar Del Plata Aerodrome";2019-09-26;"C_BUENOSAIRES";"Buenos Aires";"18.90";5,3;0
+"Mar Del Plata Aerodrome";2019-09-27;"C_BUENOSAIRES";"Buenos Aires";"13.70";7;0
+"Mar Del Plata Aerodrome";2019-09-28;"C_BUENOSAIRES";"Buenos Aires";"21.30";7,9;0
+"Mar Del Plata Aerodrome";2019-09-29;"C_BUENOSAIRES";"Buenos Aires";"27.50";9;4
+"Mar Del Plata Aerodrome";2019-09-30;"C_BUENOSAIRES";"Buenos Aires";"15.90";14,3;13
+"Mar Del Plata Aerodrome";2019-10-01;"C_BUENOSAIRES";"Buenos Aires";"15.50";9,5;0
+"Mar Del Plata Aerodrome";2019-10-02;"C_BUENOSAIRES";"Buenos Aires";"12.30";9,1;0
+"Mar Del Plata Aerodrome";2019-10-03;"C_BUENOSAIRES";"Buenos Aires";"10.60";-1,8;0
+"Mar Del Plata Aerodrome";2019-10-04;"C_BUENOSAIRES";"Buenos Aires";"13.50";7,8;3
+"Mar Del Plata Aerodrome";2019-10-05;"C_BUENOSAIRES";"Buenos Aires";"17.20";7,6;0
+"Mar Del Plata Aerodrome";2019-10-06;"C_BUENOSAIRES";"Buenos Aires";"22.70";3;1e-04
+"Mar Del Plata Aerodrome";2019-10-07;"C_BUENOSAIRES";"Buenos Aires";"18.40";11,1;0,1
+"Mar Del Plata Aerodrome";2019-10-08;"C_BUENOSAIRES";"Buenos Aires";"20.00";2,7;0
+"Mar Del Plata Aerodrome";2019-10-09;"C_BUENOSAIRES";"Buenos Aires";"26.10";4,4;0
+"Mar Del Plata Aerodrome";2019-10-10;"C_BUENOSAIRES";"Buenos Aires";"28.60";4;1e-04
+"Mar Del Plata Aerodrome";2019-10-11;"C_BUENOSAIRES";"Buenos Aires";"21.00";14,7;0
+"Mar Del Plata Aerodrome";2019-10-12;"C_BUENOSAIRES";"Buenos Aires";"19.80";9,4;0
+"Mar Del Plata Aerodrome";2019-10-13;"C_BUENOSAIRES";"Buenos Aires";"13.00";6,6;0
+"Mar Del Plata Aerodrome";2019-10-14;"C_BUENOSAIRES";"Buenos Aires";"10.60";7,6;0
+"Mar Del Plata Aerodrome";2019-10-15;"C_BUENOSAIRES";"Buenos Aires";"10.90";6,9;0
+"Mar Del Plata Aerodrome";2019-10-16;"C_BUENOSAIRES";"Buenos Aires";"15.90";9,4;0
+"Azul Aerodrome";2019-07-19;"C_BUENOSAIRES";"Buenos Aires";"16.20";-3,3;0
+"Azul Aerodrome";2019-07-20;"C_BUENOSAIRES";"Buenos Aires";"15.20";4,5;1e-04
+"Azul Aerodrome";2019-07-21;"C_BUENOSAIRES";"Buenos Aires";"17.10";14,5;1
+"Azul Aerodrome";2019-07-22;"C_BUENOSAIRES";"Buenos Aires";"13.50";3;0
+"Azul Aerodrome";2019-07-23;"C_BUENOSAIRES";"Buenos Aires";"12.20";-2,2;0
+"Azul Aerodrome";2019-07-24;"C_BUENOSAIRES";"Buenos Aires";"14.00";-1;0
+"Azul Aerodrome";2019-07-25;"C_BUENOSAIRES";"Buenos Aires";"11.10";-2,4;1
+"Azul Aerodrome";2019-07-26;"C_BUENOSAIRES";"Buenos Aires";"14.50";5,7;1e-04
+"Azul Aerodrome";2019-07-27;"C_BUENOSAIRES";"Buenos Aires";"14.60";0,2;0
+"Azul Aerodrome";2019-07-28;"C_BUENOSAIRES";"Buenos Aires";"12.50";1;0
+"Azul Aerodrome";2019-07-29;"C_BUENOSAIRES";"Buenos Aires";"12.60";8,1;0
+"Azul Aerodrome";2019-07-30;"C_BUENOSAIRES";"Buenos Aires";"18.60";3,4;0
+"Azul Aerodrome";2019-07-31;"C_BUENOSAIRES";"Buenos Aires";"15.40";5;0
+"Azul Aerodrome";2019-08-01;"C_BUENOSAIRES";"Buenos Aires";"13.50";5;0
+"Azul Aerodrome";2019-08-02;"C_BUENOSAIRES";"Buenos Aires";"13.20";1,6;0
+"Azul Aerodrome";2019-08-03;"C_BUENOSAIRES";"Buenos Aires";"15.80";-1,6;0
+"Azul Aerodrome";2019-08-04;"C_BUENOSAIRES";"Buenos Aires";"17.70";1,6;0
+"Azul Aerodrome";2019-08-05;"C_BUENOSAIRES";"Buenos Aires";"18.30";3,1;0
+"Azul Aerodrome";2019-08-06;"C_BUENOSAIRES";"Buenos Aires";"17.90";4,2;0
+"Azul Aerodrome";2019-08-07;"C_BUENOSAIRES";"Buenos Aires";"16.60";-2,6;0
+"Azul Aerodrome";2019-08-08;"C_BUENOSAIRES";"Buenos Aires";"13.00";-1,7;0
+"Azul Aerodrome";2019-08-09;"C_BUENOSAIRES";"Buenos Aires";"12.50";-2,5;0
+"Azul Aerodrome";2019-08-10;"C_BUENOSAIRES";"Buenos Aires";"17.70";-3,4;0
+"Azul Aerodrome";2019-08-11;"C_BUENOSAIRES";"Buenos Aires";"17.60";1,5;0
+"Azul Aerodrome";2019-08-12;"C_BUENOSAIRES";"Buenos Aires";"11.20";2;1e-04
+"Azul Aerodrome";2019-08-13;"C_BUENOSAIRES";"Buenos Aires";"9.30";-0,7;0
+"Azul Aerodrome";2019-08-14;"C_BUENOSAIRES";"Buenos Aires";"10.60";-7;0
+"Azul Aerodrome";2019-08-15;"C_BUENOSAIRES";"Buenos Aires";"15.10";-2,4;0
+"Azul Aerodrome";2019-08-16;"C_BUENOSAIRES";"Buenos Aires";"18.00";-0,2;0
+"Azul Aerodrome";2019-08-17;"C_BUENOSAIRES";"Buenos Aires";"17.00";0,2;0
+"Azul Aerodrome";2019-08-18;"C_BUENOSAIRES";"Buenos Aires";"10.60";2,4;0
+"Azul Aerodrome";2019-08-19;"C_BUENOSAIRES";"Buenos Aires";"7.50";-1,5;0
+"Azul Aerodrome";2019-08-20;"C_BUENOSAIRES";"Buenos Aires";"10.20";0,8;0
+"Azul Aerodrome";2019-08-21;"C_BUENOSAIRES";"Buenos Aires";"11.50";1;0
+"Azul Aerodrome";2019-08-22;"C_BUENOSAIRES";"Buenos Aires";"16.70";4,2;0
+"Azul Aerodrome";2019-08-23;"C_BUENOSAIRES";"Buenos Aires";"19.40";1,5;0
+"Azul Aerodrome";2019-08-24;"C_BUENOSAIRES";"Buenos Aires";"18.20";2,9;0
+"Azul Aerodrome";2019-08-25;"C_BUENOSAIRES";"Buenos Aires";"19.00";1;0
+"Azul Aerodrome";2019-08-26;"C_BUENOSAIRES";"Buenos Aires";"20.50";3;0
+"Azul Aerodrome";2019-08-27;"C_BUENOSAIRES";"Buenos Aires";"22.50";8,5;0
+"Azul Aerodrome";2019-08-28;"C_BUENOSAIRES";"Buenos Aires";"25.20";15;0,5
+"Azul Aerodrome";2019-08-29;"C_BUENOSAIRES";"Buenos Aires";"17.80";11,1;0
+"Azul Aerodrome";2019-08-30;"C_BUENOSAIRES";"Buenos Aires";"17.80";-2,2;0
+"Azul Aerodrome";2019-08-31;"C_BUENOSAIRES";"Buenos Aires";"17.10";-1,5;0
+"Azul Aerodrome";2019-09-01;"C_BUENOSAIRES";"Buenos Aires";"11.80";2,6;0
+"Azul Aerodrome";2019-09-02;"C_BUENOSAIRES";"Buenos Aires";"10.90";-5;0
+"Azul Aerodrome";2019-09-03;"C_BUENOSAIRES";"Buenos Aires";"13.40";-2,8;0
+"Azul Aerodrome";2019-09-04;"C_BUENOSAIRES";"Buenos Aires";"10.60";-1,6;0
+"Azul Aerodrome";2019-09-05;"C_BUENOSAIRES";"Buenos Aires";"10.40";-5,2;0
+"Azul Aerodrome";2019-09-06;"C_BUENOSAIRES";"Buenos Aires";"13.70";3,5;1e-04
+"Azul Aerodrome";2019-09-07;"C_BUENOSAIRES";"Buenos Aires";"17.40";6,2;0
+"Azul Aerodrome";2019-09-08;"C_BUENOSAIRES";"Buenos Aires";"19.50";5,5;0
+"Azul Aerodrome";2019-09-09;"C_BUENOSAIRES";"Buenos Aires";"13.90";7,5;0
+"Azul Aerodrome";2019-09-10;"C_BUENOSAIRES";"Buenos Aires";"17.70";3,7;0
+"Azul Aerodrome";2019-09-11;"C_BUENOSAIRES";"Buenos Aires";"15.20";3,1;0
+"Azul Aerodrome";2019-09-12;"C_BUENOSAIRES";"Buenos Aires";"19.90";-2,8;0
+"Azul Aerodrome";2019-09-13;"C_BUENOSAIRES";"Buenos Aires";"17.00";3,5;0
+"Azul Aerodrome";2019-09-14;"C_BUENOSAIRES";"Buenos Aires";"20.60";6,6;0
+"Azul Aerodrome";2019-09-15;"C_BUENOSAIRES";"Buenos Aires";"17.10";4,5;11
+"Azul Aerodrome";2019-09-16;"C_BUENOSAIRES";"Buenos Aires";"16.10";3,4;0
+"Azul Aerodrome";2019-09-17;"C_BUENOSAIRES";"Buenos Aires";"22.00";2;0
+"Azul Aerodrome";2019-09-18;"C_BUENOSAIRES";"Buenos Aires";"20.20";1;0
+"Azul Aerodrome";2019-09-19;"C_BUENOSAIRES";"Buenos Aires";"14.20";9;0
+"Azul Aerodrome";2019-09-20;"C_BUENOSAIRES";"Buenos Aires";"17.80";0;0
+"Azul Aerodrome";2019-09-21;"C_BUENOSAIRES";"Buenos Aires";"18.50";2,9;0
+"Azul Aerodrome";2019-09-22;"C_BUENOSAIRES";"Buenos Aires";"19.20";-4,5;0
+"Azul Aerodrome";2019-09-23;"C_BUENOSAIRES";"Buenos Aires";"21.80";5,5;0
+"Azul Aerodrome";2019-09-24;"C_BUENOSAIRES";"Buenos Aires";"26.80";3,6;0
+"Azul Aerodrome";2019-09-25;"C_BUENOSAIRES";"Buenos Aires";"25.20";7,5;0
+"Azul Aerodrome";2019-09-26;"C_BUENOSAIRES";"Buenos Aires";"25.50";4,5;0
+"Azul Aerodrome";2019-09-27;"C_BUENOSAIRES";"Buenos Aires";"19.60";5;0
+"Azul Aerodrome";2019-09-28;"C_BUENOSAIRES";"Buenos Aires";"23.90";9,2;0
+"Azul Aerodrome";2019-09-29;"C_BUENOSAIRES";"Buenos Aires";"28.60";5;0,6
+"Azul Aerodrome";2019-09-30;"C_BUENOSAIRES";"Buenos Aires";"17.40";15;1
+"Azul Aerodrome";2019-10-01;"C_BUENOSAIRES";"Buenos Aires";"19.50";6,7;0
+"Azul Aerodrome";2019-10-02;"C_BUENOSAIRES";"Buenos Aires";"17.10";4;0
+"Azul Aerodrome";2019-10-03;"C_BUENOSAIRES";"Buenos Aires";"14.80";-2,4;1
+"Azul Aerodrome";2019-10-04;"C_BUENOSAIRES";"Buenos Aires";"14.50";5;8
+"Azul Aerodrome";2019-10-05;"C_BUENOSAIRES";"Buenos Aires";"21.20";0,9;0
+"Azul Aerodrome";2019-10-06;"C_BUENOSAIRES";"Buenos Aires";"21.70";0,9;0
+"Azul Aerodrome";2019-10-07;"C_BUENOSAIRES";"Buenos Aires";"22.30";11,5;0
+"Azul Aerodrome";2019-10-08;"C_BUENOSAIRES";"Buenos Aires";"22.70";2;0
+"Azul Aerodrome";2019-10-09;"C_BUENOSAIRES";"Buenos Aires";"25.30";2,4;0
+"Azul Aerodrome";2019-10-10;"C_BUENOSAIRES";"Buenos Aires";"27.70";2,6;13
+"Azul Aerodrome";2019-10-11;"C_BUENOSAIRES";"Buenos Aires";"26.20";11,6;0
+"Azul Aerodrome";2019-10-12;"C_BUENOSAIRES";"Buenos Aires";"19.00";8,8;1e-04
+"Azul Aerodrome";2019-10-13;"C_BUENOSAIRES";"Buenos Aires";"17.50";6;0
+"Azul Aerodrome";2019-10-14;"C_BUENOSAIRES";"Buenos Aires";"14.80";1,9;0
+"Azul Aerodrome";2019-10-15;"C_BUENOSAIRES";"Buenos Aires";"12.50";4,2;1e-04
+"Azul Aerodrome";2019-10-16;"C_BUENOSAIRES";"Buenos Aires";"18.20";7,9;0
+"Bahia Blanca Aerodrome";2019-07-19;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"15.10";0,8;0
+"Bahia Blanca Aerodrome";2019-07-20;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"19.90";1,5;0
+"Bahia Blanca Aerodrome";2019-07-21;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"15.00";11,8;0
+"Bahia Blanca Aerodrome";2019-07-22;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"12.00";1,2;0
+"Bahia Blanca Aerodrome";2019-07-23;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"13.60";-3,1;0
+"Bahia Blanca Aerodrome";2019-07-24;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"15.00";-4,2;0
+"Bahia Blanca Aerodrome";2019-07-25;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"16.00";0,9;0
+"Bahia Blanca Aerodrome";2019-07-26;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"14.70";-3,6;0
+"Bahia Blanca Aerodrome";2019-07-27;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"16.20";-4;0
+"Bahia Blanca Aerodrome";2019-07-28;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"16.40";2,8;0
+"Bahia Blanca Aerodrome";2019-07-29;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"17.40";8,2;0,1
+"Bahia Blanca Aerodrome";2019-07-30;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"21.00";8,9;1e-04
+"Bahia Blanca Aerodrome";2019-07-31;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"15.60";7;1e-04
+"Bahia Blanca Aerodrome";2019-08-01;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"13.70";2,5;0
+"Bahia Blanca Aerodrome";2019-08-02;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"14.60";3,8;0
+"Bahia Blanca Aerodrome";2019-08-03;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"18.00";-0,5;0
+"Bahia Blanca Aerodrome";2019-08-04;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"21.50";8,2;0
+"Bahia Blanca Aerodrome";2019-08-05;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"22.00";8,6;0
+"Bahia Blanca Aerodrome";2019-08-06;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"18.40";8,4;0
+"Bahia Blanca Aerodrome";2019-08-07;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"12.30";-3,2;0
+"Bahia Blanca Aerodrome";2019-08-08;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"14.60";-4;0
+"Bahia Blanca Aerodrome";2019-08-09;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"15.60";-2,1;0
+"Bahia Blanca Aerodrome";2019-08-10;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"19.00";1,2;0
+"Bahia Blanca Aerodrome";2019-08-11;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"18.50";3,1;1e-04
+"Bahia Blanca Aerodrome";2019-08-12;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"9.00";2,5;0
+"Bahia Blanca Aerodrome";2019-08-13;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"10.00";-6,2;0
+"Bahia Blanca Aerodrome";2019-08-14;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"14.20";-7,5;0
+"Bahia Blanca Aerodrome";2019-08-15;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"15.00";3;0
+"Bahia Blanca Aerodrome";2019-08-16;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"19.00";2,4;0
+"Bahia Blanca Aerodrome";2019-08-17;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"14.40";4;0,8
+"Bahia Blanca Aerodrome";2019-08-18;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"8.50";1,5;1e-04
+"Bahia Blanca Aerodrome";2019-08-19;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"8.00";1;0
+"Bahia Blanca Aerodrome";2019-08-20;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"9.80";1,6;0,6
+"Bahia Blanca Aerodrome";2019-08-21;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"13.20";4,4;2
+"Bahia Blanca Aerodrome";2019-08-22;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"18.40";6,4;0
+"Bahia Blanca Aerodrome";2019-08-23;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"19.60";1,3;0
+"Bahia Blanca Aerodrome";2019-08-24;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"22.40";9,4;0
+"Bahia Blanca Aerodrome";2019-08-25;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"19.50";8,2;0
+"Bahia Blanca Aerodrome";2019-08-26;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"24.10";5,6;1e-04
+"Bahia Blanca Aerodrome";2019-08-27;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"24.10";10,3;0
+"Bahia Blanca Aerodrome";2019-08-28;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"25.00";18,5;0
+"Bahia Blanca Aerodrome";2019-08-29;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"18.00";6,5;0
+"Bahia Blanca Aerodrome";2019-08-30;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"17.00";0,5;0
+"Bahia Blanca Aerodrome";2019-08-31;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"16.40";-1,6;0
+"Bahia Blanca Aerodrome";2019-09-01;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"13.00";1,7;0,2
+"Bahia Blanca Aerodrome";2019-09-02;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"9.50";-2;1e-04
+"Bahia Blanca Aerodrome";2019-09-03;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"14.90";-5,5;0
+"Bahia Blanca Aerodrome";2019-09-04;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"10.60";-2,6;0
+"Bahia Blanca Aerodrome";2019-09-05;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"12.00";-2,5;0
+"Bahia Blanca Aerodrome";2019-09-06;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"13.70";6,1;0
+"Bahia Blanca Aerodrome";2019-09-07;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"16.50";5;1e-04
+"Bahia Blanca Aerodrome";2019-09-08;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"17.00";6,5;0
+"Bahia Blanca Aerodrome";2019-09-09;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"15.60";3,4;0
+"Bahia Blanca Aerodrome";2019-09-10;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"13.80";0,6;8
+"Bahia Blanca Aerodrome";2019-09-11;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"12.20";4,4;0,2
+"Bahia Blanca Aerodrome";2019-09-12;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"17.60";2,5;0
+"Bahia Blanca Aerodrome";2019-09-13;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"21.90";5,9;0
+"Bahia Blanca Aerodrome";2019-09-14;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"22.60";9;4
+"Bahia Blanca Aerodrome";2019-09-15;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"20.50";10,9;1e-04
+"Bahia Blanca Aerodrome";2019-09-16;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"18.00";1;0
+"Bahia Blanca Aerodrome";2019-09-17;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"22.00";1,5;0
+"Bahia Blanca Aerodrome";2019-09-18;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"23.50";-2;0
+"Bahia Blanca Aerodrome";2019-09-19;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"15.60";6,9;0
+"Bahia Blanca Aerodrome";2019-09-20;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"18.60";2,9;0
+"Bahia Blanca Aerodrome";2019-09-21;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"19.00";4,5;0
+"Bahia Blanca Aerodrome";2019-09-22;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"22.50";-1,4;0
+"Bahia Blanca Aerodrome";2019-09-23;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"26.60";7,9;0
+"Bahia Blanca Aerodrome";2019-09-24;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"29.40";5,6;0
+"Bahia Blanca Aerodrome";2019-09-25;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"27.50";5;0
+"Bahia Blanca Aerodrome";2019-09-26;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"25.50";8,4;0
+"Bahia Blanca Aerodrome";2019-09-27;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"26.40";11,6;0
+"Bahia Blanca Aerodrome";2019-09-28;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"27.50";14,4;0
+"Bahia Blanca Aerodrome";2019-09-29;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"28.60";14,6;4
+"Bahia Blanca Aerodrome";2019-09-30;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"22.00";12;0
+"Bahia Blanca Aerodrome";2019-10-01;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"17.00";4,8;0
+"Bahia Blanca Aerodrome";2019-10-02;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"16.00";0,3;0
+"Bahia Blanca Aerodrome";2019-10-03;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"16.00";1,2;1e-04
+"Bahia Blanca Aerodrome";2019-10-04;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"17.50";7,7;0,2
+"Bahia Blanca Aerodrome";2019-10-05;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"20.50";4,2;0
+"Bahia Blanca Aerodrome";2019-10-06;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"24.50";6,6;0
+"Bahia Blanca Aerodrome";2019-10-07;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"22.00";13,6;0
+"Bahia Blanca Aerodrome";2019-10-08;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"21.20";3,2;0
+"Bahia Blanca Aerodrome";2019-10-09;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"25.00";6,2;0
+"Bahia Blanca Aerodrome";2019-10-10;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"29.00";7,6;0
+"Bahia Blanca Aerodrome";2019-10-11;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"25.10";10,4;0
+"Bahia Blanca Aerodrome";2019-10-12;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"27.00";12,4;0
+"Bahia Blanca Aerodrome";2019-10-13;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"17.40";7,4;1e-04
+"Bahia Blanca Aerodrome";2019-10-14;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"14.00";6,5;0,4
+"Bahia Blanca Aerodrome";2019-10-15;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"16.10";5,1;0
+"Bahia Blanca Aerodrome";2019-10-16;"SW_BUENOSAIRES_S_LAPAMPA";"Buenos Aires";"NIL";7,8;0
+"Dolores Aerodrome";2019-07-19;"E_BUENOSAIRES";"Buenos Aires";"13.20";6,5;0
+"Dolores Aerodrome";2019-07-20;"E_BUENOSAIRES";"Buenos Aires";"16.70";5,6;0
+"Dolores Aerodrome";2019-07-21;"E_BUENOSAIRES";"Buenos Aires";"23.60";15,3;8
+"Dolores Aerodrome";2019-07-22;"E_BUENOSAIRES";"Buenos Aires";"13.90";6,2;0
+"Dolores Aerodrome";2019-07-23;"E_BUENOSAIRES";"Buenos Aires";"11.20";3;0
+"Dolores Aerodrome";2019-07-24;"E_BUENOSAIRES";"Buenos Aires";"13.20";-0,2;0
+"Dolores Aerodrome";2019-07-25;"E_BUENOSAIRES";"Buenos Aires";"11.90";2,3;7
+"Dolores Aerodrome";2019-07-26;"E_BUENOSAIRES";"Buenos Aires";"13.70";9,4;2
+"Dolores Aerodrome";2019-07-27;"E_BUENOSAIRES";"Buenos Aires";"13.70";3,5;0
+"Dolores Aerodrome";2019-07-28;"E_BUENOSAIRES";"Buenos Aires";"13.00";2,5;0
+"Dolores Aerodrome";2019-07-29;"E_BUENOSAIRES";"Buenos Aires";"12.90";6,5;0
+"Dolores Aerodrome";2019-07-30;"E_BUENOSAIRES";"Buenos Aires";"14.70";6,2;0
+"Dolores Aerodrome";2019-07-31;"E_BUENOSAIRES";"Buenos Aires";"18.30";7,5;0
+"Dolores Aerodrome";2019-08-01;"E_BUENOSAIRES";"Buenos Aires";"13.50";9;0
+"Dolores Aerodrome";2019-08-02;"E_BUENOSAIRES";"Buenos Aires";"13.70";4,8;0
+"Dolores Aerodrome";2019-08-03;"E_BUENOSAIRES";"Buenos Aires";"13.70";2,5;0
+"Dolores Aerodrome";2019-08-04;"E_BUENOSAIRES";"Buenos Aires";"17.10";3;0
+"Dolores Aerodrome";2019-08-05;"E_BUENOSAIRES";"Buenos Aires";"18.00";4;0
+"Dolores Aerodrome";2019-08-06;"E_BUENOSAIRES";"Buenos Aires";"21.20";7;0
+"Dolores Aerodrome";2019-08-07;"E_BUENOSAIRES";"Buenos Aires";"15.70";3;0
+"Dolores Aerodrome";2019-08-08;"E_BUENOSAIRES";"Buenos Aires";"12.90";0;0
+"Dolores Aerodrome";2019-08-09;"E_BUENOSAIRES";"Buenos Aires";"9.90";3;0
+"Dolores Aerodrome";2019-08-10;"E_BUENOSAIRES";"Buenos Aires";"16.70";-0,3;0
+"Dolores Aerodrome";2019-08-11;"E_BUENOSAIRES";"Buenos Aires";"17.20";4,8;0
+"Dolores Aerodrome";2019-08-12;"E_BUENOSAIRES";"Buenos Aires";"11.80";4;1e-04
+"Dolores Aerodrome";2019-08-13;"E_BUENOSAIRES";"Buenos Aires";"9.20";-0,5;0
+"Dolores Aerodrome";2019-08-14;"E_BUENOSAIRES";"Buenos Aires";"11.20";-3;0
+"Dolores Aerodrome";2019-08-15;"E_BUENOSAIRES";"Buenos Aires";"15.50";2;0
+"Dolores Aerodrome";2019-08-16;"E_BUENOSAIRES";"Buenos Aires";"18.70";3,5;1e-04
+"Dolores Aerodrome";2019-08-17;"E_BUENOSAIRES";"Buenos Aires";"15.70";7,5;2
+"Dolores Aerodrome";2019-08-18;"E_BUENOSAIRES";"Buenos Aires";"10.20";2,5;0
+"Dolores Aerodrome";2019-08-19;"E_BUENOSAIRES";"Buenos Aires";"8.50";0,6;0
+"Dolores Aerodrome";2019-08-20;"E_BUENOSAIRES";"Buenos Aires";"10.60";-1,6;0
+"Dolores Aerodrome";2019-08-21;"E_BUENOSAIRES";"Buenos Aires";"11.10";-0,5;0
+"Dolores Aerodrome";2019-08-22;"E_BUENOSAIRES";"Buenos Aires";"15.70";3;0
+"Dolores Aerodrome";2019-08-23;"E_BUENOSAIRES";"Buenos Aires";"18.00";3,5;0
+"Dolores Aerodrome";2019-08-24;"E_BUENOSAIRES";"Buenos Aires";"17.50";6;0
+"Dolores Aerodrome";2019-08-25;"E_BUENOSAIRES";"Buenos Aires";"17.20";9;0
+"Dolores Aerodrome";2019-08-26;"E_BUENOSAIRES";"Buenos Aires";"20.90";5,5;0
+"Dolores Aerodrome";2019-08-27;"E_BUENOSAIRES";"Buenos Aires";"23.00";7,2;0
+"Dolores Aerodrome";2019-08-28;"E_BUENOSAIRES";"Buenos Aires";"25.70";13;21
+"Dolores Aerodrome";2019-08-29;"E_BUENOSAIRES";"Buenos Aires";"16.20";15;0
+"Dolores Aerodrome";2019-08-30;"E_BUENOSAIRES";"Buenos Aires";"16.80";3,8;0
+"Dolores Aerodrome";2019-08-31;"E_BUENOSAIRES";"Buenos Aires";"16.50";3;0
+"Dolores Aerodrome";2019-09-01;"E_BUENOSAIRES";"Buenos Aires";"13.00";4;0
+"Dolores Aerodrome";2019-09-02;"E_BUENOSAIRES";"Buenos Aires";"12.70";0,2;0
+"Dolores Aerodrome";2019-09-03;"E_BUENOSAIRES";"Buenos Aires";"12.20";-1,8;0
+"Dolores Aerodrome";2019-09-04;"E_BUENOSAIRES";"Buenos Aires";"10.00";-0,7;0
+"Dolores Aerodrome";2019-09-05;"E_BUENOSAIRES";"Buenos Aires";"9.70";-2,5;0
+"Dolores Aerodrome";2019-09-06;"E_BUENOSAIRES";"Buenos Aires";"16.20";2,2;2
+"Dolores Aerodrome";2019-09-07;"E_BUENOSAIRES";"Buenos Aires";"16.70";10;2
+"Dolores Aerodrome";2019-09-08;"E_BUENOSAIRES";"Buenos Aires";"16.70";8,5;0
+"Dolores Aerodrome";2019-09-09;"E_BUENOSAIRES";"Buenos Aires";"12.70";10,4;13
+"Dolores Aerodrome";2019-09-10;"E_BUENOSAIRES";"Buenos Aires";"16.10";8,3;0
+"Dolores Aerodrome";2019-09-11;"E_BUENOSAIRES";"Buenos Aires";"15.00";6;0
+"Dolores Aerodrome";2019-09-12;"E_BUENOSAIRES";"Buenos Aires";"17.70";3;0
+"Dolores Aerodrome";2019-09-13;"E_BUENOSAIRES";"Buenos Aires";"14.70";7,6;0
+"Dolores Aerodrome";2019-09-14;"E_BUENOSAIRES";"Buenos Aires";"17.70";8,6;0
+"Dolores Aerodrome";2019-09-15;"E_BUENOSAIRES";"Buenos Aires";"21.20";9;0
+"Dolores Aerodrome";2019-09-16;"E_BUENOSAIRES";"Buenos Aires";"17.20";8,3;0
+"Dolores Aerodrome";2019-09-17;"E_BUENOSAIRES";"Buenos Aires";"23.20";3,2;0
+"Dolores Aerodrome";2019-09-18;"E_BUENOSAIRES";"Buenos Aires";"18.70";5;0
+"Dolores Aerodrome";2019-09-19;"E_BUENOSAIRES";"Buenos Aires";"16.60";10;0
+"Dolores Aerodrome";2019-09-20;"E_BUENOSAIRES";"Buenos Aires";"19.00";0,8;0
+"Dolores Aerodrome";2019-09-21;"E_BUENOSAIRES";"Buenos Aires";"20.70";4,4;0
+"Dolores Aerodrome";2019-09-22;"E_BUENOSAIRES";"Buenos Aires";"18.70";-1,5;0
+"Dolores Aerodrome";2019-09-23;"E_BUENOSAIRES";"Buenos Aires";"19.70";1,8;0
+"Dolores Aerodrome";2019-09-24;"E_BUENOSAIRES";"Buenos Aires";"26.20";5,3;0
+"Dolores Aerodrome";2019-09-25;"E_BUENOSAIRES";"Buenos Aires";"23.50";8,5;0
+"Dolores Aerodrome";2019-09-26;"E_BUENOSAIRES";"Buenos Aires";"23.50";5,2;0
+"Dolores Aerodrome";2019-09-27;"E_BUENOSAIRES";"Buenos Aires";"17.90";2,2;0
+"Dolores Aerodrome";2019-09-28;"E_BUENOSAIRES";"Buenos Aires";"21.10";7;0
+"Dolores Aerodrome";2019-09-29;"E_BUENOSAIRES";"Buenos Aires";"27.10";11,3;0
+"Dolores Aerodrome";2019-09-30;"E_BUENOSAIRES";"Buenos Aires";"24.40";16,6;2
+"Dolores Aerodrome";2019-10-01;"E_BUENOSAIRES";"Buenos Aires";"18.70";10;0
+"Dolores Aerodrome";2019-10-02;"E_BUENOSAIRES";"Buenos Aires";"16.90";9;0
+"Dolores Aerodrome";2019-10-03;"E_BUENOSAIRES";"Buenos Aires";"12.40";-1;0
+"Dolores Aerodrome";2019-10-04;"E_BUENOSAIRES";"Buenos Aires";"16.00";8;1
+"Dolores Aerodrome";2019-10-05;"E_BUENOSAIRES";"Buenos Aires";"20.20";6,5;0
+"Dolores Aerodrome";2019-10-06;"E_BUENOSAIRES";"Buenos Aires";"22.20";5,5;0
+"Dolores Aerodrome";2019-10-07;"E_BUENOSAIRES";"Buenos Aires";"23.20";9;0
+"Dolores Aerodrome";2019-10-08;"E_BUENOSAIRES";"Buenos Aires";"23.80";4;0
+"Dolores Aerodrome";2019-10-09;"E_BUENOSAIRES";"Buenos Aires";"27.60";7,4;0
+"Dolores Aerodrome";2019-10-10;"E_BUENOSAIRES";"Buenos Aires";"28.90";8,5;23
+"Dolores Aerodrome";2019-10-11;"E_BUENOSAIRES";"Buenos Aires";"26.20";15;3
+"Dolores Aerodrome";2019-10-12;"E_BUENOSAIRES";"Buenos Aires";"18.70";12,5;8
+"Dolores Aerodrome";2019-10-13;"E_BUENOSAIRES";"Buenos Aires";"17.50";9;0
+"Dolores Aerodrome";2019-10-14;"E_BUENOSAIRES";"Buenos Aires";"13.20";2,7;0
+"Dolores Aerodrome";2019-10-15;"E_BUENOSAIRES";"Buenos Aires";"12.60";6;1
+"Dolores Aerodrome";2019-10-16;"E_BUENOSAIRES";"Buenos Aires";"18.50";9;0
+"La Rioja Aero.";2019-07-19;"";"La Rioja";"21.50";2,5;0
+"La Rioja Aero.";2019-07-20;"";"La Rioja";"23.70";4,8;0
+"La Rioja Aero.";2019-07-21;"";"La Rioja";"22.70";9,2;2
+"La Rioja Aero.";2019-07-22;"";"La Rioja";"16.10";11,4;0
+"La Rioja Aero.";2019-07-23;"";"La Rioja";"15.50";9,7;0
+"La Rioja Aero.";2019-07-24;"";"La Rioja";"16.90";2,4;1e-04
+"La Rioja Aero.";2019-07-25;"";"La Rioja";"17.70";7,4;0
+"La Rioja Aero.";2019-07-26;"";"La Rioja";"19.20";-0,3;0
+"La Rioja Aero.";2019-07-27;"";"La Rioja";"19.40";3,9;0
+"La Rioja Aero.";2019-07-28;"";"La Rioja";"17.30";2,4;0
+"La Rioja Aero.";2019-07-29;"";"La Rioja";"18.40";5,1;0
+"La Rioja Aero.";2019-07-30;"";"La Rioja";"22.80";2,9;0
+"La Rioja Aero.";2019-07-31;"";"La Rioja";"29.20";3,9;0
+"La Rioja Aero.";2019-08-01;"";"La Rioja";"20.00";12,4;0
+"La Rioja Aero.";2019-08-02;"";"La Rioja";"21.20";1,4;0
+"La Rioja Aero.";2019-08-03;"";"La Rioja";"20.40";1,7;0
+"La Rioja Aero.";2019-08-04;"";"La Rioja";"21.00";2,7;0
+"La Rioja Aero.";2019-08-05;"";"La Rioja";"21.60";7,1;0
+"La Rioja Aero.";2019-08-06;"";"La Rioja";"25.00";2,7;0
+"La Rioja Aero.";2019-08-07;"";"La Rioja";"21.90";5,9;0
+"La Rioja Aero.";2019-08-08;"";"La Rioja";"14.40";9,4;0
+"La Rioja Aero.";2019-08-09;"";"La Rioja";"20.00";1,1;0
+"La Rioja Aero.";2019-08-10;"";"La Rioja";"22.70";-0,1;0
+"La Rioja Aero.";2019-08-11;"";"La Rioja";"21.90";2,8;0
+"La Rioja Aero.";2019-08-12;"";"La Rioja";"21.20";5,4;0
+"La Rioja Aero.";2019-08-13;"";"La Rioja";"18.40";2,9;0
+"La Rioja Aero.";2019-08-14;"";"La Rioja";"18.70";1,4;0
+"La Rioja Aero.";2019-08-15;"";"La Rioja";"19.60";2,9;0
+"La Rioja Aero.";2019-08-16;"";"La Rioja";"24.30";3,1;0
+"La Rioja Aero.";2019-08-17;"";"La Rioja";"26.40";8,1;0
+"La Rioja Aero.";2019-08-18;"";"La Rioja";"21.40";6,9;0
+"La Rioja Aero.";2019-08-19;"";"La Rioja";"16.60";6,3;0
+"La Rioja Aero.";2019-08-20;"";"La Rioja";"19.50";9,7;0
+"La Rioja Aero.";2019-08-21;"";"La Rioja";"21.73";4,7;0
+"La Rioja Aero.";2019-08-22;"";"La Rioja";"26.40";6,4;0
+"La Rioja Aero.";2019-08-23;"";"La Rioja";"25.90";7,1;0
+"La Rioja Aero.";2019-08-24;"";"La Rioja";"24.50";8,9;0
+"La Rioja Aero.";2019-08-25;"";"La Rioja";"29.00";10,3;0
+"La Rioja Aero.";2019-08-26;"";"La Rioja";"31.00";9,7;0
+"La Rioja Aero.";2019-08-27;"";"La Rioja";"29.40";12,5;0
+"La Rioja Aero.";2019-08-28;"";"La Rioja";"35.00";12,5;0
+"La Rioja Aero.";2019-08-29;"";"La Rioja";"32.80";12,9;0
+"La Rioja Aero.";2019-08-30;"";"La Rioja";"23.50";11,1;0
+"La Rioja Aero.";2019-08-31;"";"La Rioja";"24.90";4,9;0
+"La Rioja Aero.";2019-09-01;"";"La Rioja";"25.00";6,9;0
+"La Rioja Aero.";2019-09-02;"";"La Rioja";"24.00";7,6;0
+"La Rioja Aero.";2019-09-03;"";"La Rioja";"18.50";2,9;0
+"La Rioja Aero.";2019-09-04;"";"La Rioja";"20.10";3,3;0
+"La Rioja Aero.";2019-09-05;"";"La Rioja";"21.40";4,1;0
+"La Rioja Aero.";2019-09-06;"";"La Rioja";"22.60";4,6;0
+"La Rioja Aero.";2019-09-07;"";"La Rioja";"24.50";7,3;0
+"La Rioja Aero.";2019-09-08;"";"La Rioja";"27.10";5,9;0
+"La Rioja Aero.";2019-09-09;"";"La Rioja";"26.10";8,4;13
+"La Rioja Aero.";2019-09-10;"";"La Rioja";"12.40";9,4;1e-04
+"La Rioja Aero.";2019-09-11;"";"La Rioja";"20.00";9,6;0
+"La Rioja Aero.";2019-09-12;"";"La Rioja";"22.80";3,9;0
+"La Rioja Aero.";2019-09-13;"";"La Rioja";"24.60";9;0
+"La Rioja Aero.";2019-09-14;"";"La Rioja";"27.30";7,9;0
+"La Rioja Aero.";2019-09-15;"";"La Rioja";"33.40";9,9;0
+"La Rioja Aero.";2019-09-16;"";"La Rioja";"15.40";13,9;0
+"La Rioja Aero.";2019-09-17;"";"La Rioja";"25.00";9,5;0
+"La Rioja Aero.";2019-09-18;"";"La Rioja";"30.60";7,4;0
+"La Rioja Aero.";2019-09-19;"";"La Rioja";"26.40";11,4;0
+"La Rioja Aero.";2019-09-20;"";"La Rioja";"22.00";4,7;0
+"La Rioja Aero.";2019-09-21;"";"La Rioja";"26.90";2,6;0
+"La Rioja Aero.";2019-09-22;"";"La Rioja";"29.70";12,3;0
+"La Rioja Aero.";2019-09-23;"";"La Rioja";"29.00";13,9;0
+"La Rioja Aero.";2019-09-24;"";"La Rioja";"31.50";12;0
+"La Rioja Aero.";2019-09-25;"";"La Rioja";"34.30";12,7;0
+"La Rioja Aero.";2019-09-26;"";"La Rioja";"33.40";14,4;0
+"La Rioja Aero.";2019-09-27;"";"La Rioja";"34.00";16,9;0
+"La Rioja Aero.";2019-09-28;"";"La Rioja";"34.00";19;0
+"La Rioja Aero.";2019-09-29;"";"La Rioja";"37.70";21,4;0
+"La Rioja Aero.";2019-09-30;"";"La Rioja";"39.20";17,4;0
+"La Rioja Aero.";2019-10-01;"";"La Rioja";"26.50";16;0
+"La Rioja Aero.";2019-10-02;"";"La Rioja";"24.00";7,9;0
+"La Rioja Aero.";2019-10-03;"";"La Rioja";"26.00";6,2;0
+"La Rioja Aero.";2019-10-04;"";"La Rioja";"23.90";10,9;0
+"La Rioja Aero.";2019-10-05;"";"La Rioja";"25.80";10,9;0
+"La Rioja Aero.";2019-10-06;"";"La Rioja";"28.80";9,5;0
+"La Rioja Aero.";2019-10-07;"";"La Rioja";"34.30";10,5;0
+"La Rioja Aero.";2019-10-08;"";"La Rioja";"33.00";16,5;0
+"La Rioja Aero.";2019-10-09;"";"La Rioja";"36.00";17;0
+"La Rioja Aero.";2019-10-10;"";"La Rioja";"38.20";21,9;0
+"La Rioja Aero.";2019-10-11;"";"La Rioja";"40.70";20,7;0
+"La Rioja Aero.";2019-10-12;"";"La Rioja";"39.10";24,5;2
+"La Rioja Aero.";2019-10-13;"";"La Rioja";"24.20";20,9;34
+"La Rioja Aero.";2019-10-14;"";"La Rioja";"13.10";12,3;20
+"La Rioja Aero.";2019-10-15;"";"La Rioja";"12.00";6,9;0
+"La Rioja Aero.";2019-10-16;"";"La Rioja";"17.60";9,7;0
+"Marcos Juarez Aerodrome";2019-07-19;"N_BELT";"Cordoba";"19.20";1;0
+"Marcos Juarez Aerodrome";2019-07-20;"N_BELT";"Cordoba";"22.90";8;0
+"Marcos Juarez Aerodrome";2019-07-21;"N_BELT";"Cordoba";"23.20";17,5;0
+"Marcos Juarez Aerodrome";2019-07-22;"N_BELT";"Cordoba";"17.10";6,3;0
+"Marcos Juarez Aerodrome";2019-07-23;"N_BELT";"Cordoba";"12.80";4,5;0,5
+"Marcos Juarez Aerodrome";2019-07-24;"N_BELT";"Cordoba";"12.30";5,4;1e-04
+"Marcos Juarez Aerodrome";2019-07-25;"N_BELT";"Cordoba";"8.50";5,6;16
+"Marcos Juarez Aerodrome";2019-07-26;"N_BELT";"Cordoba";"15.20";6,7;0
+"Marcos Juarez Aerodrome";2019-07-27;"N_BELT";"Cordoba";"18.70";-1;0
+"Marcos Juarez Aerodrome";2019-07-28;"N_BELT";"Cordoba";"12.20";4;0
+"Marcos Juarez Aerodrome";2019-07-29;"N_BELT";"Cordoba";"12.00";7,7;0
+"Marcos Juarez Aerodrome";2019-07-30;"N_BELT";"Cordoba";"19.40";1,7;0
+"Marcos Juarez Aerodrome";2019-07-31;"N_BELT";"Cordoba";"22.70";5,8;0
+"Marcos Juarez Aerodrome";2019-08-01;"N_BELT";"Cordoba";"18.20";7,7;0
+"Marcos Juarez Aerodrome";2019-08-02;"N_BELT";"Cordoba";"16.00";1;0
+"Marcos Juarez Aerodrome";2019-08-03;"N_BELT";"Cordoba";"18.70";0,2;0
+"Marcos Juarez Aerodrome";2019-08-04;"N_BELT";"Cordoba";"19.20";0,7;0
+"Marcos Juarez Aerodrome";2019-08-05;"N_BELT";"Cordoba";"20.50";4;0
+"Marcos Juarez Aerodrome";2019-08-06;"N_BELT";"Cordoba";"24.10";8,9;0
+"Marcos Juarez Aerodrome";2019-08-07;"N_BELT";"Cordoba";"18.90";5,1;1e-04
+"Marcos Juarez Aerodrome";2019-08-08;"N_BELT";"Cordoba";"11.80";4,8;0
+"Marcos Juarez Aerodrome";2019-08-09;"N_BELT";"Cordoba";"11.80";6,3;1e-04
+"Marcos Juarez Aerodrome";2019-08-10;"N_BELT";"Cordoba";"19.00";-1,8;0
+"Marcos Juarez Aerodrome";2019-08-11;"N_BELT";"Cordoba";"20.80";1;0
+"Marcos Juarez Aerodrome";2019-08-12;"N_BELT";"Cordoba";"15.20";1,6;0
+"Marcos Juarez Aerodrome";2019-08-13;"N_BELT";"Cordoba";"11.80";-2,8;0
+"Marcos Juarez Aerodrome";2019-08-14;"N_BELT";"Cordoba";"13.80";-4;0
+"Marcos Juarez Aerodrome";2019-08-15;"N_BELT";"Cordoba";"17.10";-0,4;0
+"Marcos Juarez Aerodrome";2019-08-16;"N_BELT";"Cordoba";"23.20";2,6;0
+"Marcos Juarez Aerodrome";2019-08-17;"N_BELT";"Cordoba";"21.50";11;0
+"Marcos Juarez Aerodrome";2019-08-18;"N_BELT";"Cordoba";"15.80";2,4;0
+"Marcos Juarez Aerodrome";2019-08-19;"N_BELT";"Cordoba";"13.00";3;0
+"Marcos Juarez Aerodrome";2019-08-20;"N_BELT";"Cordoba";"14.60";-0,6;0
+"Marcos Juarez Aerodrome";2019-08-21;"N_BELT";"Cordoba";"17.20";2,9;0
+"Marcos Juarez Aerodrome";2019-08-22;"N_BELT";"Cordoba";"22.00";7,3;0
+"Marcos Juarez Aerodrome";2019-08-23;"N_BELT";"Cordoba";"20.20";3;0
+"Marcos Juarez Aerodrome";2019-08-24;"N_BELT";"Cordoba";"22.00";4,5;0
+"Marcos Juarez Aerodrome";2019-08-25;"N_BELT";"Cordoba";"22.50";7,6;0
+"Marcos Juarez Aerodrome";2019-08-26;"N_BELT";"Cordoba";"22.50";7,9;0
+"Marcos Juarez Aerodrome";2019-08-27;"N_BELT";"Cordoba";"26.70";12,6;0
+"Marcos Juarez Aerodrome";2019-08-28;"N_BELT";"Cordoba";"30.30";15;0
+"Marcos Juarez Aerodrome";2019-08-29;"N_BELT";"Cordoba";"22.40";14;0
+"Marcos Juarez Aerodrome";2019-08-30;"N_BELT";"Cordoba";"20.60";4,6;0
+"Marcos Juarez Aerodrome";2019-08-31;"N_BELT";"Cordoba";"20.70";1,4;0
+"Marcos Juarez Aerodrome";2019-09-01;"N_BELT";"Cordoba";"17.70";1,6;0
+"Marcos Juarez Aerodrome";2019-09-02;"N_BELT";"Cordoba";"18.00";1,5;0
+"Marcos Juarez Aerodrome";2019-09-03;"N_BELT";"Cordoba";"13.40";-5,5;0
+"Marcos Juarez Aerodrome";2019-09-04;"N_BELT";"Cordoba";"15.80";-4,2;0
+"Marcos Juarez Aerodrome";2019-09-05;"N_BELT";"Cordoba";"14.50";6,5;0
+"Marcos Juarez Aerodrome";2019-09-06;"N_BELT";"Cordoba";"18.00";2;0
+"Marcos Juarez Aerodrome";2019-09-07;"N_BELT";"Cordoba";"20.50";3,7;0
+"Marcos Juarez Aerodrome";2019-09-08;"N_BELT";"Cordoba";"21.60";3,5;5
+"Marcos Juarez Aerodrome";2019-09-09;"N_BELT";"Cordoba";"16.00";12;1e-04
+"Marcos Juarez Aerodrome";2019-09-10;"N_BELT";"Cordoba";"16.00";10;1e-04
+"Marcos Juarez Aerodrome";2019-09-11;"N_BELT";"Cordoba";"16.20";8,4;0
+"Marcos Juarez Aerodrome";2019-09-12;"N_BELT";"Cordoba";"20.00";0;0
+"Marcos Juarez Aerodrome";2019-09-13;"N_BELT";"Cordoba";"20.40";0;0
+"Marcos Juarez Aerodrome";2019-09-14;"N_BELT";"Cordoba";"24.00";4,6;0
+"Marcos Juarez Aerodrome";2019-09-15;"N_BELT";"Cordoba";"29.50";9;0
+"Marcos Juarez Aerodrome";2019-09-16;"N_BELT";"Cordoba";"19.30";12;0
+"Marcos Juarez Aerodrome";2019-09-17;"N_BELT";"Cordoba";"24.50";2;0
+"Marcos Juarez Aerodrome";2019-09-18;"N_BELT";"Cordoba";"28.30";3,2;0
+"Marcos Juarez Aerodrome";2019-09-19;"N_BELT";"Cordoba";"16.00";7,5;0
+"Marcos Juarez Aerodrome";2019-09-20;"N_BELT";"Cordoba";"21.50";-1;0
+"Marcos Juarez Aerodrome";2019-09-21;"N_BELT";"Cordoba";"26.00";0,8;0
+"Marcos Juarez Aerodrome";2019-09-22;"N_BELT";"Cordoba";"24.40";6,4;0
+"Marcos Juarez Aerodrome";2019-09-23;"N_BELT";"Cordoba";"25.50";6,4;0
+"Marcos Juarez Aerodrome";2019-09-24;"N_BELT";"Cordoba";"27.70";5;0
+"Marcos Juarez Aerodrome";2019-09-25;"N_BELT";"Cordoba";"30.20";7,3;0
+"Marcos Juarez Aerodrome";2019-09-26;"N_BELT";"Cordoba";"30.50";7,3;0
+"Marcos Juarez Aerodrome";2019-09-27;"N_BELT";"Cordoba";"28.00";11;0
+"Marcos Juarez Aerodrome";2019-09-28;"N_BELT";"Cordoba";"29.40";10,2;0
+"Marcos Juarez Aerodrome";2019-09-29;"N_BELT";"Cordoba";"34.10";12;0
+"Marcos Juarez Aerodrome";2019-09-30;"N_BELT";"Cordoba";"32.50";18,6;5
+"Marcos Juarez Aerodrome";2019-10-01;"N_BELT";"Cordoba";"18.80";11,8;0
+"Marcos Juarez Aerodrome";2019-10-02;"N_BELT";"Cordoba";"21.00";4,5;1e-04
+"Marcos Juarez Aerodrome";2019-10-03;"N_BELT";"Cordoba";"14.20";7,9;4
+"Marcos Juarez Aerodrome";2019-10-04;"N_BELT";"Cordoba";"14.50";9,3;0,5
+"Marcos Juarez Aerodrome";2019-10-05;"N_BELT";"Cordoba";"21.30";1,8;0
+"Marcos Juarez Aerodrome";2019-10-06;"N_BELT";"Cordoba";"23.50";2,5;0
+"Marcos Juarez Aerodrome";2019-10-07;"N_BELT";"Cordoba";"25.00";0,5;5
+"Marcos Juarez Aerodrome";2019-10-08;"N_BELT";"Cordoba";"25.30";12,5;0
+"Marcos Juarez Aerodrome";2019-10-09;"N_BELT";"Cordoba";"31.80";12,2;0,8
+"Marcos Juarez Aerodrome";2019-10-10;"N_BELT";"Cordoba";"34.60";15,5;0
+"Marcos Juarez Aerodrome";2019-10-11;"N_BELT";"Cordoba";"35.50";19,8;0
+"Marcos Juarez Aerodrome";2019-10-12;"N_BELT";"Cordoba";"32.80";19,8;4
+"Marcos Juarez Aerodrome";2019-10-13;"N_BELT";"Cordoba";"23.90";17,5;12
+"Marcos Juarez Aerodrome";2019-10-14;"N_BELT";"Cordoba";"13.40";8,9;1e-04
+"Marcos Juarez Aerodrome";2019-10-15;"N_BELT";"Cordoba";"10.80";7,4;10
+"Marcos Juarez Aerodrome";2019-10-16;"N_BELT";"Cordoba";"14.30";10,1;0
+"Pilar Observatorio";2019-07-19;"CN_CORDOBA";"Cordoba";"19.50";2,7;0
+"Pilar Observatorio";2019-07-20;"CN_CORDOBA";"Cordoba";"23.10";6,1;0
+"Pilar Observatorio";2019-07-21;"CN_CORDOBA";"Cordoba";"20.50";16,6;0
+"Pilar Observatorio";2019-07-22;"CN_CORDOBA";"Cordoba";"15.60";8,9;0
+"Pilar Observatorio";2019-07-23;"CN_CORDOBA";"Cordoba";"10.60";6,8;0,2
+"Pilar Observatorio";2019-07-24;"CN_CORDOBA";"Cordoba";"12.50";5,1;0
+"Pilar Observatorio";2019-07-25;"CN_CORDOBA";"Cordoba";"8.70";6,6;0,6
+"Pilar Observatorio";2019-07-26;"CN_CORDOBA";"Cordoba";"18.00";0,9;0
+"Pilar Observatorio";2019-07-27;"CN_CORDOBA";"Cordoba";"18.50";0,8;1e-04
+"Pilar Observatorio";2019-07-28;"CN_CORDOBA";"Cordoba";"10.20";5,5;1e-04
+"Pilar Observatorio";2019-07-29;"CN_CORDOBA";"Cordoba";"14.40";8;0
+"Pilar Observatorio";2019-07-30;"CN_CORDOBA";"Cordoba";"20.70";3;0
+"Pilar Observatorio";2019-07-31;"CN_CORDOBA";"Cordoba";"22.60";6,5;0
+"Pilar Observatorio";2019-08-01;"CN_CORDOBA";"Cordoba";"18.60";10,3;0
+"Pilar Observatorio";2019-08-02;"CN_CORDOBA";"Cordoba";"17.80";4;0
+"Pilar Observatorio";2019-08-03;"CN_CORDOBA";"Cordoba";"19.20";-0,1;0
+"Pilar Observatorio";2019-08-04;"CN_CORDOBA";"Cordoba";"20.20";4,6;0
+"Pilar Observatorio";2019-08-05;"CN_CORDOBA";"Cordoba";"21.00";6;0
+"Pilar Observatorio";2019-08-06;"CN_CORDOBA";"Cordoba";"27.60";9,6;0
+"Pilar Observatorio";2019-08-07;"CN_CORDOBA";"Cordoba";"17.50";8,5;0
+"Pilar Observatorio";2019-08-08;"CN_CORDOBA";"Cordoba";"11.70";6,7;0
+"Pilar Observatorio";2019-08-09;"CN_CORDOBA";"Cordoba";"15.00";6,5;0
+"Pilar Observatorio";2019-08-10;"CN_CORDOBA";"Cordoba";"20.10";0;0
+"Pilar Observatorio";2019-08-11;"CN_CORDOBA";"Cordoba";"23.40";5,6;0
+"Pilar Observatorio";2019-08-12;"CN_CORDOBA";"Cordoba";"17.50";6,7;0
+"Pilar Observatorio";2019-08-13;"CN_CORDOBA";"Cordoba";"12.50";-0,5;0
+"Pilar Observatorio";2019-08-14;"CN_CORDOBA";"Cordoba";"13.50";-1,5;0
+"Pilar Observatorio";2019-08-15;"CN_CORDOBA";"Cordoba";"19.80";2,1;0
+"Pilar Observatorio";2019-08-16;"CN_CORDOBA";"Cordoba";"24.60";1;0
+"Pilar Observatorio";2019-08-17;"CN_CORDOBA";"Cordoba";"22.40";8,8;0
+"Pilar Observatorio";2019-08-18;"CN_CORDOBA";"Cordoba";"16.70";4;0
+"Pilar Observatorio";2019-08-19;"CN_CORDOBA";"Cordoba";"14.00";6;0
+"Pilar Observatorio";2019-08-20;"CN_CORDOBA";"Cordoba";"12.90";2,8;0
+"Pilar Observatorio";2019-08-21;"CN_CORDOBA";"Cordoba";"17.20";-1,1;0
+"Pilar Observatorio";2019-08-22;"CN_CORDOBA";"Cordoba";"22.30";6,3;0
+"Pilar Observatorio";2019-08-23;"CN_CORDOBA";"Cordoba";"20.00";4;0
+"Pilar Observatorio";2019-08-24;"CN_CORDOBA";"Cordoba";"22.50";5,4;0
+"Pilar Observatorio";2019-08-25;"CN_CORDOBA";"Cordoba";"25.10";8,5;0
+"Pilar Observatorio";2019-08-26;"CN_CORDOBA";"Cordoba";"25.00";7,7;0
+"Pilar Observatorio";2019-08-27;"CN_CORDOBA";"Cordoba";"27.40";12;0
+"Pilar Observatorio";2019-08-28;"CN_CORDOBA";"Cordoba";"34.00";15,9;0
+"Pilar Observatorio";2019-08-29;"CN_CORDOBA";"Cordoba";"23.00";15,6;0
+"Pilar Observatorio";2019-08-30;"CN_CORDOBA";"Cordoba";"20.00";8,1;0
+"Pilar Observatorio";2019-08-31;"CN_CORDOBA";"Cordoba";"20.50";3,8;0
+"Pilar Observatorio";2019-09-01;"CN_CORDOBA";"Cordoba";"19.10";2,4;0
+"Pilar Observatorio";2019-09-02;"CN_CORDOBA";"Cordoba";"19.50";3,5;0
+"Pilar Observatorio";2019-09-03;"CN_CORDOBA";"Cordoba";"13.50";4;0
+"Pilar Observatorio";2019-09-04;"CN_CORDOBA";"Cordoba";"14.00";0,5;0
+"Pilar Observatorio";2019-09-05;"CN_CORDOBA";"Cordoba";"16.10";6,9;0
+"Pilar Observatorio";2019-09-06;"CN_CORDOBA";"Cordoba";"18.00";2,6;0
+"Pilar Observatorio";2019-09-07;"CN_CORDOBA";"Cordoba";"19.90";3;0
+"Pilar Observatorio";2019-09-08;"CN_CORDOBA";"Cordoba";"21.60";5,6;1
+"Pilar Observatorio";2019-09-09;"CN_CORDOBA";"Cordoba";"19.50";11,3;3
+"Pilar Observatorio";2019-09-10;"CN_CORDOBA";"Cordoba";"14.50";8,6;0,3
+"Pilar Observatorio";2019-09-11;"CN_CORDOBA";"Cordoba";"16.90";6,6;1e-04
+"Pilar Observatorio";2019-09-12;"CN_CORDOBA";"Cordoba";"21.00";1,1;0
+"Pilar Observatorio";2019-09-13;"CN_CORDOBA";"Cordoba";"20.10";5,4;0
+"Pilar Observatorio";2019-09-14;"CN_CORDOBA";"Cordoba";"24.40";6,8;0
+"Pilar Observatorio";2019-09-15;"CN_CORDOBA";"Cordoba";"32.00";8,4;1e-04
+"Pilar Observatorio";2019-09-16;"CN_CORDOBA";"Cordoba";"19.60";11,2;0
+"Pilar Observatorio";2019-09-17;"CN_CORDOBA";"Cordoba";"22.00";6,4;0
+"Pilar Observatorio";2019-09-18;"CN_CORDOBA";"Cordoba";"27.70";7,5;0
+"Pilar Observatorio";2019-09-19;"CN_CORDOBA";"Cordoba";"16.90";12,8;0
+"Pilar Observatorio";2019-09-20;"CN_CORDOBA";"Cordoba";"20.80";4;0
+"Pilar Observatorio";2019-09-21;"CN_CORDOBA";"Cordoba";"26.00";6;0
+"Pilar Observatorio";2019-09-22;"CN_CORDOBA";"Cordoba";"24.00";3,5;0
+"Pilar Observatorio";2019-09-23;"CN_CORDOBA";"Cordoba";"24.00";8,5;0
+"Pilar Observatorio";2019-09-24;"CN_CORDOBA";"Cordoba";"28.40";8,2;0
+"Pilar Observatorio";2019-09-25;"CN_CORDOBA";"Cordoba";"30.20";9,4;0
+"Pilar Observatorio";2019-09-26;"CN_CORDOBA";"Cordoba";"30.50";9,5;0
+"Pilar Observatorio";2019-09-27;"CN_CORDOBA";"Cordoba";"27.50";10;0
+"Pilar Observatorio";2019-09-28;"CN_CORDOBA";"Cordoba";"30.40";11,3;0
+"Pilar Observatorio";2019-09-29;"CN_CORDOBA";"Cordoba";"34.30";15,7;0
+"Pilar Observatorio";2019-09-30;"CN_CORDOBA";"Cordoba";"31.30";19,5;0
+"Pilar Observatorio";2019-10-01;"CN_CORDOBA";"Cordoba";"19.90";12,7;0
+"Pilar Observatorio";2019-10-02;"CN_CORDOBA";"Cordoba";"20.80";6;0,5
+"Pilar Observatorio";2019-10-03;"CN_CORDOBA";"Cordoba";"10.50";8;1
+"Pilar Observatorio";2019-10-04;"CN_CORDOBA";"Cordoba";"13.40";8,2;1e-04
+"Pilar Observatorio";2019-10-05;"CN_CORDOBA";"Cordoba";"21.10";3,4;0
+"Pilar Observatorio";2019-10-06;"CN_CORDOBA";"Cordoba";"24.80";7,6;0
+"Pilar Observatorio";2019-10-07;"CN_CORDOBA";"Cordoba";"26.00";12;0
+"Pilar Observatorio";2019-10-08;"CN_CORDOBA";"Cordoba";"27.00";9,9;0
+"Pilar Observatorio";2019-10-09;"CN_CORDOBA";"Cordoba";"33.20";12,6;0
+"Pilar Observatorio";2019-10-10;"CN_CORDOBA";"Cordoba";"36.50";14,9;0
+"Pilar Observatorio";2019-10-11;"CN_CORDOBA";"Cordoba";"35.00";18,4;0
+"Pilar Observatorio";2019-10-12;"CN_CORDOBA";"Cordoba";"30.10";18,7;2
+"Pilar Observatorio";2019-10-13;"CN_CORDOBA";"Cordoba";"25.00";17,9;27
+"Pilar Observatorio";2019-10-14;"CN_CORDOBA";"Cordoba";"11.30";9;1e-04
+"Pilar Observatorio";2019-10-15;"CN_CORDOBA";"Cordoba";"11.00";8;0,8
+"Pilar Observatorio";2019-10-16;"CN_CORDOBA";"Cordoba";"14.00";8,8;0
+"Posadas Aero.";2019-07-19;"";"Misiones";"21.00";14,2;0
+"Posadas Aero.";2019-07-20;"";"Misiones";"27.80";14,7;0
+"Posadas Aero.";2019-07-21;"";"Misiones";"26.40";20,3;0
+"Posadas Aero.";2019-07-22;"";"Misiones";"27.00";21,4;28
+"Posadas Aero.";2019-07-23;"";"Misiones";"19.60";19,1;44
+"Posadas Aero.";2019-07-24;"";"Misiones";"15.50";14,2;0
+"Posadas Aero.";2019-07-25;"";"Misiones";"13.60";12,7;34
+"Posadas Aero.";2019-07-26;"";"Misiones";"10.50";9,3;1e-04
+"Posadas Aero.";2019-07-27;"";"Misiones";"12.40";9,3;0
+"Posadas Aero.";2019-07-28;"";"Misiones";"20.30";9,7;0
+"Posadas Aero.";2019-07-29;"";"Misiones";"22.10";14,3;1
+"Posadas Aero.";2019-07-30;"";"Misiones";"24.60";15,8;0
+"Posadas Aero.";2019-07-31;"";"Misiones";"27.80";13,8;0
+"Posadas Aero.";2019-08-01;"";"Misiones";"29.50";18,1;13
+"Posadas Aero.";2019-08-02;"";"Misiones";"18.00";10,5;0
+"Posadas Aero.";2019-08-03;"";"Misiones";"17.10";6,5;0
+"Posadas Aero.";2019-08-04;"";"Misiones";"18.14";6,2;0
+"Posadas Aero.";2019-08-05;"";"Misiones";"22.30";6,6;0
+"Posadas Aero.";2019-08-06;"";"Misiones";"26.20";12,7;0
+"Posadas Aero.";2019-08-07;"";"Misiones";"29.00";18,4;0
+"Posadas Aero.";2019-08-08;"";"Misiones";"26.20";20,5;2
+"Posadas Aero.";2019-08-09;"";"Misiones";"16.40";16,2;15
+"Posadas Aero.";2019-08-10;"";"Misiones";"13.50";10,4;0
+"Posadas Aero.";2019-08-11;"";"Misiones";"23.00";9;1e-04
+"Posadas Aero.";2019-08-12;"";"Misiones";"22.70";18;1
+"Posadas Aero.";2019-08-13;"";"Misiones";"17.00";8,5;0
+"Posadas Aero.";2019-08-14;"";"Misiones";"17.30";3,5;0
+"Posadas Aero.";2019-08-15;"";"Misiones";"24.60";8;0
+"Posadas Aero.";2019-08-16;"";"Misiones";"30.40";14,7;0
+"Posadas Aero.";2019-08-17;"";"Misiones";"28.50";18,7;0
+"Posadas Aero.";2019-08-18;"";"Misiones";"22.60";19,4;0
+"Posadas Aero.";2019-08-19;"";"Misiones";"20.10";8,7;0
+"Posadas Aero.";2019-08-20;"";"Misiones";"23.50";7;0
+"Posadas Aero.";2019-08-21;"";"Misiones";"24.50";8,2;0
+"Posadas Aero.";2019-08-22;"";"Misiones";"19.40";9,6;0
+"Posadas Aero.";2019-08-23;"";"Misiones";"25.30";9,4;0
+"Posadas Aero.";2019-08-24;"";"Misiones";"26.50";10,4;0
+"Posadas Aero.";2019-08-25;"";"Misiones";"27.40";15,6;3
+"Posadas Aero.";2019-08-26;"";"Misiones";"20.50";18,1;10
+"Posadas Aero.";2019-08-27;"";"Misiones";"28.50";14,1;0
+"Posadas Aero.";2019-08-28;"";"Misiones";"31.60";15,6;0
+"Posadas Aero.";2019-08-29;"";"Misiones";"33.00";19,6;0
+"Posadas Aero.";2019-08-30;"";"Misiones";"33.90";20;34
+"Posadas Aero.";2019-08-31;"";"Misiones";"20.60";15,7;4
+"Posadas Aero.";2019-09-01;"";"Misiones";"21.00";11,2;0
+"Posadas Aero.";2019-09-02;"";"Misiones";"22.50";8;0
+"Posadas Aero.";2019-09-03;"";"Misiones";"23.70";9,5;0
+"Posadas Aero.";2019-09-04;"";"Misiones";"21.90";10,2;0
+"Posadas Aero.";2019-09-05;"";"Misiones";"17.90";9,2;0
+"Posadas Aero.";2019-09-06;"";"Misiones";"29.60";15,3;1e-04
+"Posadas Aero.";2019-09-07;"";"Misiones";"30.00";22;1e-04
+"Posadas Aero.";2019-09-08;"";"Misiones";"33.30";21,7;0
+"Posadas Aero.";2019-09-09;"";"Misiones";"32.00";24,9;0
+"Posadas Aero.";2019-09-10;"";"Misiones";"26.50";19;0
+"Posadas Aero.";2019-09-11;"";"Misiones";"21.00";18,2;7
+"Posadas Aero.";2019-09-12;"";"Misiones";"23.10";14,8;1e-04
+"Posadas Aero.";2019-09-13;"";"Misiones";"25.70";13;1e-04
+"Posadas Aero.";2019-09-14;"";"Misiones";"26.00";15,6;0
+"Posadas Aero.";2019-09-15;"";"Misiones";"36.00";20,2;0
+"Posadas Aero.";2019-09-16;"";"Misiones";"36.50";25,4;0
+"Posadas Aero.";2019-09-17;"";"Misiones";"20.80";17;2
+"Posadas Aero.";2019-09-18;"";"Misiones";"22.00";12,7;3
+"Posadas Aero.";2019-09-19;"";"Misiones";"22.50";13,7;0
+"Posadas Aero.";2019-09-20;"";"Misiones";"24.30";14,2;0
+"Posadas Aero.";2019-09-21;"";"Misiones";"25.50";10,2;0
+"Posadas Aero.";2019-09-22;"";"Misiones";"26.50";9,5;0
+"Posadas Aero.";2019-09-23;"";"Misiones";"28.00";12;0
+"Posadas Aero.";2019-09-24;"";"Misiones";"25.70";16,8;0
+"Posadas Aero.";2019-09-25;"";"Misiones";"29.80";15,7;0
+"Posadas Aero.";2019-09-26;"";"Misiones";"29.50";13,9;0
+"Posadas Aero.";2019-09-27;"";"Misiones";"31.00";14,5;0
+"Posadas Aero.";2019-09-28;"";"Misiones";"33.00";16;0
+"Posadas Aero.";2019-09-29;"";"Misiones";"34.40";19,1;0
+"Posadas Aero.";2019-09-30;"";"Misiones";"37.00";20,5;0
+"Posadas Aero.";2019-10-01;"";"Misiones";"38.50";25;0
+"Posadas Aero.";2019-10-02;"";"Misiones";"23.90";22,1;10
+"Posadas Aero.";2019-10-03;"";"Misiones";"24.60";20;15
+"Posadas Aero.";2019-10-04;"";"Misiones";"26.00";20,7;28
+"Posadas Aero.";2019-10-05;"";"Misiones";"19.20";18;15
+"Posadas Aero.";2019-10-06;"";"Misiones";"22.10";14,8;0
+"Posadas Aero.";2019-10-07;"";"Misiones";"27.00";14,7;0
+"Posadas Aero.";2019-10-08;"";"Misiones";"30.60";16,5;0
+"Posadas Aero.";2019-10-09;"";"Misiones";"32.00";17,7;0
+"Posadas Aero.";2019-10-10;"";"Misiones";"35.20";18,4;0
+"Posadas Aero.";2019-10-11;"";"Misiones";"36.90";22,5;0
+"Posadas Aero.";2019-10-12;"";"Misiones";"37.60";25,7;0
+"Posadas Aero.";2019-10-13;"";"Misiones";"38.50";24,7;2
+"Posadas Aero.";2019-10-14;"";"Misiones";"22.00";21,9;26
+"Posadas Aero.";2019-10-15;"";"Misiones";"25.00";15,8;1e-04
+"Posadas Aero.";2019-10-16;"";"Misiones";"22.00";19,4;0
+"Rio Cuarto Aerodrome";2019-07-19;"S_CORDOBA";"Cordoba";"16.20";0,4;0
+"Rio Cuarto Aerodrome";2019-07-20;"S_CORDOBA";"Cordoba";"21.80";3,5;0
+"Rio Cuarto Aerodrome";2019-07-21;"S_CORDOBA";"Cordoba";"14.80";10,1;0
+"Rio Cuarto Aerodrome";2019-07-22;"S_CORDOBA";"Cordoba";"11.20";5,8;0
+"Rio Cuarto Aerodrome";2019-07-23;"S_CORDOBA";"Cordoba";"10.70";3,9;1e-04
+"Rio Cuarto Aerodrome";2019-07-24;"S_CORDOBA";"Cordoba";"13.40";4,6;0
+"Rio Cuarto Aerodrome";2019-07-25;"S_CORDOBA";"Cordoba";"11.80";2,3;0
+"Rio Cuarto Aerodrome";2019-07-26;"S_CORDOBA";"Cordoba";"16.80";-1,2;0
+"Rio Cuarto Aerodrome";2019-07-27;"S_CORDOBA";"Cordoba";"19.80";2,4;0
+"Rio Cuarto Aerodrome";2019-07-28;"S_CORDOBA";"Cordoba";"10.90";6;0
+"Rio Cuarto Aerodrome";2019-07-29;"S_CORDOBA";"Cordoba";"17.60";1,7;0
+"Rio Cuarto Aerodrome";2019-07-30;"S_CORDOBA";"Cordoba";"23.00";5,2;0
+"Rio Cuarto Aerodrome";2019-07-31;"S_CORDOBA";"Cordoba";"21.00";7,7;0
+"Rio Cuarto Aerodrome";2019-08-01;"S_CORDOBA";"Cordoba";"16.90";7,3;0
+"Rio Cuarto Aerodrome";2019-08-02;"S_CORDOBA";"Cordoba";"16.00";4,8;0
+"Rio Cuarto Aerodrome";2019-08-03;"S_CORDOBA";"Cordoba";"19.50";1;0
+"Rio Cuarto Aerodrome";2019-08-04;"S_CORDOBA";"Cordoba";"21.70";3,3;0
+"Rio Cuarto Aerodrome";2019-08-05;"S_CORDOBA";"Cordoba";"23.20";4,5;0
+"Rio Cuarto Aerodrome";2019-08-06;"S_CORDOBA";"Cordoba";"21.00";5;0
+"Rio Cuarto Aerodrome";2019-08-07;"S_CORDOBA";"Cordoba";"13.40";4,8;0
+"Rio Cuarto Aerodrome";2019-08-08;"S_CORDOBA";"Cordoba";"11.60";5,5;1e-04
+"Rio Cuarto Aerodrome";2019-08-09;"S_CORDOBA";"Cordoba";"14.20";4,3;0
+"Rio Cuarto Aerodrome";2019-08-10;"S_CORDOBA";"Cordoba";"20.20";1,2;0
+"Rio Cuarto Aerodrome";2019-08-11;"S_CORDOBA";"Cordoba";"21.40";2,6;0
+"Rio Cuarto Aerodrome";2019-08-12;"S_CORDOBA";"Cordoba";"14.80";4;0
+"Rio Cuarto Aerodrome";2019-08-13;"S_CORDOBA";"Cordoba";"11.60";-2,5;0
+"Rio Cuarto Aerodrome";2019-08-14;"S_CORDOBA";"Cordoba";"13.20";0,5;0
+"Rio Cuarto Aerodrome";2019-08-15;"S_CORDOBA";"Cordoba";"18.20";-0,2;0
+"Rio Cuarto Aerodrome";2019-08-16;"S_CORDOBA";"Cordoba";"20.20";3,3;0
+"Rio Cuarto Aerodrome";2019-08-17;"S_CORDOBA";"Cordoba";"20.60";6,4;0
+"Rio Cuarto Aerodrome";2019-08-18;"S_CORDOBA";"Cordoba";"11.90";4,8;0
+"Rio Cuarto Aerodrome";2019-08-19;"S_CORDOBA";"Cordoba";"13.00";5,2;0
+"Rio Cuarto Aerodrome";2019-08-20;"S_CORDOBA";"Cordoba";"15.70";1,4;0
+"Rio Cuarto Aerodrome";2019-08-21;"S_CORDOBA";"Cordoba";"17.00";2,5;0
+"Rio Cuarto Aerodrome";2019-08-22;"S_CORDOBA";"Cordoba";"19.40";6,6;0
+"Rio Cuarto Aerodrome";2019-08-23;"S_CORDOBA";"Cordoba";"21.20";5,5;0
+"Rio Cuarto Aerodrome";2019-08-24;"S_CORDOBA";"Cordoba";"22.90";8,1;0
+"Rio Cuarto Aerodrome";2019-08-25;"S_CORDOBA";"Cordoba";"23.50";8,2;0
+"Rio Cuarto Aerodrome";2019-08-26;"S_CORDOBA";"Cordoba";"28.90";11,2;0
+"Rio Cuarto Aerodrome";2019-08-27;"S_CORDOBA";"Cordoba";"27.50";13,4;0
+"Rio Cuarto Aerodrome";2019-08-28;"S_CORDOBA";"Cordoba";"31.40";13,5;0
+"Rio Cuarto Aerodrome";2019-08-29;"S_CORDOBA";"Cordoba";"18.80";12,2;0
+"Rio Cuarto Aerodrome";2019-08-30;"S_CORDOBA";"Cordoba";"18.80";9,6;0
+"Rio Cuarto Aerodrome";2019-08-31;"S_CORDOBA";"Cordoba";"20.20";3,8;0
+"Rio Cuarto Aerodrome";2019-09-01;"S_CORDOBA";"Cordoba";"17.00";5,6;0
+"Rio Cuarto Aerodrome";2019-09-02;"S_CORDOBA";"Cordoba";"11.50";3;0
+"Rio Cuarto Aerodrome";2019-09-03;"S_CORDOBA";"Cordoba";"14.80";-2;0
+"Rio Cuarto Aerodrome";2019-09-04;"S_CORDOBA";"Cordoba";"13.50";0;0
+"Rio Cuarto Aerodrome";2019-09-05;"S_CORDOBA";"Cordoba";"15.50";5,2;0
+"Rio Cuarto Aerodrome";2019-09-06;"S_CORDOBA";"Cordoba";"17.30";3,2;0
+"Rio Cuarto Aerodrome";2019-09-07;"S_CORDOBA";"Cordoba";"19.00";3;0
+"Rio Cuarto Aerodrome";2019-09-08;"S_CORDOBA";"Cordoba";"21.50";3,5;2
+"Rio Cuarto Aerodrome";2019-09-09;"S_CORDOBA";"Cordoba";"12.20";9,8;0,3
+"Rio Cuarto Aerodrome";2019-09-10;"S_CORDOBA";"Cordoba";"14.90";6,3;8
+"Rio Cuarto Aerodrome";2019-09-11;"S_CORDOBA";"Cordoba";"10.30";9,3;5
+"Rio Cuarto Aerodrome";2019-09-12;"S_CORDOBA";"Cordoba";"20.10";1,9;0
+"Rio Cuarto Aerodrome";2019-09-13;"S_CORDOBA";"Cordoba";"21.50";7,3;0
+"Rio Cuarto Aerodrome";2019-09-14;"S_CORDOBA";"Cordoba";"24.50";7;0
+"Rio Cuarto Aerodrome";2019-09-15;"S_CORDOBA";"Cordoba";"27.00";10,8;0
+"Rio Cuarto Aerodrome";2019-09-16;"S_CORDOBA";"Cordoba";"18.30";9,8;0
+"Rio Cuarto Aerodrome";2019-09-17;"S_CORDOBA";"Cordoba";"26.00";5;0
+"Rio Cuarto Aerodrome";2019-09-18;"S_CORDOBA";"Cordoba";"28.50";10;0
+"Rio Cuarto Aerodrome";2019-09-19;"S_CORDOBA";"Cordoba";"15.20";9,6;0
+"Rio Cuarto Aerodrome";2019-09-20;"S_CORDOBA";"Cordoba";"20.04";2,5;0
+"Rio Cuarto Aerodrome";2019-09-21;"S_CORDOBA";"Cordoba";"24.00";5,5;0
+"Rio Cuarto Aerodrome";2019-09-22;"S_CORDOBA";"Cordoba";"24.00";7,7;0
+"Rio Cuarto Aerodrome";2019-09-23;"S_CORDOBA";"Cordoba";"26.00";9,6;0
+"Rio Cuarto Aerodrome";2019-09-24;"S_CORDOBA";"Cordoba";"27.90";7,3;0
+"Rio Cuarto Aerodrome";2019-09-25;"S_CORDOBA";"Cordoba";"31.00";10,6;0
+"Rio Cuarto Aerodrome";2019-09-26;"S_CORDOBA";"Cordoba";"31.00";14,3;0
+"Rio Cuarto Aerodrome";2019-09-27;"S_CORDOBA";"Cordoba";"27.40";13,2;0
+"Rio Cuarto Aerodrome";2019-09-28;"S_CORDOBA";"Cordoba";"31.60";14;0
+"Rio Cuarto Aerodrome";2019-09-29;"S_CORDOBA";"Cordoba";"35.10";18,6;0
+"Rio Cuarto Aerodrome";2019-09-30;"S_CORDOBA";"Cordoba";"24.20";17,6;0
+"Rio Cuarto Aerodrome";2019-10-01;"S_CORDOBA";"Cordoba";"20.00";9,4;0
+"Rio Cuarto Aerodrome";2019-10-02;"S_CORDOBA";"Cordoba";"20.00";5,4;0
+"Rio Cuarto Aerodrome";2019-10-03;"S_CORDOBA";"Cordoba";"9.00";7,4;1
+"Rio Cuarto Aerodrome";2019-10-04;"S_CORDOBA";"Cordoba";"13.00";5,6;1e-04
+"Rio Cuarto Aerodrome";2019-10-05;"S_CORDOBA";"Cordoba";"21.50";2,8;0
+"Rio Cuarto Aerodrome";2019-10-06;"S_CORDOBA";"Cordoba";"26.20";8,5;0
+"Rio Cuarto Aerodrome";2019-10-07;"S_CORDOBA";"Cordoba";"23.40";9,3;0
+"Rio Cuarto Aerodrome";2019-10-08;"S_CORDOBA";"Cordoba";"27.20";11;0
+"Rio Cuarto Aerodrome";2019-10-09;"S_CORDOBA";"Cordoba";"30.20";14,5;0,1
+"Rio Cuarto Aerodrome";2019-10-10;"S_CORDOBA";"Cordoba";"35.20";17;0
+"Rio Cuarto Aerodrome";2019-10-11;"S_CORDOBA";"Cordoba";"30.70";19;0
+"Rio Cuarto Aerodrome";2019-10-12;"S_CORDOBA";"Cordoba";"27.60";18,6;1
+"Rio Cuarto Aerodrome";2019-10-13;"S_CORDOBA";"Cordoba";"26.50";16;6
+"Rio Cuarto Aerodrome";2019-10-14;"S_CORDOBA";"Cordoba";"10.80";7;0
+"Rio Cuarto Aerodrome";2019-10-15;"S_CORDOBA";"Cordoba";"10.90";5,6;1
+"Rio Cuarto Aerodrome";2019-10-16;"S_CORDOBA";"Cordoba";"13.50";8;0
+"Salta Aerodrome";2019-07-19;"SALTA_TUCUMAN";"Salta";"22.50";6,9;0
+"Salta Aerodrome";2019-07-20;"SALTA_TUCUMAN";"Salta";"27.20";8,7;0
+"Salta Aerodrome";2019-07-21;"SALTA_TUCUMAN";"Salta";"32.40";6,1;0
+"Salta Aerodrome";2019-07-22;"SALTA_TUCUMAN";"Salta";"15.60";8,8;0
+"Salta Aerodrome";2019-07-23;"SALTA_TUCUMAN";"Salta";"10.50";7,6;0
+"Salta Aerodrome";2019-07-24;"SALTA_TUCUMAN";"Salta";"9.20";4,2;1e-04
+"Salta Aerodrome";2019-07-25;"SALTA_TUCUMAN";"Salta";"14.50";-2,1;0
+"Salta Aerodrome";2019-07-26;"SALTA_TUCUMAN";"Salta";"19.80";-2,8;0
+"Salta Aerodrome";2019-07-27;"SALTA_TUCUMAN";"Salta";"17.20";-1,1;0
+"Salta Aerodrome";2019-07-28;"SALTA_TUCUMAN";"Salta";"19.00";2,9;0
+"Salta Aerodrome";2019-07-29;"SALTA_TUCUMAN";"Salta";"23.70";0,2;0
+"Salta Aerodrome";2019-07-30;"SALTA_TUCUMAN";"Salta";"26.20";0,9;0
+"Salta Aerodrome";2019-07-31;"SALTA_TUCUMAN";"Salta";"27.60";1,7;0
+"Salta Aerodrome";2019-08-01;"SALTA_TUCUMAN";"Salta";"20.20";3,2;0
+"Salta Aerodrome";2019-08-02;"SALTA_TUCUMAN";"Salta";"16.80";7,5;0
+"Salta Aerodrome";2019-08-03;"SALTA_TUCUMAN";"Salta";"17.80";-2,2;0
+"Salta Aerodrome";2019-08-04;"SALTA_TUCUMAN";"Salta";"18.80";-1,8;0
+"Salta Aerodrome";2019-08-05;"SALTA_TUCUMAN";"Salta";"22.30";-1,2;0
+"Salta Aerodrome";2019-08-06;"SALTA_TUCUMAN";"Salta";"26.40";-0,5;0
+"Salta Aerodrome";2019-08-07;"SALTA_TUCUMAN";"Salta";"24.50";0,7;0
+"Salta Aerodrome";2019-08-08;"SALTA_TUCUMAN";"Salta";"12.20";1,7;0
+"Salta Aerodrome";2019-08-09;"SALTA_TUCUMAN";"Salta";"13.00";5,7;0
+"Salta Aerodrome";2019-08-10;"SALTA_TUCUMAN";"Salta";"20.50";-3,2;0
+"Salta Aerodrome";2019-08-11;"SALTA_TUCUMAN";"Salta";"26.20";-2,8;0
+"Salta Aerodrome";2019-08-12;"SALTA_TUCUMAN";"Salta";"21.90";2,4;0
+"Salta Aerodrome";2019-08-13;"SALTA_TUCUMAN";"Salta";"10.30";7,6;0
+"Salta Aerodrome";2019-08-14;"SALTA_TUCUMAN";"Salta";"15.90";6,4;0
+"Salta Aerodrome";2019-08-15;"SALTA_TUCUMAN";"Salta";"21.30";0;0
+"Salta Aerodrome";2019-08-16;"SALTA_TUCUMAN";"Salta";"27.00";2,1;0
+"Salta Aerodrome";2019-08-17;"SALTA_TUCUMAN";"Salta";"31.40";4,3;0
+"Salta Aerodrome";2019-08-18;"SALTA_TUCUMAN";"Salta";"19.50";5;0
+"Salta Aerodrome";2019-08-19;"SALTA_TUCUMAN";"Salta";"19.70";6,5;0
+"Salta Aerodrome";2019-08-20;"SALTA_TUCUMAN";"Salta";"18.90";1,6;0
+"Salta Aerodrome";2019-08-21;"SALTA_TUCUMAN";"Salta";"19.60";1,2;0
+"Salta Aerodrome";2019-08-22;"SALTA_TUCUMAN";"Salta";"22.50";2,5;0
+"Salta Aerodrome";2019-08-23;"SALTA_TUCUMAN";"Salta";"22.60";1,3;0
+"Salta Aerodrome";2019-08-24;"SALTA_TUCUMAN";"Salta";"24.10";3,3;0
+"Salta Aerodrome";2019-08-25;"SALTA_TUCUMAN";"Salta";"28.50";5,1;0
+"Salta Aerodrome";2019-08-26;"SALTA_TUCUMAN";"Salta";"28.70";7,6;0
+"Salta Aerodrome";2019-08-27;"SALTA_TUCUMAN";"Salta";"28.30";9,7;0
+"Salta Aerodrome";2019-08-28;"SALTA_TUCUMAN";"Salta";"29.60";12;0
+"Salta Aerodrome";2019-08-29;"SALTA_TUCUMAN";"Salta";"35.10";12,2;0
+"Salta Aerodrome";2019-08-30;"SALTA_TUCUMAN";"Salta";"28.40";13,5;0
+"Salta Aerodrome";2019-08-31;"SALTA_TUCUMAN";"Salta";"19.50";11;0
+"Salta Aerodrome";2019-09-01;"SALTA_TUCUMAN";"Salta";"20.60";2,2;0
+"Salta Aerodrome";2019-09-02;"SALTA_TUCUMAN";"Salta";"21.10";0,7;0
+"Salta Aerodrome";2019-09-03;"SALTA_TUCUMAN";"Salta";"19.50";7,2;0
+"Salta Aerodrome";2019-09-04;"SALTA_TUCUMAN";"Salta";"13.70";5,9;0
+"Salta Aerodrome";2019-09-05;"SALTA_TUCUMAN";"Salta";"13.60";8,5;0
+"Salta Aerodrome";2019-09-06;"SALTA_TUCUMAN";"Salta";"21.60";7,5;0
+"Salta Aerodrome";2019-09-07;"SALTA_TUCUMAN";"Salta";"24.80";4,7;0
+"Salta Aerodrome";2019-09-08;"SALTA_TUCUMAN";"Salta";"21.20";7,5;0
+"Salta Aerodrome";2019-09-09;"SALTA_TUCUMAN";"Salta";"28.50";9,3;0
+"Salta Aerodrome";2019-09-10;"SALTA_TUCUMAN";"Salta";"18.00";12,5;0
+"Salta Aerodrome";2019-09-11;"SALTA_TUCUMAN";"Salta";"16.50";9,1;1
+"Salta Aerodrome";2019-09-12;"SALTA_TUCUMAN";"Salta";"22.60";6,2;0
+"Salta Aerodrome";2019-09-13;"SALTA_TUCUMAN";"Salta";"21.50";2,8;0
+"Salta Aerodrome";2019-09-14;"SALTA_TUCUMAN";"Salta";"27.50";4,4;0
+"Salta Aerodrome";2019-09-15;"SALTA_TUCUMAN";"Salta";"36.20";7,2;0
+"Salta Aerodrome";2019-09-16;"SALTA_TUCUMAN";"Salta";"25.40";13,6;0,1
+"Salta Aerodrome";2019-09-17;"SALTA_TUCUMAN";"Salta";"20.60";8,7;0
+"Salta Aerodrome";2019-09-18;"SALTA_TUCUMAN";"Salta";"25.20";9,1;0
+"Salta Aerodrome";2019-09-19;"SALTA_TUCUMAN";"Salta";"32.40";5,2;0
+"Salta Aerodrome";2019-09-20;"SALTA_TUCUMAN";"Salta";"19.30";9,3;0
+"Salta Aerodrome";2019-09-21;"SALTA_TUCUMAN";"Salta";"21.70";1;0
+"Salta Aerodrome";2019-09-22;"SALTA_TUCUMAN";"Salta";"24.40";5,2;0
+"Salta Aerodrome";2019-09-23;"SALTA_TUCUMAN";"Salta";"25.50";7;0
+"Salta Aerodrome";2019-09-24;"SALTA_TUCUMAN";"Salta";"26.70";8,2;0
+"Salta Aerodrome";2019-09-25;"SALTA_TUCUMAN";"Salta";"27.40";14,1;0
+"Salta Aerodrome";2019-09-26;"SALTA_TUCUMAN";"Salta";"29.70";7,7;0
+"Salta Aerodrome";2019-09-27;"SALTA_TUCUMAN";"Salta";"28.40";10,2;0
+"Salta Aerodrome";2019-09-28;"SALTA_TUCUMAN";"Salta";"32.50";9,4;0
+"Salta Aerodrome";2019-09-29;"SALTA_TUCUMAN";"Salta";"31.70";11,2;0
+"Salta Aerodrome";2019-09-30;"SALTA_TUCUMAN";"Salta";"36.00";13,3;0
+"Salta Aerodrome";2019-10-01;"SALTA_TUCUMAN";"Salta";"31.40";15,7;0
+"Salta Aerodrome";2019-10-02;"SALTA_TUCUMAN";"Salta";"16.40";11,9;0
+"Salta Aerodrome";2019-10-03;"SALTA_TUCUMAN";"Salta";"23.50";7,2;0
+"Salta Aerodrome";2019-10-04;"SALTA_TUCUMAN";"Salta";"23.10";6,2;1e-04
+"Salta Aerodrome";2019-10-05;"SALTA_TUCUMAN";"Salta";"15.10";10,3;1e-04
+"Salta Aerodrome";2019-10-06;"SALTA_TUCUMAN";"Salta";"23.50";4,7;0
+"Salta Aerodrome";2019-10-07;"SALTA_TUCUMAN";"Salta";"29.00";4;0
+"Salta Aerodrome";2019-10-08;"SALTA_TUCUMAN";"Salta";"29.95";7,5;0
+"Salta Aerodrome";2019-10-09;"SALTA_TUCUMAN";"Salta";"29.60";10;0
+"Salta Aerodrome";2019-10-10;"SALTA_TUCUMAN";"Salta";"31.40";12,2;0
+"Salta Aerodrome";2019-10-11;"SALTA_TUCUMAN";"Salta";"35.70";13,5;0
+"Salta Aerodrome";2019-10-12;"SALTA_TUCUMAN";"Salta";"34.60";14,2;0
+"Salta Aerodrome";2019-10-13;"SALTA_TUCUMAN";"Salta";"30.70";16,7;10
+"Salta Aerodrome";2019-10-14;"SALTA_TUCUMAN";"Salta";"15.80";13;1e-04
+"Salta Aerodrome";2019-10-15;"SALTA_TUCUMAN";"Salta";"18.00";8,3;0
+"Salta Aerodrome";2019-10-16;"SALTA_TUCUMAN";"Salta";"17.00";7,7;0
+"Bariloche Aerodrome";2019-07-19;"";"Rio Negro";"3.40";1;22
+"Bariloche Aerodrome";2019-07-20;"";"Rio Negro";"1.00";-1;33
+"Bariloche Aerodrome";2019-07-21;"";"Rio Negro";"2.50";-4;3
+"Bariloche Aerodrome";2019-07-22;"";"Rio Negro";"2.00";-7;0
+"Bariloche Aerodrome";2019-07-23;"";"Rio Negro";"2.00";-8,6;0
+"Bariloche Aerodrome";2019-07-24;"";"Rio Negro";"2.70";-14;0
+"Bariloche Aerodrome";2019-07-25;"";"Rio Negro";"5.60";-11,1;1e-04
+"Bariloche Aerodrome";2019-07-26;"";"Rio Negro";"6.00";1,9;0
+"Bariloche Aerodrome";2019-07-27;"";"Rio Negro";"3.90";-8;0
+"Bariloche Aerodrome";2019-07-28;"";"Rio Negro";"5.60";-10,3;20
+"Bariloche Aerodrome";2019-07-29;"";"Rio Negro";"7.60";2;14
+"Bariloche Aerodrome";2019-07-30;"";"Rio Negro";"7.00";1,9;27
+"Bariloche Aerodrome";2019-07-31;"";"Rio Negro";"4.80";0,4;9
+"Bariloche Aerodrome";2019-08-01;"";"Rio Negro";"7.00";0,7;0
+"Bariloche Aerodrome";2019-08-02;"";"Rio Negro";"7.20";1;0
+"Bariloche Aerodrome";2019-08-03;"";"Rio Negro";"13.30";-5;0
+"Bariloche Aerodrome";2019-08-04;"";"Rio Negro";"14.30";-4,6;0
+"Bariloche Aerodrome";2019-08-05;"";"Rio Negro";"11.10";-1,4;8
+"Bariloche Aerodrome";2019-08-06;"";"Rio Negro";"5.80";1,2;0
+"Bariloche Aerodrome";2019-08-07;"";"Rio Negro";"6.90";-1;0
+"Bariloche Aerodrome";2019-08-08;"";"Rio Negro";"8.00";-7,5;0
+"Bariloche Aerodrome";2019-08-09;"";"Rio Negro";"7.40";-6;1e-04
+"Bariloche Aerodrome";2019-08-10;"";"Rio Negro";"9.20";3,6;2
+"Bariloche Aerodrome";2019-08-11;"";"Rio Negro";"7.40";0,9;0
+"Bariloche Aerodrome";2019-08-12;"";"Rio Negro";"8.20";-2,3;0
+"Bariloche Aerodrome";2019-08-13;"";"Rio Negro";"6.20";-4,5;1e-04
+"Bariloche Aerodrome";2019-08-14;"";"Rio Negro";"10.00";0,6;0
+"Bariloche Aerodrome";2019-08-15;"";"Rio Negro";"8.80";-2;1e-04
+"Bariloche Aerodrome";2019-08-16;"";"Rio Negro";"10.00";1,3;3
+"Bariloche Aerodrome";2019-08-17;"";"Rio Negro";"7.40";3;0,6
+"Bariloche Aerodrome";2019-08-18;"";"Rio Negro";"2.10";-0,3;1e-04
+"Bariloche Aerodrome";2019-08-19;"";"Rio Negro";"4.60";-1;1e-04
+"Bariloche Aerodrome";2019-08-20;"";"Rio Negro";"2.80";-0,5;6
+"Bariloche Aerodrome";2019-08-21;"";"Rio Negro";"7.40";-0,3;2
+"Bariloche Aerodrome";2019-08-22;"";"Rio Negro";"10.80";-1,8;0
+"Bariloche Aerodrome";2019-08-23;"";"Rio Negro";"11.60";1;0
+"Bariloche Aerodrome";2019-08-24;"";"Rio Negro";"12.40";2,4;2
+"Bariloche Aerodrome";2019-08-25;"";"Rio Negro";"9.00";-2,6;0,9
+"Bariloche Aerodrome";2019-08-26;"";"Rio Negro";"7.40";4;1e-04
+"Bariloche Aerodrome";2019-08-27;"";"Rio Negro";"9.60";-2,4;64
+"Bariloche Aerodrome";2019-08-28;"";"Rio Negro";"6.20";-0,4;11
+"Bariloche Aerodrome";2019-08-29;"";"Rio Negro";"8.00";2;0
+"Bariloche Aerodrome";2019-08-30;"";"Rio Negro";"9.40";3,4;0
+"Bariloche Aerodrome";2019-08-31;"";"Rio Negro";"10.00";1,5;0
+"Bariloche Aerodrome";2019-09-01;"";"Rio Negro";"10.50";-5,8;1e-04
+"Bariloche Aerodrome";2019-09-02;"";"Rio Negro";"7.20";-3;0
+"Bariloche Aerodrome";2019-09-03;"";"Rio Negro";"10.60";-9;0
+"Bariloche Aerodrome";2019-09-04;"";"Rio Negro";"2.50";-5,2;0
+"Bariloche Aerodrome";2019-09-05;"";"Rio Negro";"3.40";0,4;0
+"Bariloche Aerodrome";2019-09-06;"";"Rio Negro";"3.80";0,4;1e-04
+"Bariloche Aerodrome";2019-09-07;"";"Rio Negro";"8.20";0,4;0
+"Bariloche Aerodrome";2019-09-08;"";"Rio Negro";"7.00";-0,3;1e-04
+"Bariloche Aerodrome";2019-09-09;"";"Rio Negro";"10.20";-0,5;1e-04
+"Bariloche Aerodrome";2019-09-10;"";"Rio Negro";"7.50";-0,2;0
+"Bariloche Aerodrome";2019-09-11;"";"Rio Negro";"10.90";-6,5;0
+"Bariloche Aerodrome";2019-09-12;"";"Rio Negro";"11.70";3,4;0
+"Bariloche Aerodrome";2019-09-13;"";"Rio Negro";"14.20";2,7;0
+"Bariloche Aerodrome";2019-09-14;"";"Rio Negro";"9.80";4,1;0,5
+"Bariloche Aerodrome";2019-09-15;"";"Rio Negro";"7.20";-0,2;0
+"Bariloche Aerodrome";2019-09-16;"";"Rio Negro";"10.90";1,5;0
+"Bariloche Aerodrome";2019-09-17;"";"Rio Negro";"15.00";3;0
+"Bariloche Aerodrome";2019-09-18;"";"Rio Negro";"6.80";4;11
+"Bariloche Aerodrome";2019-09-19;"";"Rio Negro";"7.50";-1,1;0
+"Bariloche Aerodrome";2019-09-20;"";"Rio Negro";"8.50";2,6;0
+"Bariloche Aerodrome";2019-09-21;"";"Rio Negro";"10.90";3,8;0
+"Bariloche Aerodrome";2019-09-22;"";"Rio Negro";"15.50";-4,8;0
+"Bariloche Aerodrome";2019-09-23;"";"Rio Negro";"17.40";-3;0
+"Bariloche Aerodrome";2019-09-24;"";"Rio Negro";"22.30";-0,2;0
+"Bariloche Aerodrome";2019-09-25;"";"Rio Negro";"23.00";0,1;0
+"Bariloche Aerodrome";2019-09-26;"";"Rio Negro";"21.30";3,8;0
+"Bariloche Aerodrome";2019-09-27;"";"Rio Negro";"18.60";5,7;0
+"Bariloche Aerodrome";2019-09-28;"";"Rio Negro";"15.00";7,6;0
+"Bariloche Aerodrome";2019-09-29;"";"Rio Negro";"10.50";5;6
+"Bariloche Aerodrome";2019-09-30;"";"Rio Negro";"5.60";-0,7;1
+"Bariloche Aerodrome";2019-10-01;"";"Rio Negro";"7.60";-1,5;0
+"Bariloche Aerodrome";2019-10-02;"";"Rio Negro";"10.40";-7;1e-04
+"Bariloche Aerodrome";2019-10-03;"";"Rio Negro";"6.30";-2,2;2
+"Bariloche Aerodrome";2019-10-04;"";"Rio Negro";"10.20";1,2;0
+"Bariloche Aerodrome";2019-10-05;"";"Rio Negro";"12.40";-5;4
+"Bariloche Aerodrome";2019-10-06;"";"Rio Negro";"11.00";4,2;6
+"Bariloche Aerodrome";2019-10-07;"";"Rio Negro";"9.20";2;0
+"Bariloche Aerodrome";2019-10-08;"";"Rio Negro";"12.00";2,5;0
+"Bariloche Aerodrome";2019-10-09;"";"Rio Negro";"14.80";3,5;0
+"Bariloche Aerodrome";2019-10-10;"";"Rio Negro";"17.00";8,8;0
+"Bariloche Aerodrome";2019-10-11;"";"Rio Negro";"16.80";1,1;1e-04
+"Bariloche Aerodrome";2019-10-12;"";"Rio Negro";"13.50";6;1e-04
+"Bariloche Aerodrome";2019-10-13;"";"Rio Negro";"14.80";-4,4;0
+"Bariloche Aerodrome";2019-10-14;"";"Rio Negro";"9.60";3,2;2
+"Bariloche Aerodrome";2019-10-15;"";"Rio Negro";"7.00";-0,5;0,5
+"Bariloche Aerodrome";2019-10-16;"";"Rio Negro";"15.30";3,3;0
+"San Rafael Aerodrome";2019-07-19;"";"Mendoza";"17.40";-1,2;0
+"San Rafael Aerodrome";2019-07-20;"";"Mendoza";"20.50";0,4;0
+"San Rafael Aerodrome";2019-07-21;"";"Mendoza";"14.00";4,7;0
+"San Rafael Aerodrome";2019-07-22;"";"Mendoza";"10.00";0,7;0
+"San Rafael Aerodrome";2019-07-23;"";"Mendoza";"10.00";0,1;0
+"San Rafael Aerodrome";2019-07-24;"";"Mendoza";"13.80";-2,6;0
+"San Rafael Aerodrome";2019-07-25;"";"Mendoza";"17.70";-1,6;0
+"San Rafael Aerodrome";2019-07-26;"";"Mendoza";"17.20";1,1;0
+"San Rafael Aerodrome";2019-07-27;"";"Mendoza";"16.80";0,9;0
+"San Rafael Aerodrome";2019-07-28;"";"Mendoza";"18.60";1,1;0
+"San Rafael Aerodrome";2019-07-29;"";"Mendoza";"21.70";4,6;0
+"San Rafael Aerodrome";2019-07-30;"";"Mendoza";"20.50";3,5;0
+"San Rafael Aerodrome";2019-07-31;"";"Mendoza";"16.00";2,6;0
+"San Rafael Aerodrome";2019-08-01;"";"Mendoza";"17.00";4,2;0
+"San Rafael Aerodrome";2019-08-02;"";"Mendoza";"15.60";-1,6;0
+"San Rafael Aerodrome";2019-08-03;"";"Mendoza";"20.00";0,5;0
+"San Rafael Aerodrome";2019-08-04;"";"Mendoza";"21.80";1,5;0
+"San Rafael Aerodrome";2019-08-05;"";"Mendoza";"26.50";-1,9;0
+"San Rafael Aerodrome";2019-08-06;"";"Mendoza";"17.80";-0,4;0
+"San Rafael Aerodrome";2019-08-07;"";"Mendoza";"11.60";3,6;0
+"San Rafael Aerodrome";2019-08-08;"";"Mendoza";"10.50";-1,4;0
+"San Rafael Aerodrome";2019-08-09;"";"Mendoza";"15.80";-2,4;0
+"San Rafael Aerodrome";2019-08-10;"";"Mendoza";"21.00";1,9;0
+"San Rafael Aerodrome";2019-08-11;"";"Mendoza";"18.30";2,1;0
+"San Rafael Aerodrome";2019-08-12;"";"Mendoza";"14.50";-0,2;0
+"San Rafael Aerodrome";2019-08-13;"";"Mendoza";"12.00";-3,9;0
+"San Rafael Aerodrome";2019-08-14;"";"Mendoza";"16.00";-2,1;0
+"San Rafael Aerodrome";2019-08-15;"";"Mendoza";"16.00";-1,4;0
+"San Rafael Aerodrome";2019-08-16;"";"Mendoza";"18.00";1,1;0
+"San Rafael Aerodrome";2019-08-17;"";"Mendoza";"19.00";1,1;0
+"San Rafael Aerodrome";2019-08-18;"";"Mendoza";"5.70";5,1;1e-04
+"San Rafael Aerodrome";2019-08-19;"";"Mendoza";"7.50";1,8;1e-04
+"San Rafael Aerodrome";2019-08-20;"";"Mendoza";"12.90";-1,4;0
+"San Rafael Aerodrome";2019-08-21;"";"Mendoza";"18.50";1,6;0
+"San Rafael Aerodrome";2019-08-22;"";"Mendoza";"19.00";2,6;0
+"San Rafael Aerodrome";2019-08-23;"";"Mendoza";"23.00";4;0
+"San Rafael Aerodrome";2019-08-24;"";"Mendoza";"24.20";4,8;0
+"San Rafael Aerodrome";2019-08-25;"";"Mendoza";"20.60";8,2;0
+"San Rafael Aerodrome";2019-08-26;"";"Mendoza";"25.10";4,6;0
+"San Rafael Aerodrome";2019-08-27;"";"Mendoza";"20.60";11,6;0
+"San Rafael Aerodrome";2019-08-28;"";"Mendoza";"35.60";6,1;0
+"San Rafael Aerodrome";2019-08-29;"";"Mendoza";"18.20";5,8;0
+"San Rafael Aerodrome";2019-08-30;"";"Mendoza";"16.50";4,6;0
+"San Rafael Aerodrome";2019-08-31;"";"Mendoza";"16.80";0,1;0
+"San Rafael Aerodrome";2019-09-01;"";"Mendoza";"16.00";0,2;0
+"San Rafael Aerodrome";2019-09-02;"";"Mendoza";"10.30";0,6;0
+"San Rafael Aerodrome";2019-09-03;"";"Mendoza";"14.00";-4,5;0
+"San Rafael Aerodrome";2019-09-04;"";"Mendoza";"11.40";-3,4;0
+"San Rafael Aerodrome";2019-09-05;"";"Mendoza";"15.50";2;0
+"San Rafael Aerodrome";2019-09-06;"";"Mendoza";"14.80";1,6;0
+"San Rafael Aerodrome";2019-09-07;"";"Mendoza";"16.50";0,9;0
+"San Rafael Aerodrome";2019-09-08;"";"Mendoza";"18.10";4,7;0
+"San Rafael Aerodrome";2019-09-09;"";"Mendoza";"9.00";7,4;1e-04
+"San Rafael Aerodrome";2019-09-10;"";"Mendoza";"14.70";3,8;0
+"San Rafael Aerodrome";2019-09-11;"";"Mendoza";"14.60";2,6;0
+"San Rafael Aerodrome";2019-09-12;"";"Mendoza";"20.10";0,6;0
+"San Rafael Aerodrome";2019-09-13;"";"Mendoza";"22.20";1,6;0
+"San Rafael Aerodrome";2019-09-14;"";"Mendoza";"25.00";8,3;0
+"San Rafael Aerodrome";2019-09-15;"";"Mendoza";"24.70";5,7;1e-04
+"San Rafael Aerodrome";2019-09-16;"";"Mendoza";"26.00";6,8;0
+"San Rafael Aerodrome";2019-09-17;"";"Mendoza";"23.60";1,8;0
+"San Rafael Aerodrome";2019-09-18;"";"Mendoza";"26.20";5,1;0
+"San Rafael Aerodrome";2019-09-19;"";"Mendoza";"15.00";2,8;0
+"San Rafael Aerodrome";2019-09-20;"";"Mendoza";"21.60";1,5;0
+"San Rafael Aerodrome";2019-09-21;"";"Mendoza";"21.70";1,2;0
+"San Rafael Aerodrome";2019-09-22;"";"Mendoza";"24.50";3,1;0
+"San Rafael Aerodrome";2019-09-23;"";"Mendoza";"26.50";6,1;0
+"San Rafael Aerodrome";2019-09-24;"";"Mendoza";"29.20";7,4;0
+"San Rafael Aerodrome";2019-09-25;"";"Mendoza";"31.30";11,7;0
+"San Rafael Aerodrome";2019-09-26;"";"Mendoza";"30.30";12,6;0
+"San Rafael Aerodrome";2019-09-27;"";"Mendoza";"29.00";9,6;0
+"San Rafael Aerodrome";2019-09-28;"";"Mendoza";"30.20";7,7;0
+"San Rafael Aerodrome";2019-09-29;"";"Mendoza";"31.50";1;0
+"San Rafael Aerodrome";2019-09-30;"";"Mendoza";"18.00";12,7;0
+"San Rafael Aerodrome";2019-10-01;"";"Mendoza";"12.80";8,1;0
+"San Rafael Aerodrome";2019-10-02;"";"Mendoza";"16.90";1,2;0
+"San Rafael Aerodrome";2019-10-03;"";"Mendoza";"13.80";7,6;0
+"San Rafael Aerodrome";2019-10-04;"";"Mendoza";"18.60";2,9;0
+"San Rafael Aerodrome";2019-10-05;"";"Mendoza";"23.00";1,7;0
+"San Rafael Aerodrome";2019-10-06;"";"Mendoza";"27.40";5,7;0
+"San Rafael Aerodrome";2019-10-07;"";"Mendoza";"24.60";10;0
+"San Rafael Aerodrome";2019-10-08;"";"Mendoza";"25.50";5,5;0
+"San Rafael Aerodrome";2019-10-09;"";"Mendoza";"27.90";8,8;0
+"San Rafael Aerodrome";2019-10-10;"";"Mendoza";"29.60";11,3;0
+"San Rafael Aerodrome";2019-10-11;"";"Mendoza";"27.10";9,6;0
+"San Rafael Aerodrome";2019-10-12;"";"Mendoza";"26.10";11,2;0
+"San Rafael Aerodrome";2019-10-13;"";"Mendoza";"18.60";9,2;3
+"San Rafael Aerodrome";2019-10-14;"";"Mendoza";"4.30";4,1;20
+"San Rafael Aerodrome";2019-10-15;"";"Mendoza";"9.40";1,5;1e-04
+"San Rafael Aerodrome";2019-10-16;"";"Mendoza";"13.00";6,4;0
+"Santiago Del Estero Aero.";2019-07-19;"SALTA_TUCUMAN";"Santiago del Estero";"21.40";6;0
+"Santiago Del Estero Aero.";2019-07-20;"SALTA_TUCUMAN";"Santiago del Estero";"18.00";7,8;1e-04
+"Santiago Del Estero Aero.";2019-07-21;"SALTA_TUCUMAN";"Santiago del Estero";"27.50";9;0
+"Santiago Del Estero Aero.";2019-07-22;"SALTA_TUCUMAN";"Santiago del Estero";"20.30";15,8;0
+"Santiago Del Estero Aero.";2019-07-23;"SALTA_TUCUMAN";"Santiago del Estero";"14.50";12,2;0
+"Santiago Del Estero Aero.";2019-07-24;"SALTA_TUCUMAN";"Santiago del Estero";"12.50";9,2;0
+"Santiago Del Estero Aero.";2019-07-25;"SALTA_TUCUMAN";"Santiago del Estero";"10.00";5,5;1
+"Santiago Del Estero Aero.";2019-07-26;"SALTA_TUCUMAN";"Santiago del Estero";"20.50";-1,6;0
+"Santiago Del Estero Aero.";2019-07-27;"SALTA_TUCUMAN";"Santiago del Estero";"22.00";-2;0
+"Santiago Del Estero Aero.";2019-07-28;"SALTA_TUCUMAN";"Santiago del Estero";"16.80";5;0
+"Santiago Del Estero Aero.";2019-07-29;"SALTA_TUCUMAN";"Santiago del Estero";"21.00";4;0
+"Santiago Del Estero Aero.";2019-07-30;"SALTA_TUCUMAN";"Santiago del Estero";"24.20";1,8;0
+"Santiago Del Estero Aero.";2019-07-31;"SALTA_TUCUMAN";"Santiago del Estero";"29.00";8,4;0
+"Santiago Del Estero Aero.";2019-08-01;"SALTA_TUCUMAN";"Santiago del Estero";"20.80";13,2;0
+"Santiago Del Estero Aero.";2019-08-02;"SALTA_TUCUMAN";"Santiago del Estero";"21.00";-0,6;0
+"Santiago Del Estero Aero.";2019-08-03;"SALTA_TUCUMAN";"Santiago del Estero";"23.00";-3;0
+"Santiago Del Estero Aero.";2019-08-04;"SALTA_TUCUMAN";"Santiago del Estero";"23.50";1,6;0
+"Santiago Del Estero Aero.";2019-08-05;"SALTA_TUCUMAN";"Santiago del Estero";"24.80";4,5;0
+"Santiago Del Estero Aero.";2019-08-06;"SALTA_TUCUMAN";"Santiago del Estero";"28.50";8,8;0
+"Santiago Del Estero Aero.";2019-08-07;"SALTA_TUCUMAN";"Santiago del Estero";"24.00";8;0
+"Santiago Del Estero Aero.";2019-08-08;"SALTA_TUCUMAN";"Santiago del Estero";"19.20";6,2;0
+"Santiago Del Estero Aero.";2019-08-09;"SALTA_TUCUMAN";"Santiago del Estero";"20.00";9,5;0
+"Santiago Del Estero Aero.";2019-08-10;"SALTA_TUCUMAN";"Santiago del Estero";"23.50";-3;0
+"Santiago Del Estero Aero.";2019-08-11;"SALTA_TUCUMAN";"Santiago del Estero";"24.50";4;0
+"Santiago Del Estero Aero.";2019-08-12;"SALTA_TUCUMAN";"Santiago del Estero";"23.50";5;0
+"Santiago Del Estero Aero.";2019-08-13;"SALTA_TUCUMAN";"Santiago del Estero";"16.00";8;0
+"Santiago Del Estero Aero.";2019-08-14;"SALTA_TUCUMAN";"Santiago del Estero";"19.40";-0,5;0
+"Santiago Del Estero Aero.";2019-08-15;"SALTA_TUCUMAN";"Santiago del Estero";"23.00";1;0
+"Santiago Del Estero Aero.";2019-08-16;"SALTA_TUCUMAN";"Santiago del Estero";"26.70";2;0
+"Santiago Del Estero Aero.";2019-08-17;"SALTA_TUCUMAN";"Santiago del Estero";"29.80";8;0
+"Santiago Del Estero Aero.";2019-08-18;"SALTA_TUCUMAN";"Santiago del Estero";"23.50";7,8;0
+"Santiago Del Estero Aero.";2019-08-19;"SALTA_TUCUMAN";"Santiago del Estero";"20.20";3,4;0
+"Santiago Del Estero Aero.";2019-08-20;"SALTA_TUCUMAN";"Santiago del Estero";"19.30";1;0
+"Santiago Del Estero Aero.";2019-08-21;"SALTA_TUCUMAN";"Santiago del Estero";"23.50";1,8;0
+"Santiago Del Estero Aero.";2019-08-22;"SALTA_TUCUMAN";"Santiago del Estero";"24.70";7;0
+"Santiago Del Estero Aero.";2019-08-23;"SALTA_TUCUMAN";"Santiago del Estero";"26.20";2,9;0
+"Santiago Del Estero Aero.";2019-08-24;"SALTA_TUCUMAN";"Santiago del Estero";"28.00";4,7;0
+"Santiago Del Estero Aero.";2019-08-25;"SALTA_TUCUMAN";"Santiago del Estero";"30.50";8;0
+"Santiago Del Estero Aero.";2019-08-26;"SALTA_TUCUMAN";"Santiago del Estero";"29.20";11,2;0
+"Santiago Del Estero Aero.";2019-08-27;"SALTA_TUCUMAN";"Santiago del Estero";"31.00";13;0
+"Santiago Del Estero Aero.";2019-08-28;"SALTA_TUCUMAN";"Santiago del Estero";"36.50";18,4;0
+"Santiago Del Estero Aero.";2019-08-29;"SALTA_TUCUMAN";"Santiago del Estero";"34.20";15,5;0
+"Santiago Del Estero Aero.";2019-08-30;"SALTA_TUCUMAN";"Santiago del Estero";"21.00";16,2;0
+"Santiago Del Estero Aero.";2019-08-31;"SALTA_TUCUMAN";"Santiago del Estero";"23.50";5;0
+"Santiago Del Estero Aero.";2019-09-01;"SALTA_TUCUMAN";"Santiago del Estero";"24.20";2,4;0
+"Santiago Del Estero Aero.";2019-09-02;"SALTA_TUCUMAN";"Santiago del Estero";"27.60";1,9;0
+"Santiago Del Estero Aero.";2019-09-03;"SALTA_TUCUMAN";"Santiago del Estero";"18.60";10;0
+"Santiago Del Estero Aero.";2019-09-04;"SALTA_TUCUMAN";"Santiago del Estero";"12.50";4,1;0
+"Santiago Del Estero Aero.";2019-09-05;"SALTA_TUCUMAN";"Santiago del Estero";"22.00";8,8;0
+"Santiago Del Estero Aero.";2019-09-06;"SALTA_TUCUMAN";"Santiago del Estero";"23.60";2,9;0
+"Santiago Del Estero Aero.";2019-09-07;"SALTA_TUCUMAN";"Santiago del Estero";"24.40";6;0
+"Santiago Del Estero Aero.";2019-09-08;"SALTA_TUCUMAN";"Santiago del Estero";"23.50";9;0
+"Santiago Del Estero Aero.";2019-09-09;"SALTA_TUCUMAN";"Santiago del Estero";"28.50";14;0
+"Santiago Del Estero Aero.";2019-09-10;"SALTA_TUCUMAN";"Santiago del Estero";"21.70";14,1;0
+"Santiago Del Estero Aero.";2019-09-11;"SALTA_TUCUMAN";"Santiago del Estero";"20.00";13,6;0
+"Santiago Del Estero Aero.";2019-09-12;"SALTA_TUCUMAN";"Santiago del Estero";"23.30";3;0
+"Santiago Del Estero Aero.";2019-09-13;"SALTA_TUCUMAN";"Santiago del Estero";"24.40";3,5;0
+"Santiago Del Estero Aero.";2019-09-14;"SALTA_TUCUMAN";"Santiago del Estero";"31.00";4,8;0
+"Santiago Del Estero Aero.";2019-09-15;"SALTA_TUCUMAN";"Santiago del Estero";"35.20";11;0
+"Santiago Del Estero Aero.";2019-09-16;"SALTA_TUCUMAN";"Santiago del Estero";"18.00";17,6;0
+"Santiago Del Estero Aero.";2019-09-17;"SALTA_TUCUMAN";"Santiago del Estero";"22.80";13,8;0
+"Santiago Del Estero Aero.";2019-09-18;"SALTA_TUCUMAN";"Santiago del Estero";"30.00";12;0
+"Santiago Del Estero Aero.";2019-09-19;"SALTA_TUCUMAN";"Santiago del Estero";"28.40";7,4;0
+"Santiago Del Estero Aero.";2019-09-20;"SALTA_TUCUMAN";"Santiago del Estero";"20.50";9;0
+"Santiago Del Estero Aero.";2019-09-21;"SALTA_TUCUMAN";"Santiago del Estero";"25.70";3;0
+"Santiago Del Estero Aero.";2019-09-22;"SALTA_TUCUMAN";"Santiago del Estero";"29.00";6;0
+"Santiago Del Estero Aero.";2019-09-23;"SALTA_TUCUMAN";"Santiago del Estero";"31.00";7;0
+"Santiago Del Estero Aero.";2019-09-24;"SALTA_TUCUMAN";"Santiago del Estero";"31.50";12;0
+"Santiago Del Estero Aero.";2019-09-25;"SALTA_TUCUMAN";"Santiago del Estero";"32.50";10,2;0
+"Santiago Del Estero Aero.";2019-09-26;"SALTA_TUCUMAN";"Santiago del Estero";"35.00";9,5;0
+"Santiago Del Estero Aero.";2019-09-27;"SALTA_TUCUMAN";"Santiago del Estero";"34.00";11,6;0
+"Santiago Del Estero Aero.";2019-09-28;"SALTA_TUCUMAN";"Santiago del Estero";"37.00";11,5;0
+"Santiago Del Estero Aero.";2019-09-29;"SALTA_TUCUMAN";"Santiago del Estero";"39.50";16,5;0
+"Santiago Del Estero Aero.";2019-09-30;"SALTA_TUCUMAN";"Santiago del Estero";"39.80";23,9;0
+"Santiago Del Estero Aero.";2019-10-01;"SALTA_TUCUMAN";"Santiago del Estero";"26.10";20,2;0
+"Santiago Del Estero Aero.";2019-10-02;"SALTA_TUCUMAN";"Santiago del Estero";"25.30";8,6;0
+"Santiago Del Estero Aero.";2019-10-03;"SALTA_TUCUMAN";"Santiago del Estero";"17.00";14;2
+"Santiago Del Estero Aero.";2019-10-04;"SALTA_TUCUMAN";"Santiago del Estero";"20.80";11;0
+"Santiago Del Estero Aero.";2019-10-05;"SALTA_TUCUMAN";"Santiago del Estero";"24.50";13,2;0
+"Santiago Del Estero Aero.";2019-10-06;"SALTA_TUCUMAN";"Santiago del Estero";"27.00";5;0
+"Santiago Del Estero Aero.";2019-10-07;"SALTA_TUCUMAN";"Santiago del Estero";"34.00";10,3;0
+"Santiago Del Estero Aero.";2019-10-08;"SALTA_TUCUMAN";"Santiago del Estero";"33.80";14,8;0
+"Santiago Del Estero Aero.";2019-10-09;"SALTA_TUCUMAN";"Santiago del Estero";"35.70";18,5;0
+"Santiago Del Estero Aero.";2019-10-10;"SALTA_TUCUMAN";"Santiago del Estero";"39.00";19,8;0
+"Santiago Del Estero Aero.";2019-10-11;"SALTA_TUCUMAN";"Santiago del Estero";"42.00";21,5;0
+"Santiago Del Estero Aero.";2019-10-12;"SALTA_TUCUMAN";"Santiago del Estero";"43.00";24,2;0
+"Santiago Del Estero Aero.";2019-10-13;"SALTA_TUCUMAN";"Santiago del Estero";"25.20";22,2;12
+"Santiago Del Estero Aero.";2019-10-14;"SALTA_TUCUMAN";"Santiago del Estero";"13.40";13,4;3
+"Santiago Del Estero Aero.";2019-10-15;"SALTA_TUCUMAN";"Santiago del Estero";"15.00";8,5;0
+"Santiago Del Estero Aero.";2019-10-16;"SALTA_TUCUMAN";"Santiago del Estero";"20.00";11,3;0
+"Sauce Viejo Aerodrome";2019-07-19;"CN_SANTA_FE";"Santa Fe";"20.90";5,5;0
+"Sauce Viejo Aerodrome";2019-07-20;"CN_SANTA_FE";"Santa Fe";"25.60";13;0
+"Sauce Viejo Aerodrome";2019-07-21;"CN_SANTA_FE";"Santa Fe";"27.50";19,9;0
+"Sauce Viejo Aerodrome";2019-07-22;"CN_SANTA_FE";"Santa Fe";"15.90";13,2;0
+"Sauce Viejo Aerodrome";2019-07-23;"CN_SANTA_FE";"Santa Fe";"12.20";9,3;1
+"Sauce Viejo Aerodrome";2019-07-24;"CN_SANTA_FE";"Santa Fe";"11.50";7,5;25
+"Sauce Viejo Aerodrome";2019-07-25;"CN_SANTA_FE";"Santa Fe";"10.40";8;48
+"Sauce Viejo Aerodrome";2019-07-26;"CN_SANTA_FE";"Santa Fe";"13.40";9;1e-04
+"Sauce Viejo Aerodrome";2019-07-27;"CN_SANTA_FE";"Santa Fe";"17.60";1,5;0
+"Sauce Viejo Aerodrome";2019-07-28;"CN_SANTA_FE";"Santa Fe";"12.90";11,2;0,4
+"Sauce Viejo Aerodrome";2019-07-29;"CN_SANTA_FE";"Santa Fe";"14.90";10;0
+"Sauce Viejo Aerodrome";2019-07-30;"CN_SANTA_FE";"Santa Fe";"18.00";4,3;0
+"Sauce Viejo Aerodrome";2019-07-31;"CN_SANTA_FE";"Santa Fe";"23.90";9,4;0
+"Sauce Viejo Aerodrome";2019-08-01;"CN_SANTA_FE";"Santa Fe";"18.30";13,4;0
+"Sauce Viejo Aerodrome";2019-08-02;"CN_SANTA_FE";"Santa Fe";"16.90";3,3;0
+"Sauce Viejo Aerodrome";2019-08-03;"CN_SANTA_FE";"Santa Fe";"18.50";-1;0
+"Sauce Viejo Aerodrome";2019-08-04;"CN_SANTA_FE";"Santa Fe";"18.50";1,7;0
+"Sauce Viejo Aerodrome";2019-08-05;"CN_SANTA_FE";"Santa Fe";"21.00";6;0
+"Sauce Viejo Aerodrome";2019-08-06;"CN_SANTA_FE";"Santa Fe";"25.10";10,2;0
+"Sauce Viejo Aerodrome";2019-08-07;"CN_SANTA_FE";"Santa Fe";"17.80";8,7;0
+"Sauce Viejo Aerodrome";2019-08-08;"CN_SANTA_FE";"Santa Fe";"13.10";12,1;6
+"Sauce Viejo Aerodrome";2019-08-09;"CN_SANTA_FE";"Santa Fe";"9.80";8,8;0,9
+"Sauce Viejo Aerodrome";2019-08-10;"CN_SANTA_FE";"Santa Fe";"17.20";1;0
+"Sauce Viejo Aerodrome";2019-08-11;"CN_SANTA_FE";"Santa Fe";"20.40";6,7;0
+"Sauce Viejo Aerodrome";2019-08-12;"CN_SANTA_FE";"Santa Fe";"18.00";6,4;0
+"Sauce Viejo Aerodrome";2019-08-13;"CN_SANTA_FE";"Santa Fe";"12.00";1,2;0
+"Sauce Viejo Aerodrome";2019-08-14;"CN_SANTA_FE";"Santa Fe";"12.80";1,9;0
+"Sauce Viejo Aerodrome";2019-08-15;"CN_SANTA_FE";"Santa Fe";"16.80";6,2;0
+"Sauce Viejo Aerodrome";2019-08-16;"CN_SANTA_FE";"Santa Fe";"25.00";6,1;0
+"Sauce Viejo Aerodrome";2019-08-17;"CN_SANTA_FE";"Santa Fe";"22.80";11,3;0
+"Sauce Viejo Aerodrome";2019-08-18;"CN_SANTA_FE";"Santa Fe";"17.20";3,1;0
+"Sauce Viejo Aerodrome";2019-08-19;"CN_SANTA_FE";"Santa Fe";"14.20";5,2;0
+"Sauce Viejo Aerodrome";2019-08-20;"CN_SANTA_FE";"Santa Fe";"15.80";3,8;0
+"Sauce Viejo Aerodrome";2019-08-21;"CN_SANTA_FE";"Santa Fe";"18.80";4,5;0
+"Sauce Viejo Aerodrome";2019-08-22;"CN_SANTA_FE";"Santa Fe";"19.20";9,6;0
+"Sauce Viejo Aerodrome";2019-08-23;"CN_SANTA_FE";"Santa Fe";"21.00";4,5;0
+"Sauce Viejo Aerodrome";2019-08-24;"CN_SANTA_FE";"Santa Fe";"21.60";7,17;0
+"Sauce Viejo Aerodrome";2019-08-25;"CN_SANTA_FE";"Santa Fe";"22.70";12,1;7
+"Sauce Viejo Aerodrome";2019-08-26;"CN_SANTA_FE";"Santa Fe";"23.50";14,6;0
+"Sauce Viejo Aerodrome";2019-08-27;"CN_SANTA_FE";"Santa Fe";"26.90";15,8;0
+"Sauce Viejo Aerodrome";2019-08-28;"CN_SANTA_FE";"Santa Fe";"30.80";16,6;0
+"Sauce Viejo Aerodrome";2019-08-29;"CN_SANTA_FE";"Santa Fe";"27.80";19,4;0,7
+"Sauce Viejo Aerodrome";2019-08-30;"CN_SANTA_FE";"Santa Fe";"19.30";12,5;0
+"Sauce Viejo Aerodrome";2019-08-31;"CN_SANTA_FE";"Santa Fe";"21.10";4,4;0
+"Sauce Viejo Aerodrome";2019-09-01;"CN_SANTA_FE";"Santa Fe";"19.80";5,3;0
+"Sauce Viejo Aerodrome";2019-09-02;"CN_SANTA_FE";"Santa Fe";"21.90";7,8;0
+"Sauce Viejo Aerodrome";2019-09-03;"CN_SANTA_FE";"Santa Fe";"14.30";1,2;0
+"Sauce Viejo Aerodrome";2019-09-04;"CN_SANTA_FE";"Santa Fe";"16.20";-1;0
+"Sauce Viejo Aerodrome";2019-09-05;"CN_SANTA_FE";"Santa Fe";"15.30";6,6;0
+"Sauce Viejo Aerodrome";2019-09-06;"CN_SANTA_FE";"Santa Fe";"17.70";6,2;0
+"Sauce Viejo Aerodrome";2019-09-07;"CN_SANTA_FE";"Santa Fe";"20.30";11,2;0
+"Sauce Viejo Aerodrome";2019-09-08;"CN_SANTA_FE";"Santa Fe";"19.50";8;42
+"Sauce Viejo Aerodrome";2019-09-09;"CN_SANTA_FE";"Santa Fe";"16.00";13,5;4
+"Sauce Viejo Aerodrome";2019-09-10;"CN_SANTA_FE";"Santa Fe";"17.00";11,5;0
+"Sauce Viejo Aerodrome";2019-09-11;"CN_SANTA_FE";"Santa Fe";"19.50";11,2;0
+"Sauce Viejo Aerodrome";2019-09-12;"CN_SANTA_FE";"Santa Fe";"17.80";8,2;0
+"Sauce Viejo Aerodrome";2019-09-13;"CN_SANTA_FE";"Santa Fe";"20.00";5,3;0
+"Sauce Viejo Aerodrome";2019-09-14;"CN_SANTA_FE";"Santa Fe";"22.80";10,5;0
+"Sauce Viejo Aerodrome";2019-09-15;"CN_SANTA_FE";"Santa Fe";"29.50";13;0
+"Sauce Viejo Aerodrome";2019-09-16;"CN_SANTA_FE";"Santa Fe";"21.60";14,5;0
+"Sauce Viejo Aerodrome";2019-09-17;"CN_SANTA_FE";"Santa Fe";"21.90";4;0
+"Sauce Viejo Aerodrome";2019-09-18;"CN_SANTA_FE";"Santa Fe";"25.30";7,7;0
+"Sauce Viejo Aerodrome";2019-09-19;"CN_SANTA_FE";"Santa Fe";"20.60";13;0
+"Sauce Viejo Aerodrome";2019-09-20;"CN_SANTA_FE";"Santa Fe";"19.80";2,4;0
+"Sauce Viejo Aerodrome";2019-09-21;"CN_SANTA_FE";"Santa Fe";"23.80";4,8;0
+"Sauce Viejo Aerodrome";2019-09-22;"CN_SANTA_FE";"Santa Fe";"25.40";6;0
+"Sauce Viejo Aerodrome";2019-09-23;"CN_SANTA_FE";"Santa Fe";"23.50";11;0
+"Sauce Viejo Aerodrome";2019-09-24;"CN_SANTA_FE";"Santa Fe";"27.10";6,9;0
+"Sauce Viejo Aerodrome";2019-09-25;"CN_SANTA_FE";"Santa Fe";"28.30";5,9;0
+"Sauce Viejo Aerodrome";2019-09-26;"CN_SANTA_FE";"Santa Fe";"30.00";10;0
+"Sauce Viejo Aerodrome";2019-09-27;"CN_SANTA_FE";"Santa Fe";"29.60";15,1;0
+"Sauce Viejo Aerodrome";2019-09-28;"CN_SANTA_FE";"Santa Fe";"27.50";12,5;0
+"Sauce Viejo Aerodrome";2019-09-29;"CN_SANTA_FE";"Santa Fe";"32.30";15,4;0
+"Sauce Viejo Aerodrome";2019-09-30;"CN_SANTA_FE";"Santa Fe";"36.10";21,5;0,5
+"Sauce Viejo Aerodrome";2019-10-01;"CN_SANTA_FE";"Santa Fe";"16.60";14,1;0,1
+"Sauce Viejo Aerodrome";2019-10-02;"CN_SANTA_FE";"Santa Fe";"18.50";13,2;0
+"Sauce Viejo Aerodrome";2019-10-03;"CN_SANTA_FE";"Santa Fe";"17.30";12,4;1
+"Sauce Viejo Aerodrome";2019-10-04;"CN_SANTA_FE";"Santa Fe";"14.50";13,3;6
+"Sauce Viejo Aerodrome";2019-10-05;"CN_SANTA_FE";"Santa Fe";"20.10";9,4;0
+"Sauce Viejo Aerodrome";2019-10-06;"CN_SANTA_FE";"Santa Fe";"22.50";6,1;0
+"Sauce Viejo Aerodrome";2019-10-07;"CN_SANTA_FE";"Santa Fe";"28.60";10,7;5
+"Sauce Viejo Aerodrome";2019-10-08;"CN_SANTA_FE";"Santa Fe";"21.50";15,6;9
+"Sauce Viejo Aerodrome";2019-10-09;"CN_SANTA_FE";"Santa Fe";"29.80";14,2;0
+"Sauce Viejo Aerodrome";2019-10-10;"CN_SANTA_FE";"Santa Fe";"32.60";19;0
+"Sauce Viejo Aerodrome";2019-10-11;"CN_SANTA_FE";"Santa Fe";"37.00";22,4;0
+"Sauce Viejo Aerodrome";2019-10-12;"CN_SANTA_FE";"Santa Fe";"35.50";24,1;13
+"Sauce Viejo Aerodrome";2019-10-13;"CN_SANTA_FE";"Santa Fe";"26.40";18,4;2
+"Sauce Viejo Aerodrome";2019-10-14;"CN_SANTA_FE";"Santa Fe";"14.10";10,1;2
+"Sauce Viejo Aerodrome";2019-10-15;"CN_SANTA_FE";"Santa Fe";"12.80";8;3
+"Sauce Viejo Aerodrome";2019-10-16;"CN_SANTA_FE";"Santa Fe";"16.40";12,3;0
+"Tandil Aerodrome";2019-07-19;"SE_BUENOSAIRES";"Buenos Aires";"15.20";-5,5;0
+"Tandil Aerodrome";2019-07-20;"SE_BUENOSAIRES";"Buenos Aires";"14.50";3,5;1e-04
+"Tandil Aerodrome";2019-07-21;"SE_BUENOSAIRES";"Buenos Aires";"17.00";14;2
+"Tandil Aerodrome";2019-07-22;"SE_BUENOSAIRES";"Buenos Aires";"13.10";4,2;0
+"Tandil Aerodrome";2019-07-23;"SE_BUENOSAIRES";"Buenos Aires";"11.80";-3,8;0
+"Tandil Aerodrome";2019-07-24;"SE_BUENOSAIRES";"Buenos Aires";"12.20";-3,7;0
+"Tandil Aerodrome";2019-07-25;"SE_BUENOSAIRES";"Buenos Aires";"9.50";-2;0
+"Tandil Aerodrome";2019-07-26;"SE_BUENOSAIRES";"Buenos Aires";"14.00";4,9;0
+"Tandil Aerodrome";2019-07-27;"SE_BUENOSAIRES";"Buenos Aires";"14.60";0,5;0
+"Tandil Aerodrome";2019-07-28;"SE_BUENOSAIRES";"Buenos Aires";"12.40";-0,1;0
+"Tandil Aerodrome";2019-07-29;"SE_BUENOSAIRES";"Buenos Aires";"11.90";4,2;0
+"Tandil Aerodrome";2019-07-30;"SE_BUENOSAIRES";"Buenos Aires";"18.20";2,6;0
+"Tandil Aerodrome";2019-07-31;"SE_BUENOSAIRES";"Buenos Aires";"15.50";1,5;0
+"Tandil Aerodrome";2019-08-01;"SE_BUENOSAIRES";"Buenos Aires";"12.60";3,5;0
+"Tandil Aerodrome";2019-08-02;"SE_BUENOSAIRES";"Buenos Aires";"12.90";3,8;0
+"Tandil Aerodrome";2019-08-03;"SE_BUENOSAIRES";"Buenos Aires";"16.20";-1;0
+"Tandil Aerodrome";2019-08-04;"SE_BUENOSAIRES";"Buenos Aires";"17.50";-3,2;0
+"Tandil Aerodrome";2019-08-05;"SE_BUENOSAIRES";"Buenos Aires";"17.50";1,4;0
+"Tandil Aerodrome";2019-08-06;"SE_BUENOSAIRES";"Buenos Aires";"18.00";3;0
+"Tandil Aerodrome";2019-08-07;"SE_BUENOSAIRES";"Buenos Aires";"16.50";-2,5;0
+"Tandil Aerodrome";2019-08-08;"SE_BUENOSAIRES";"Buenos Aires";"12.00";0,4;0
+"Tandil Aerodrome";2019-08-09;"SE_BUENOSAIRES";"Buenos Aires";"12.00";-4,4;0
+"Tandil Aerodrome";2019-08-10;"SE_BUENOSAIRES";"Buenos Aires";"17.60";-4,6;0
+"Tandil Aerodrome";2019-08-11;"SE_BUENOSAIRES";"Buenos Aires";"15.00";-0,2;0
+"Tandil Aerodrome";2019-08-12;"SE_BUENOSAIRES";"Buenos Aires";"10.50";1,5;1e-04
+"Tandil Aerodrome";2019-08-13;"SE_BUENOSAIRES";"Buenos Aires";"8.80";-0,7;0
+"Tandil Aerodrome";2019-08-14;"SE_BUENOSAIRES";"Buenos Aires";"10.40";-8;0
+"Tandil Aerodrome";2019-08-15;"SE_BUENOSAIRES";"Buenos Aires";"13.60";-3,5;0
+"Tandil Aerodrome";2019-08-16;"SE_BUENOSAIRES";"Buenos Aires";"17.20";-2;0
+"Tandil Aerodrome";2019-08-17;"SE_BUENOSAIRES";"Buenos Aires";"15.10";-0,6;0
+"Tandil Aerodrome";2019-08-18;"SE_BUENOSAIRES";"Buenos Aires";"9.50";1,8;0
+"Tandil Aerodrome";2019-08-19;"SE_BUENOSAIRES";"Buenos Aires";"8.50";-3,1;0
+"Tandil Aerodrome";2019-08-20;"SE_BUENOSAIRES";"Buenos Aires";"10.00";-4;0
+"Tandil Aerodrome";2019-08-21;"SE_BUENOSAIRES";"Buenos Aires";"9.70";-1;0,2
+"Tandil Aerodrome";2019-08-22;"SE_BUENOSAIRES";"Buenos Aires";"16.40";2,5;0
+"Tandil Aerodrome";2019-08-23;"SE_BUENOSAIRES";"Buenos Aires";"18.20";-0,1;0
+"Tandil Aerodrome";2019-08-24;"SE_BUENOSAIRES";"Buenos Aires";"18.00";1,5;0
+"Tandil Aerodrome";2019-08-25;"SE_BUENOSAIRES";"Buenos Aires";"18.60";1,4;0
+"Tandil Aerodrome";2019-08-26;"SE_BUENOSAIRES";"Buenos Aires";"19.60";3,6;0
+"Tandil Aerodrome";2019-08-27;"SE_BUENOSAIRES";"Buenos Aires";"21.60";7,2;0
+"Tandil Aerodrome";2019-08-28;"SE_BUENOSAIRES";"Buenos Aires";"25.00";13;5
+"Tandil Aerodrome";2019-08-29;"SE_BUENOSAIRES";"Buenos Aires";"16.00";10,5;0
+"Tandil Aerodrome";2019-08-30;"SE_BUENOSAIRES";"Buenos Aires";"17.50";-2;0
+"Tandil Aerodrome";2019-08-31;"SE_BUENOSAIRES";"Buenos Aires";"16.20";-1,1;0
+"Tandil Aerodrome";2019-09-01;"SE_BUENOSAIRES";"Buenos Aires";"11.30";2,2;0
+"Tandil Aerodrome";2019-09-02;"SE_BUENOSAIRES";"Buenos Aires";"9.60";-6,5;1e-04
+"Tandil Aerodrome";2019-09-03;"SE_BUENOSAIRES";"Buenos Aires";"12.60";-2,8;0
+"Tandil Aerodrome";2019-09-04;"SE_BUENOSAIRES";"Buenos Aires";"9.50";-2,1;0
+"Tandil Aerodrome";2019-09-05;"SE_BUENOSAIRES";"Buenos Aires";"10.20";-6,5;0
+"Tandil Aerodrome";2019-09-06;"SE_BUENOSAIRES";"Buenos Aires";"13.70";2,8;0,2
+"Tandil Aerodrome";2019-09-07;"SE_BUENOSAIRES";"Buenos Aires";"14.70";6;1e-04
+"Tandil Aerodrome";2019-09-08;"SE_BUENOSAIRES";"Buenos Aires";"18.30";7,2;0
+"Tandil Aerodrome";2019-09-09;"SE_BUENOSAIRES";"Buenos Aires";"12.80";8,2;1e-04
+"Tandil Aerodrome";2019-09-10;"SE_BUENOSAIRES";"Buenos Aires";"16.30";5;0
+"Tandil Aerodrome";2019-09-11;"SE_BUENOSAIRES";"Buenos Aires";"14.20";3,1;0
+"Tandil Aerodrome";2019-09-12;"SE_BUENOSAIRES";"Buenos Aires";"19.50";-4,7;0
+"Tandil Aerodrome";2019-09-13;"SE_BUENOSAIRES";"Buenos Aires";"16.00";5,1;0
+"Tandil Aerodrome";2019-09-14;"SE_BUENOSAIRES";"Buenos Aires";"19.80";5,5;0
+"Tandil Aerodrome";2019-09-15;"SE_BUENOSAIRES";"Buenos Aires";"16.00";2,8;6
+"Tandil Aerodrome";2019-09-16;"SE_BUENOSAIRES";"Buenos Aires";"15.50";3,5;0
+"Tandil Aerodrome";2019-09-17;"SE_BUENOSAIRES";"Buenos Aires";"21.20";-1;0
+"Tandil Aerodrome";2019-09-18;"SE_BUENOSAIRES";"Buenos Aires";"19.50";0,6;0
+"Tandil Aerodrome";2019-09-19;"SE_BUENOSAIRES";"Buenos Aires";"13.50";6;0
+"Tandil Aerodrome";2019-09-20;"SE_BUENOSAIRES";"Buenos Aires";"17.60";-3;0
+"Tandil Aerodrome";2019-09-21;"SE_BUENOSAIRES";"Buenos Aires";"18.10";2,6;0
+"Tandil Aerodrome";2019-09-22;"SE_BUENOSAIRES";"Buenos Aires";"19.00";-4,8;0
+"Tandil Aerodrome";2019-09-23;"SE_BUENOSAIRES";"Buenos Aires";"20.48";1,5;0
+"Tandil Aerodrome";2019-09-24;"SE_BUENOSAIRES";"Buenos Aires";"26.50";3,5;0
+"Tandil Aerodrome";2019-09-25;"SE_BUENOSAIRES";"Buenos Aires";"24.20";8;0
+"Tandil Aerodrome";2019-09-26;"SE_BUENOSAIRES";"Buenos Aires";"23.50";5;0
+"Tandil Aerodrome";2019-09-27;"SE_BUENOSAIRES";"Buenos Aires";"19.90";3,8;0
+"Tandil Aerodrome";2019-09-28;"SE_BUENOSAIRES";"Buenos Aires";"22.00";8;0
+"Tandil Aerodrome";2019-09-29;"SE_BUENOSAIRES";"Buenos Aires";"28.10";6,1;2
+"Tandil Aerodrome";2019-09-30;"SE_BUENOSAIRES";"Buenos Aires";"17.00";15;6
+"Tandil Aerodrome";2019-10-01;"SE_BUENOSAIRES";"Buenos Aires";"19.10";8,1;0
+"Tandil Aerodrome";2019-10-02;"SE_BUENOSAIRES";"Buenos Aires";"15.80";6,4;0
+"Tandil Aerodrome";2019-10-03;"SE_BUENOSAIRES";"Buenos Aires";"13.60";-3;1e-04
+"Tandil Aerodrome";2019-10-04;"SE_BUENOSAIRES";"Buenos Aires";"15.00";5,9;2
+"Tandil Aerodrome";2019-10-05;"SE_BUENOSAIRES";"Buenos Aires";"20.00";3;0
+"Tandil Aerodrome";2019-10-06;"SE_BUENOSAIRES";"Buenos Aires";"22.00";4,2;0
+"Tandil Aerodrome";2019-10-07;"SE_BUENOSAIRES";"Buenos Aires";"20.60";8,1;0
+"Tandil Aerodrome";2019-10-08;"SE_BUENOSAIRES";"Buenos Aires";"20.80";-0,4;0
+"Tandil Aerodrome";2019-10-09;"SE_BUENOSAIRES";"Buenos Aires";"24.50";0,5;0
+"Tandil Aerodrome";2019-10-10;"SE_BUENOSAIRES";"Buenos Aires";"27.90";1,6;5
+"Tandil Aerodrome";2019-10-11;"SE_BUENOSAIRES";"Buenos Aires";"26.50";9,8;0
+"Tandil Aerodrome";2019-10-12;"SE_BUENOSAIRES";"Buenos Aires";"18.10";8,5;0
+"Tandil Aerodrome";2019-10-13;"SE_BUENOSAIRES";"Buenos Aires";"16.40";5,5;0
+"Tandil Aerodrome";2019-10-14;"SE_BUENOSAIRES";"Buenos Aires";"14.20";1;0
+"Tandil Aerodrome";2019-10-15;"SE_BUENOSAIRES";"Buenos Aires";"12.20";4,5;0
+"Tandil Aerodrome";2019-10-16;"SE_BUENOSAIRES";"Buenos Aires";"17.50";7,8;0
+"Tucuman Aerodrome";2019-07-19;"SALTA_TUCUMAN";"Tucuman";"21.40";9,2;0
+"Tucuman Aerodrome";2019-07-20;"SALTA_TUCUMAN";"Tucuman";"23.20";7,2;0
+"Tucuman Aerodrome";2019-07-21;"SALTA_TUCUMAN";"Tucuman";"24.80";9,6;0,2
+"Tucuman Aerodrome";2019-07-22;"SALTA_TUCUMAN";"Tucuman";"17.20";12,1;0
+"Tucuman Aerodrome";2019-07-23;"SALTA_TUCUMAN";"Tucuman";"15.50";9,6;0
+"Tucuman Aerodrome";2019-07-24;"SALTA_TUCUMAN";"Tucuman";"11.50";6,4;1e-04
+"Tucuman Aerodrome";2019-07-25;"SALTA_TUCUMAN";"Tucuman";"11.00";5,6;0
+"Tucuman Aerodrome";2019-07-26;"SALTA_TUCUMAN";"Tucuman";"20.10";2,4;0
+"Tucuman Aerodrome";2019-07-27;"SALTA_TUCUMAN";"Tucuman";"19.80";5,1;0
+"Tucuman Aerodrome";2019-07-28;"SALTA_TUCUMAN";"Tucuman";"19.80";4,5;0
+"Tucuman Aerodrome";2019-07-29;"SALTA_TUCUMAN";"Tucuman";"20.00";6,6;0
+"Tucuman Aerodrome";2019-07-30;"SALTA_TUCUMAN";"Tucuman";"24.20";7,4;0
+"Tucuman Aerodrome";2019-07-31;"SALTA_TUCUMAN";"Tucuman";"29.20";9,6;0
+"Tucuman Aerodrome";2019-08-01;"SALTA_TUCUMAN";"Tucuman";"16.80";11,4;0
+"Tucuman Aerodrome";2019-08-02;"SALTA_TUCUMAN";"Tucuman";"20.50";7,1;0
+"Tucuman Aerodrome";2019-08-03;"SALTA_TUCUMAN";"Tucuman";"22.30";4,3;0
+"Tucuman Aerodrome";2019-08-04;"SALTA_TUCUMAN";"Tucuman";"23.90";4,5;0
+"Tucuman Aerodrome";2019-08-05;"SALTA_TUCUMAN";"Tucuman";"23.40";4,5;0
+"Tucuman Aerodrome";2019-08-06;"SALTA_TUCUMAN";"Tucuman";"26.00";6,8;0
+"Tucuman Aerodrome";2019-08-07;"SALTA_TUCUMAN";"Tucuman";"22.20";7;0
+"Tucuman Aerodrome";2019-08-08;"SALTA_TUCUMAN";"Tucuman";"14.00";4,3;0
+"Tucuman Aerodrome";2019-08-09;"SALTA_TUCUMAN";"Tucuman";"17.70";6,2;0
+"Tucuman Aerodrome";2019-08-10;"SALTA_TUCUMAN";"Tucuman";"24.50";5,7;0
+"Tucuman Aerodrome";2019-08-11;"SALTA_TUCUMAN";"Tucuman";"23.00";4,2;0
+"Tucuman Aerodrome";2019-08-12;"SALTA_TUCUMAN";"Tucuman";"19.50";4;0
+"Tucuman Aerodrome";2019-08-13;"SALTA_TUCUMAN";"Tucuman";"14.10";9,6;0
+"Tucuman Aerodrome";2019-08-14;"SALTA_TUCUMAN";"Tucuman";"21.40";5,1;0
+"Tucuman Aerodrome";2019-08-15;"SALTA_TUCUMAN";"Tucuman";"20.60";2,8;0
+"Tucuman Aerodrome";2019-08-16;"SALTA_TUCUMAN";"Tucuman";"23.20";7;0
+"Tucuman Aerodrome";2019-08-17;"SALTA_TUCUMAN";"Tucuman";"27.00";10,5;0
+"Tucuman Aerodrome";2019-08-18;"SALTA_TUCUMAN";"Tucuman";"20.90";8,3;0
+"Tucuman Aerodrome";2019-08-19;"SALTA_TUCUMAN";"Tucuman";"18.80";5,5;0
+"Tucuman Aerodrome";2019-08-20;"SALTA_TUCUMAN";"Tucuman";"18.00";5,2;0
+"Tucuman Aerodrome";2019-08-21;"SALTA_TUCUMAN";"Tucuman";"23.00";5,4;0
+"Tucuman Aerodrome";2019-08-22;"SALTA_TUCUMAN";"Tucuman";"23.60";4,9;0
+"Tucuman Aerodrome";2019-08-23;"SALTA_TUCUMAN";"Tucuman";"26.70";8,2;0
+"Tucuman Aerodrome";2019-08-24;"SALTA_TUCUMAN";"Tucuman";"26.00";8,4;0
+"Tucuman Aerodrome";2019-08-25;"SALTA_TUCUMAN";"Tucuman";"28.20";11,8;0
+"Tucuman Aerodrome";2019-08-26;"SALTA_TUCUMAN";"Tucuman";"28.60";10,4;0
+"Tucuman Aerodrome";2019-08-27;"SALTA_TUCUMAN";"Tucuman";"30.80";14;0
+"Tucuman Aerodrome";2019-08-28;"SALTA_TUCUMAN";"Tucuman";"34.40";16;0
+"Tucuman Aerodrome";2019-08-29;"SALTA_TUCUMAN";"Tucuman";"35.20";19,3;0
+"Tucuman Aerodrome";2019-08-30;"SALTA_TUCUMAN";"Tucuman";"23.40";14;0
+"Tucuman Aerodrome";2019-08-31;"SALTA_TUCUMAN";"Tucuman";"20.60";7,4;0
+"Tucuman Aerodrome";2019-09-01;"SALTA_TUCUMAN";"Tucuman";"24.20";6,5;0
+"Tucuman Aerodrome";2019-09-02;"SALTA_TUCUMAN";"Tucuman";"25.40";5,5;0
+"Tucuman Aerodrome";2019-09-03;"SALTA_TUCUMAN";"Tucuman";"18.20";10;0
+"Tucuman Aerodrome";2019-09-04;"SALTA_TUCUMAN";"Tucuman";"11.20";5,3;0
+"Tucuman Aerodrome";2019-09-05;"SALTA_TUCUMAN";"Tucuman";"19.30";7,3;0
+"Tucuman Aerodrome";2019-09-06;"SALTA_TUCUMAN";"Tucuman";"23.60";11,1;0
+"Tucuman Aerodrome";2019-09-07;"SALTA_TUCUMAN";"Tucuman";"22.30";7,9;0
+"Tucuman Aerodrome";2019-09-08;"SALTA_TUCUMAN";"Tucuman";"24.10";13,2;0
+"Tucuman Aerodrome";2019-09-09;"SALTA_TUCUMAN";"Tucuman";"26.60";10,4;0,3
+"Tucuman Aerodrome";2019-09-10;"SALTA_TUCUMAN";"Tucuman";"15.20";11,6;3
+"Tucuman Aerodrome";2019-09-11;"SALTA_TUCUMAN";"Tucuman";"18.00";11;0,2
+"Tucuman Aerodrome";2019-09-12;"SALTA_TUCUMAN";"Tucuman";"22.70";8,5;0
+"Tucuman Aerodrome";2019-09-13;"SALTA_TUCUMAN";"Tucuman";"24.80";6,2;0
+"Tucuman Aerodrome";2019-09-14;"SALTA_TUCUMAN";"Tucuman";"27.30";8,5;0
+"Tucuman Aerodrome";2019-09-15;"SALTA_TUCUMAN";"Tucuman";"31.40";12,2;1e-04
+"Tucuman Aerodrome";2019-09-16;"SALTA_TUCUMAN";"Tucuman";"18.60";17,2;0,5
+"Tucuman Aerodrome";2019-09-17;"SALTA_TUCUMAN";"Tucuman";"19.90";11,5;0
+"Tucuman Aerodrome";2019-09-18;"SALTA_TUCUMAN";"Tucuman";"28.50";9;0
+"Tucuman Aerodrome";2019-09-19;"SALTA_TUCUMAN";"Tucuman";"30.00";10,4;0
+"Tucuman Aerodrome";2019-09-20;"SALTA_TUCUMAN";"Tucuman";"18.00";10,6;0
+"Tucuman Aerodrome";2019-09-21;"SALTA_TUCUMAN";"Tucuman";"25.00";6,1;0
+"Tucuman Aerodrome";2019-09-22;"SALTA_TUCUMAN";"Tucuman";"28.20";10,5;0
+"Tucuman Aerodrome";2019-09-23;"SALTA_TUCUMAN";"Tucuman";"30.20";10,7;0
+"Tucuman Aerodrome";2019-09-24;"SALTA_TUCUMAN";"Tucuman";"29.50";10,9;0
+"Tucuman Aerodrome";2019-09-25;"SALTA_TUCUMAN";"Tucuman";"31.40";12,8;0
+"Tucuman Aerodrome";2019-09-26;"SALTA_TUCUMAN";"Tucuman";"34.80";16,6;0
+"Tucuman Aerodrome";2019-09-27;"SALTA_TUCUMAN";"Tucuman";"33.00";14,3;0
+"Tucuman Aerodrome";2019-09-28;"SALTA_TUCUMAN";"Tucuman";"34.50";14;0
+"Tucuman Aerodrome";2019-09-29;"SALTA_TUCUMAN";"Tucuman";"39.20";17,2;0
+"Tucuman Aerodrome";2019-09-30;"SALTA_TUCUMAN";"Tucuman";"39.30";19,8;0
+"Tucuman Aerodrome";2019-10-01;"SALTA_TUCUMAN";"Tucuman";"26.20";20,2;0
+"Tucuman Aerodrome";2019-10-02;"SALTA_TUCUMAN";"Tucuman";"22.20";10,8;0
+"Tucuman Aerodrome";2019-10-03;"SALTA_TUCUMAN";"Tucuman";"23.20";12,2;1e-04
+"Tucuman Aerodrome";2019-10-04;"SALTA_TUCUMAN";"Tucuman";"20.40";12;0
+"Tucuman Aerodrome";2019-10-05;"SALTA_TUCUMAN";"Tucuman";"23.00";13,2;0
+"Tucuman Aerodrome";2019-10-06;"SALTA_TUCUMAN";"Tucuman";"26.40";9,2;0
+"Tucuman Aerodrome";2019-10-07;"SALTA_TUCUMAN";"Tucuman";"32.40";14;0
+"Tucuman Aerodrome";2019-10-08;"SALTA_TUCUMAN";"Tucuman";"33.50";15;0
+"Tucuman Aerodrome";2019-10-09;"SALTA_TUCUMAN";"Tucuman";"36.50";16,8;0
+"Tucuman Aerodrome";2019-10-10;"SALTA_TUCUMAN";"Tucuman";"39.40";19,8;0
+"Tucuman Aerodrome";2019-10-11;"SALTA_TUCUMAN";"Tucuman";"39.50";20;0
+"Tucuman Aerodrome";2019-10-12;"SALTA_TUCUMAN";"Tucuman";"40.00";21;0
+"Tucuman Aerodrome";2019-10-13;"SALTA_TUCUMAN";"Tucuman";"23.20";22,8;4
+"Tucuman Aerodrome";2019-10-14;"SALTA_TUCUMAN";"Tucuman";"15.60";15,3;11
+"Tucuman Aerodrome";2019-10-15;"SALTA_TUCUMAN";"Tucuman";"12.50";8,4;1e-04
+"Tucuman Aerodrome";2019-10-16;"SALTA_TUCUMAN";"Tucuman";"17.60";10,2;0
+"Viedma Aerodrome";2019-07-19;"";"Rio Negro";"12.00";4;0
+"Viedma Aerodrome";2019-07-20;"";"Rio Negro";"10.30";2,7;1e-04
+"Viedma Aerodrome";2019-07-21;"";"Rio Negro";"14.50";5,8;1e-04
+"Viedma Aerodrome";2019-07-22;"";"Rio Negro";"11.30";0;0
+"Viedma Aerodrome";2019-07-23;"";"Rio Negro";"13.30";-2,6;0
+"Viedma Aerodrome";2019-07-24;"";"Rio Negro";"14.20";-4;0
+"Viedma Aerodrome";2019-07-25;"";"Rio Negro";"16.70";-1,4;0
+"Viedma Aerodrome";2019-07-26;"";"Rio Negro";"15.00";1,3;0
+"Viedma Aerodrome";2019-07-27;"";"Rio Negro";"16.30";-3,3;0
+"Viedma Aerodrome";2019-07-28;"";"Rio Negro";"15.90";6,1;0
+"Viedma Aerodrome";2019-07-29;"";"Rio Negro";"19.70";8,3;0,2
+"Viedma Aerodrome";2019-07-30;"";"Rio Negro";"18.60";6,1;0,1
+"Viedma Aerodrome";2019-07-31;"";"Rio Negro";"15.60";7,2;1e-04
+"Viedma Aerodrome";2019-08-01;"";"Rio Negro";"11.60";2,8;0,1
+"Viedma Aerodrome";2019-08-02;"";"Rio Negro";"13.80";4,4;0
+"Viedma Aerodrome";2019-08-03;"";"Rio Negro";"17.90";-1,4;0
+"Viedma Aerodrome";2019-08-04;"";"Rio Negro";"23.30";2,4;0
+"Viedma Aerodrome";2019-08-05;"";"Rio Negro";"22.20";4,9;0
+"Viedma Aerodrome";2019-08-06;"";"Rio Negro";"15.40";10;0
+"Viedma Aerodrome";2019-08-07;"";"Rio Negro";"12.90";-3,8;0
+"Viedma Aerodrome";2019-08-08;"";"Rio Negro";"14.10";-4,5;0
+"Viedma Aerodrome";2019-08-09;"";"Rio Negro";"17.20";-1,3;0
+"Viedma Aerodrome";2019-08-10;"";"Rio Negro";"18.10";-2,8;0
+"Viedma Aerodrome";2019-08-11;"";"Rio Negro";"17.70";4,7;7
+"Viedma Aerodrome";2019-08-12;"";"Rio Negro";"8.30";3,5;0,3
+"Viedma Aerodrome";2019-08-13;"";"Rio Negro";"10.20";-2,6;0
+"Viedma Aerodrome";2019-08-14;"";"Rio Negro";"15.20";-0,2;0
+"Viedma Aerodrome";2019-08-15;"";"Rio Negro";"11.60";-0,3;0
+"Viedma Aerodrome";2019-08-16;"";"Rio Negro";"14.90";0,7;0,1
+"Viedma Aerodrome";2019-08-17;"";"Rio Negro";"10.10";-0,4;3
+"Viedma Aerodrome";2019-08-18;"";"Rio Negro";"7.90";3,4;0
+"Viedma Aerodrome";2019-08-19;"";"Rio Negro";"9.20";-4,5;0
+"Viedma Aerodrome";2019-08-20;"";"Rio Negro";"10.10";0,5;0,8
+"Viedma Aerodrome";2019-08-21;"";"Rio Negro";"10.20";3,7;0
+"Viedma Aerodrome";2019-08-22;"";"Rio Negro";"16.29";1,6;0
+"Viedma Aerodrome";2019-08-23;"";"Rio Negro";"18.20";0,1;0
+"Viedma Aerodrome";2019-08-24;"";"Rio Negro";"21.00";9,2;1e-04
+"Viedma Aerodrome";2019-08-25;"";"Rio Negro";"14.10";9,5;0,7
+"Viedma Aerodrome";2019-08-26;"";"Rio Negro";"14.20";8;0,7
+"Viedma Aerodrome";2019-08-27;"";"Rio Negro";"17.80";-1;1e-04
+"Viedma Aerodrome";2019-08-28;"";"Rio Negro";"17.40";16,6;0,4
+"Viedma Aerodrome";2019-08-29;"";"Rio Negro";"16.90";3;0
+"Viedma Aerodrome";2019-08-30;"";"Rio Negro";"15.70";0,8;0
+"Viedma Aerodrome";2019-08-31;"";"Rio Negro";"13.60";1,6;1e-04
+"Viedma Aerodrome";2019-09-01;"";"Rio Negro";"13.10";0,8;5
+"Viedma Aerodrome";2019-09-02;"";"Rio Negro";"8.50";3,2;0,3
+"Viedma Aerodrome";2019-09-03;"";"Rio Negro";"10.30";-1,2;2
+"Viedma Aerodrome";2019-09-04;"";"Rio Negro";"8.40";0,6;1e-04
+"Viedma Aerodrome";2019-09-05;"";"Rio Negro";"8.90";2;0,8
+"Viedma Aerodrome";2019-09-06;"";"Rio Negro";"12.60";4,6;6
+"Viedma Aerodrome";2019-09-07;"";"Rio Negro";"14.60";6,7;1e-04
+"Viedma Aerodrome";2019-09-08;"";"Rio Negro";"16.20";6,8;0
+"Viedma Aerodrome";2019-09-09;"";"Rio Negro";"16.40";3,6;0
+"Viedma Aerodrome";2019-09-10;"";"Rio Negro";"8.80";5,7;0,8
+"Viedma Aerodrome";2019-09-11;"";"Rio Negro";"13.70";2,4;0
+"Viedma Aerodrome";2019-09-12;"";"Rio Negro";"12.40";3;1e-04
+"Viedma Aerodrome";2019-09-13;"";"Rio Negro";"15.50";1,9;0
+"Viedma Aerodrome";2019-09-14;"";"Rio Negro";"21.60";7,7;0
+"Viedma Aerodrome";2019-09-15;"";"Rio Negro";"18.10";7,1;0
+"Viedma Aerodrome";2019-09-16;"";"Rio Negro";"16.80";2,4;0
+"Viedma Aerodrome";2019-09-17;"";"Rio Negro";"19.50";3,8;0
+"Viedma Aerodrome";2019-09-18;"";"Rio Negro";"19.10";0;0,4
+"Viedma Aerodrome";2019-09-19;"";"Rio Negro";"14.50";6;0
+"Viedma Aerodrome";2019-09-20;"";"Rio Negro";"18.90";2,1;0
+"Viedma Aerodrome";2019-09-21;"";"Rio Negro";"14.70";5;0
+"Viedma Aerodrome";2019-09-22;"";"Rio Negro";"22.00";-2,5;0
+"Viedma Aerodrome";2019-09-23;"";"Rio Negro";"20.30";7,3;0
+"Viedma Aerodrome";2019-09-24;"";"Rio Negro";"24.10";3,5;0
+"Viedma Aerodrome";2019-09-25;"";"Rio Negro";"25.20";5,5;0
+"Viedma Aerodrome";2019-09-26;"";"Rio Negro";"17.90";7,3;0
+"Viedma Aerodrome";2019-09-27;"";"Rio Negro";"21.50";7,1;1e-04
+"Viedma Aerodrome";2019-09-28;"";"Rio Negro";"27.80";13,8;0
+"Viedma Aerodrome";2019-09-29;"";"Rio Negro";"23.60";8,1;0
+"Viedma Aerodrome";2019-09-30;"";"Rio Negro";"18.00";11;0
+"Viedma Aerodrome";2019-10-01;"";"Rio Negro";"14.30";-0,1;0
+"Viedma Aerodrome";2019-10-02;"";"Rio Negro";"15.40";-1,9;0
+"Viedma Aerodrome";2019-10-03;"";"Rio Negro";"19.62";0,8;0
+"Viedma Aerodrome";2019-10-04;"";"Rio Negro";"19.20";8;0
+"Viedma Aerodrome";2019-10-05;"";"Rio Negro";"19.40";2;0
+"Viedma Aerodrome";2019-10-06;"";"Rio Negro";"22.30";6,3;1e-04
+"Viedma Aerodrome";2019-10-07;"";"Rio Negro";"18.60";9,5;0
+"Viedma Aerodrome";2019-10-08;"";"Rio Negro";"20.70";6,9;0
+"Viedma Aerodrome";2019-10-09;"";"Rio Negro";"22.30";7,7;0
+"Viedma Aerodrome";2019-10-10;"";"Rio Negro";"27.00";4,1;0
+"Viedma Aerodrome";2019-10-11;"";"Rio Negro";"23.20";5,8;0
+"Viedma Aerodrome";2019-10-12;"";"Rio Negro";"20.90";11,4;0
+"Viedma Aerodrome";2019-10-13;"";"Rio Negro";"14.30";1,4;1e-04
+"Viedma Aerodrome";2019-10-14;"";"Rio Negro";"13.50";3,2;1e-04
+"Viedma Aerodrome";2019-10-15;"";"Rio Negro";"14.40";4,2;0
+"Viedma Aerodrome";2019-10-16;"";"Rio Negro";"18.00";7;0

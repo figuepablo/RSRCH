@@ -1,0 +1,1106 @@
+"0","#06z"
+"0","files_GFS_EN_06 <- list.files(path = ""C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA"", pattern = c(""(Speedwell_INTL_GFS_MOS_Ens).*_06.csv""), full.names = T)"
+"0","tbl_GFS_EN_06 <- sapply(files_GFS_EN_06, read_csv, simplify=FALSE) %>% "
+"0","bind_rows(.id = ""id"")"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-01_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-01_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-01_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-01_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-01_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-02_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-02_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-02_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-02_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-02_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-03_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-03_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-03_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-03_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-03_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-05_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-05_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-05_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-05_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-05_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-06_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-06_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-06_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-06_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-06_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-10_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-10_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-10_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-10_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-10_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-11_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-11_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-11_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-11_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-11_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-12_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-12_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-12_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-12_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-12_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-13_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-13_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-13_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-13_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-13_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-14_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-14_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-14_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-14_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-14_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-17_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-17_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-17_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-17_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-17_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-18_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-18_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-18_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-18_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-18_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-19_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-19_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-19_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-19_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-19_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-20_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-20_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-20_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-20_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-20_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-23_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-23_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-23_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-23_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-23_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-24_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-24_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-24_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-24_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-24_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-25_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-25_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-25_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-25_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-25_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-29_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-29_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-29_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-29_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-29_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-30_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-30_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-30_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-30_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-09-30_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-04_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-04_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-04_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-04_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-04_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-05_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-05_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-05_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-05_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-05_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-09_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-09_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-09_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-09_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-09_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-10_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-10_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-10_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-10_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-10_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-15_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-15_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-15_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-15_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-15_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TMIN_ENSEMBLE_AVG = [32mcol_double()[39m,
+  TAVG_ENSEMBLE_AVG = [32mcol_double()[39m,
+  RAIN_ENSEMBLE_AVG = [32mcol_double()[39m
+)
+"
+"2","45 parsing failures.
+ row               col expected actual                                                                                                                                                                                  file
+7037 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-18_06.csv'
+7038 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-18_06.csv'
+7039 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-18_06.csv'
+7040 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-18_06.csv'
+7041 RAIN_ENSEMBLE_AVG a double    NIL 'C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA/Speedwell_INTL_GFS_MOS_Ens_Forecast_AVG_2019-10-18_06.csv'
+.... ................. ........ ...... .....................................................................................................................................................................................
+See problems(...) for more details.
+"
+"0","names(tbl_GFS_EN_06)[names(tbl_GFS_EN_06) == ""CITY""] <- ""Station.Name"""
+"0","fcast_GFS_EN_06<-left_join(tbl_GFS_EN_06,data_regions, ""Station.Name"")"
+"0","fcast_GFS_EN_06<-fcast_GFS_EN_06%>%"
+"0","  filter(Ctry==""Argentina"")"
+"0","  filter(Ctry==""Argentina"")%>%"
+"0","  select(Fcast_date,DATE, Station.Name,TMAX_ENSEMBLE_AVG,TMIN_ENSEMBLE_AVG,TAVG_ENSEMBLE_AVG,RAIN_ENSEMBLE_AVG,Zona_Pas,Admin)"
+"0","write.table(fcast_GFS_EN_06,""Fcast_06.txt"",dec = "","",sep="";"",row.names = FALSE)"
+"0","# GFS OPERATIONAL"
+"0","files_GFS_OP_06 <- list.files(path = ""C:/Users/figuerpa/ShareFile/Shared With Me/OFFICE/ARGENTINA/CROP PRODUCTION/Grains/Weather/WEATHER/Forecast/ENSEMBLE/DATA"", pattern = c(""(Speedwell_INTL_GFS_MOS_Op).*_06.csv""), full.names = T)"
+"0","tbl_GFS_OP_06 <- sapply(files_GFS_OP_06, read_csv, simplify=FALSE) %>% "
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"2","Parsed with column specification:
+cols(
+  WMO = [32mcol_double()[39m,
+  WBAN = [32mcol_double()[39m,
+  ICAO = [31mcol_character()[39m,
+  SRC_ID = [31mcol_character()[39m,
+  CITY = [31mcol_character()[39m,
+  LAT = [32mcol_double()[39m,
+  LONG = [32mcol_double()[39m,
+  ALT = [32mcol_double()[39m,
+  DATE = [34mcol_date(format = """")[39m,
+  TMAX_OP = [32mcol_double()[39m,
+  TMIN_OP = [32mcol_double()[39m,
+  TAVG_OP = [32mcol_double()[39m,
+  RAIN_OP = [32mcol_double()[39m
+)
+"
+"0","names(tbl_GFS_OP_06)[names(tbl_GFS_OP_06) == ""CITY""] <- ""Station.Name"""
+"0","#JOIN DATA"
+"0","fcast_GFS_OP_06<-left_join(tbl_GFS_OP_06,data_regions, ""Station.Name"")"
+"0","fcast_GFS_OP_06<-fcast_GFS_OP_06%>%"
+"0","  filter(Ctry==""Argentina"")"
+"0","fcast_GFS_OP_06<-fcast_GFS_OP_06%>%mutate(""Fcast_date""=str_sub(fcast_GFS_OP_06$id,158,-8))"
+"0","fcast_GFS_OP_06<-fcast_GFS_OP_06%>%"
+"0","  filter(Ctry==""Argentina"")%>%"
+"0","  select(Fcast_date,DATE, Station.Name,TMAX_OP,TMIN_OP,TAVG_OP,RAIN_OP,Zona_Pas,Admin)"
